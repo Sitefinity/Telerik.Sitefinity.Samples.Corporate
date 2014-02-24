@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <modules>
+    <module name="RadEditorStatistics" dockingZone="Bottom" visible="false" />
+    <module name="RadEditorDomInspector" visible="false" />
+    <module name="RadEditorNodeInspector" visible="false" />
+    <module name="RadEditorHtmlInspector" visible="false" />
+  </modules>
+  <tools name="MainToolbar">
+    <tool name="ToggleAdvancedToolbars"/>
+    <tool name="Bold" shortcut="CTRL+B"/>	
+    <tool name="Italic" shortcut="CTRL+I"/>
+    <tool separator="true"/>
+    <tool name="InsertOrderedList" />
+    <tool name="InsertUnorderedList" />
+    <tool separator="true"/>
+    <tool name="LinkManager" shortcut="CTRL+K"/>
+    <tool name="Unlink" shortcut="CTRL+SHIFT+K"/>
+    <tool name="ImageManager" shortcut="CTRL+G"/>
+    <tool separator="true"/>
+    <tool name="FormatBlock"/>
+<tool separator="true"/>
+	<tool name="ApplyClass"/>
+  </tools>
+  <tools>
+    <tool separator="true"/>
+    <tool name="AjaxSpellCheck"/>
+    <tool separator="true"/>
+    <tool name="PasteFromWord" />
+    <tool separator="true"/>
+    <tool name="JustifyLeft" />
+    <tool name="JustifyRight" />
+    <tool name="JustifyCenter" />
+    <tool name="JustifyFull" />
+    <tool separator="true"/>
+    <tool name="Indent" />
+    <tool name="Outdent" />
+  </tools>
+  <tools>
+    <tool name="FontName" shortcut="CTRL+SHIFT+F"/>
+    <tool separator="true"/>
+    <tool name="RealFontSize"/>
+    <tool separator="true"/>
+    <tool name="ForeColor"/>
+    <tool name="BackColor"/>
+    <tool separator="true"/>
+    <tool name="MediaManager" />
+    <tool name="FlashManager" />
+    <tool name="DocumentManager" />
+  </tools>
+  <tools>
+    <tool name="InsertParagraph" />
+    <tool name="InsertTable" />
+    <tool name="InsertSymbol"/>
+    <tool name="InsertHorizontalRule" />
+    <tool separator="true"/>
+    <tool name="Superscript" />
+    <tool name="Subscript" />
+    <tool separator="true"/>
+    <tool name="FormatStripper"/>
+    <tool separator="true"/>
+    <tool name="FindAndReplace" shortcut="CTRL+F"/>
+    <tool name="Print" shortcut="CTRL+P"/>
+    <tool name="ToggleScreenMode" />
+  </tools>
+  <cssFiles>
+    	<item name="~/Sitefinity/WebsiteTemplates/Quantum/App_Themes/QuantumNew/Styles/radeditor.css" />
+	<item name="~/Sitefinity/WebsiteTemplates/Quantum/App_Themes/QuantumNew/Styles/tools.css" />
+  </cssFiles>
+</root>

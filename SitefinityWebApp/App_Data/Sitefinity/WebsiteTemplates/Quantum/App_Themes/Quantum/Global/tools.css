@@ -1,0 +1,17 @@
+.button {
+	position:relative;
+	float:left;
+	padding: 5px 10px;
+	background-color: #3888b8;
+	color: white !important;
+	font-weight: bold;
+	margin: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+
+}
+
+.shadow{text-shadow: 2px 2px 4px #000;}
+
+.redtext{color: red;}

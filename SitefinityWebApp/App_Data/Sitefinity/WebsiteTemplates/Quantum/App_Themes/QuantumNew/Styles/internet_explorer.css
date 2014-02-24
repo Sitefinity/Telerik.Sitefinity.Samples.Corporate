@@ -1,0 +1,65 @@
+#wrapper #content #featured-product {
+	height: 200px;
+	background-position: 0 -120px;
+}
+
+#featured-product div{
+    display: none;
+}
+
+#wrapper #featured-product img.header-image {
+	left: 520px;
+	top: 0px;
+}
+
+#wrapper #featured-product div#header-title,
+#wrapper #featured-product:hover div#header-title {
+	display: block;
+	opacity: 1;
+	left: 20px;
+	color: white;
+	top: 85px;
+}
+
+#wrapper #featured-product div#three-d-line1 {
+	display: block;
+	box-shadow: none;
+	width: 900px;
+	height: 70px;
+	opacity: 1;
+	background-color: #008ded;
+	position: absolute;
+	left: 0px;
+	top: 68px;
+	background-image: url(../Images/arrow_circle.png);
+	background-position: right 8px;
+	background-repeat: no-repeat;
+}
+
+#wrapper #featured-product:hover div#three-d-line1 {
+	background-color: #006db6;
+}
+
+#wrapper #featured-product div#header-subtitle {
+	display: block;
+	left: 20px;
+	opacity: 1;
+	color: #c7e9ff;
+	top: 110px;
+}
+
+#wrapper #featured-product #arrow,
+#wrapper #featured-product:hover #arrow {
+	box-shadow: none;
+	background:none;
+	width: 960px;
+	height: 200px;
+	z-index: 555;
+	top: 0px;
+	left: 0px;
+}
+
+#content select
+{
+    background-position: -9999px -9999px !important;
+}

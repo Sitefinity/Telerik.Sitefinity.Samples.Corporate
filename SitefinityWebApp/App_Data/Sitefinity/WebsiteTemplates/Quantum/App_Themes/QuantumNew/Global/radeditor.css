@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Ropa Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ropa Sans'), local('RopaSans-Regular'), url('http://themes.googleusercontent.com/static/fonts/ropasans/v2/QnguTd82yEUxQZygH2gm8D8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+
+
+body {
+	font-family: 'Ropa Sans', Arial, sans-serif;
+	font-size: 15px;
+	line-height: 22px;
+	color: #555555;
+}
+h1{
+	color: black;
+	font-family: 'Ropa Sans', Arial;
+	font-weight: normal;
+	font-size: 36px;
+	letter-spacing: 0px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 15px;
+	line-height:30px;
+}
+
+h2 {
+	color: black;
+	font-weight: normal;
+	font-size: 28px;
+	letter-spacing: -2px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	clear: both;
+}
+
+
+h4{
+	color: black;
+	font-weight: normal;
+	font-size: 14px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+}
+
+
+a {
+	color: #008eee;
+	text-decoration: none;
+}
+
+.redText { color:red;}
+.highlight {
+    background-color: #F7F7F7;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 0 10px #EDEDED;
+    float: left;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    width: 98%;
+}

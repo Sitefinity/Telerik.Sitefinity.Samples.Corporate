@@ -1,0 +1,68 @@
+div.k-window.sfcalendarEventPreviewWrp
+{
+    width: 300px !important;
+    padding-top: 0 !important;
+    border: 1px solid #a1a1a1;
+    background-color: #fff;
+    box-shadow: 4px 4px 0 #d7d7d7;
+}
+.sfcalendarEventPreviewWrp .k-window-titlebar
+{
+    width: auto;
+    right: 0;
+    border-bottom: 0 none;
+    margin-top: 0 !important;
+}
+.sfcalendarEventPreviewWrp .k-window-titlebar .k-state-hover
+{
+    border: 0;
+    padding: 2px;
+}
+.sfcalendarEventPreviewWrp div.k-window-content
+{
+    padding: 20px;
+}
+.sfcalendarEventPreviewWrp .k-i-close
+{
+    background: transparent url(../Images/sfPublicContent.gif) no-repeat 0 -1200px;
+}
+.sfcalendarEventPreviewTitle
+{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+}
+.sfcalendarEventPreviewWrp .sfcalendarEventPreviewEditLnkWrp
+{
+    font-size: 11px;
+    text-align: right;
+}
+.sfcalendarEventPreviewWrp .sfAddEventWrp
+{
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+.rsToday
+{
+    color:white !important;
+}
+.sfdelete
+{
+    margin-left:5px;
+}
+.sfColorWrp
+{
+    box-shadow: 0px 0px 5px;
+    margin-right: 5px;
+}
+input[type="checkbox"]
+{
+    position: relative;
+    top: 1px;
+}
+.sfcalendarListItm
+{
+    list-style-type:none;
+}

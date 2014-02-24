@@ -1,0 +1,4422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LabelsTitle" xml:space="preserve">
+    <value>Labels</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="LabelsDescription" xml:space="preserve">
+    <value>Contains localizable resources for common user interface labels.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="LabelsTitlePlural" xml:space="preserve">
+    <value>Labels</value>
+    <comment>The title plural of this class.</comment>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value>by</value>
+    <comment>label</comment>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>on</value>
+    <comment>label</comment>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version</value>
+    <comment>Version</comment>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Notes</value>
+    <comment>Notes</comment>
+  </data>
+  <data name="Layout" xml:space="preserve">
+    <value>Layout</value>
+    <comment>label</comment>
+  </data>
+  <data name="NoText" xml:space="preserve">
+    <value>There is no text.</value>
+    <comment>Phrase: There is no text.</comment>
+  </data>
+  <data name="Gadgets" xml:space="preserve">
+    <value>Gadgets</value>
+    <comment>label</comment>
+  </data>
+  <data name="LoggedAs" xml:space="preserve">
+    <value>You do not have the permissions to access this page. Try using other credentials or contact the administrator.</value>
+    <comment>label</comment>
+  </data>
+  <data name="WhatToDo" xml:space="preserve">
+    <value>What do you want to do?</value>
+    <comment>label</comment>
+  </data>
+  <data name="HasBeenLockedForEditingBySince" xml:space="preserve">
+    <value>{0} has been locked for editing by {1} since {2}</value>
+    <comment>label</comment>
+  </data>
+  <data name="WhatDoYouWantToDoNow" xml:space="preserve">
+    <value>What do you want to do now?</value>
+    <comment>phrase: What do you want to do now?</comment>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Logout</value>
+    <comment>Label</comment>
+  </data>
+  <data name="SwitchUser" xml:space="preserve">
+    <value>Switch User</value>
+    <comment>Label</comment>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+    <comment>Label</comment>
+  </data>
+  <data name="ChangePasswordText" xml:space="preserve">
+    <value>Change password</value>
+    <comment>Label</comment>
+  </data>
+  <data name="RegisterUser" xml:space="preserve">
+    <value>Create User</value>
+    <comment>Create User</comment>
+  </data>
+  <data name="IncorrectUsernamePassword" xml:space="preserve">
+    <value>Incorrect Username/Password Combination</value>
+    <comment>Label for incorrect Username/Password combination.</comment>
+  </data>
+  <data name="AutomaticallyNavigated" xml:space="preserve">
+    <value>You were automatically navigated from "{0}" because you are not authorized to access that page!</value>
+    <comment>Message</comment>
+  </data>
+  <data name="PasswordRecovery" xml:space="preserve">
+    <value>Password Recovery</value>
+    <comment>label</comment>
+  </data>
+  <data name="ForgotYourPassword" xml:space="preserve">
+    <value>Forgot your password?</value>
+    <comment>label</comment>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Register</value>
+    <comment>word</comment>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Help</value>
+    <comment>word</comment>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+    <comment>word</comment>
+  </data>
+  <data name="StatusColonSpace" xml:space="preserve">
+    <value>Status: </value>
+    <comment>word</comment>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+    <comment>word</comment>
+  </data>
+  <data name="OldPasswordText" xml:space="preserve">
+    <value>Old password</value>
+    <comment>Change password - Old password</comment>
+  </data>
+  <data name="NewPasswordText" xml:space="preserve">
+    <value>New password</value>
+    <comment>Change password - New password</comment>
+  </data>
+  <data name="ConfirmNewPasswordText" xml:space="preserve">
+    <value>Confirm password</value>
+    <comment>Change password - Confirm new password</comment>
+  </data>
+  <data name="PasswordSuccessfullyChanged" xml:space="preserve">
+    <value>Password successfully changed</value>
+    <comment>phrase: Password successfully changed</comment>
+  </data>
+  <data name="ProceedToYourAccount" xml:space="preserve">
+    <value>Proceed to your account</value>
+    <comment>phrase: Proceed to your account</comment>
+  </data>
+  <data name="Provider" xml:space="preserve">
+    <value>Authentication Provider</value>
+    <comment>word</comment>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Username</value>
+    <comment>word</comment>
+  </data>
+  <data name="UserFirstAndLastNameName" xml:space="preserve">
+    <value>Name</value>
+    <comment>Word: Name</comment>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>First name</value>
+    <comment>Phrase: First Name</comment>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Last name</value>
+    <comment>Phrase: Last Name</comment>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Roles</value>
+    <comment>word</comment>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Users</value>
+    <comment>word</comment>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+    <comment>word</comment>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Done</value>
+    <comment>word</comment>
+  </data>
+  <data name="AddTheseTags" xml:space="preserve">
+    <value>Add these tags</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="BasicTemplates" xml:space="preserve">
+    <value>Basic Templates</value>
+    <comment>word</comment>
+  </data>
+  <data name="SelectASection" xml:space="preserve">
+    <value>Select a section</value>
+    <comment>word</comment>
+  </data>
+  <data name="SelectACategory" xml:space="preserve">
+    <value>Select a category</value>
+    <comment>word</comment>
+  </data>
+  <data name="SelectATag" xml:space="preserve">
+    <value>Select a tag</value>
+    <comment>phrase: Select a tag</comment>
+  </data>
+  <data name="AddTagsExample" xml:space="preserve">
+    <value>Separate tags with a space. To join two words in one tag use double quotes.&lt;br /&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;em&gt;sport London summer "daily commute"&lt;/em&gt;</value>
+    <comment>Instruction</comment>
+  </data>
+  <data name="SelectAMasterpage" xml:space="preserve">
+    <value>Select a master page</value>
+    <comment>Phase: Select a master page</comment>
+  </data>
+  <data name="ActionsWithRole" xml:space="preserve">
+    <value>Actions with role</value>
+    <comment>word</comment>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>Creation Date</value>
+    <comment>word</comment>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
+    <comment>word</comment>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>User</value>
+    <comment>word</comment>
+  </data>
+  <data name="LoginCaps" xml:space="preserve">
+    <value>Login</value>
+    <comment>word</comment>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+    <comment>word</comment>
+  </data>
+  <data name="PasswordEmpty" xml:space="preserve">
+    <value>Password is required</value>
+    <comment>word</comment>
+  </data>
+  <data name="UsernameEmpty" xml:space="preserve">
+    <value>Username is required</value>
+    <comment>word</comment>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>Remember me on this computer</value>
+    <comment>word</comment>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Create</value>
+    <comment>word</comment>
+  </data>
+  <data name="CreateEllipsis" xml:space="preserve">
+    <value>Create...</value>
+    <comment>word</comment>
+  </data>
+  <data name="CreateA" xml:space="preserve">
+    <value>Create a</value>
+    <comment>phrase: Create a</comment>
+  </data>
+  <data name="CreateAParameter" xml:space="preserve">
+    <value>Create a {0}</value>
+    <comment>phrase: Create a {0}</comment>
+  </data>
+  <data name="CreateAnParameter" xml:space="preserve">
+    <value>Create an {0}</value>
+    <comment>phrase: Create an {0}</comment>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+    <comment>word</comment>
+  </data>
+  <data name="EditEllipsis" xml:space="preserve">
+    <value>Edit...</value>
+    <comment>word</comment>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>View</value>
+    <comment>word</comment>
+  </data>
+  <data name="ViewOriginalSize" xml:space="preserve">
+    <value>View original size</value>
+    <comment>phrase: View original size</comment>
+  </data>
+  <data name="PlayVideo" xml:space="preserve">
+    <value>Play video</value>
+    <comment>phrase: Play video</comment>
+  </data>
+  <data name="SetAsPrimaryImage" xml:space="preserve">
+    <value>Set as primary image</value>
+    <comment>phrase: Set as primary image</comment>
+  </data>
+  <data name="SetAsPrimaryVideo" xml:space="preserve">
+    <value>Set as primary video</value>
+    <comment>phrase: Set as primary video</comment>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Change</value>
+    <comment>word</comment>
+  </data>
+  <data name="ChangeOwner" xml:space="preserve">
+    <value>Change owner</value>
+    <comment>word</comment>
+  </data>
+  <data name="ChangeBtnIn" xml:space="preserve">
+    <value>&lt;strong class="sfLinkBtnIn"&gt;Change&lt;/strong&gt;</value>
+    <comment>word</comment>
+  </data>
+  <data name="ChangeEllipsis" xml:space="preserve">
+    <value>Change...</value>
+    <comment>word</comment>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+    <comment>word</comment>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>New</value>
+    <comment>word</comment>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+    <comment>word</comment>
+  </data>
+  <data name="YesDelete" xml:space="preserve">
+    <value>Yes, Delete this item</value>
+    <comment>word</comment>
+  </data>
+  <data name="YesDeleteTheseItems" xml:space="preserve">
+    <value>Yes, Delete these items</value>
+    <comment>Phrase: Yes, Delete these items</comment>
+  </data>
+  <data name="Compare" xml:space="preserve">
+    <value>Compare</value>
+    <comment>Compare</comment>
+  </data>
+  <data name="SaveChanges" xml:space="preserve">
+    <value>Save changes</value>
+    <comment>Phrase</comment>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>word</comment>
+  </data>
+  <data name="Views" xml:space="preserve">
+    <value>Views</value>
+    <comment>word</comment>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>List</value>
+    <comment>word</comment>
+  </data>
+  <data name="Grid" xml:space="preserve">
+    <value>Grid</value>
+    <comment>word</comment>
+  </data>
+  <data name="Boxes" xml:space="preserve">
+    <value>Boxes</value>
+    <comment>word</comment>
+  </data>
+  <data name="Box" xml:space="preserve">
+    <value>Box</value>
+    <comment>word</comment>
+  </data>
+  <data name="ThumbnailsView" xml:space="preserve">
+    <value>Thumbnails view</value>
+    <comment>The tooltip of the 'Thumbnails view' state button in the toolbar.</comment>
+  </data>
+  <data name="ListView" xml:space="preserve">
+    <value>List view</value>
+    <comment>The tooltip of the 'List view' state button in the toolbar.</comment>
+  </data>
+  <data name="Alphabetically" xml:space="preserve">
+    <value>Alphabetically</value>
+    <comment>word</comment>
+  </data>
+  <data name="Categorized" xml:space="preserve">
+    <value>Categorized</value>
+    <comment>word</comment>
+  </data>
+  <data name="or" xml:space="preserve">
+    <value>or</value>
+    <comment>word</comment>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Default</value>
+    <comment>word</comment>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search...</value>
+    <comment>word</comment>
+  </data>
+  <data name="SearchLabel" xml:space="preserve">
+    <value>Search</value>
+    <comment>word</comment>
+  </data>
+  <data name="BackToSimpleSearch" xml:space="preserve">
+    <value>Back to simple search</value>
+    <comment>Phrase</comment>
+  </data>
+  <data name="AdvancedSearch" xml:space="preserve">
+    <value>Advanced Search</value>
+    <comment>Phrase</comment>
+  </data>
+  <data name="Searching" xml:space="preserve">
+    <value>Searching...</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="CreateNewLabel" xml:space="preserve">
+    <value>Create a label</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="SaveChangesLabel" xml:space="preserve">
+    <value>Save changes</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="DeleteLabel" xml:space="preserve">
+    <value>Delete</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="SortBy" xml:space="preserve">
+    <value>Sort by</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="DefaultSorting" xml:space="preserve">
+    <value>Default Sorting</value>
+    <comment>phrase: Default Sorting</comment>
+  </data>
+  <data name="AssignToRole" xml:space="preserve">
+    <value>Assign to role...</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="UnassignFromRole" xml:space="preserve">
+    <value>Unassign from role...</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="FindUsers" xml:space="preserve">
+    <value>Find Users...</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="CloseSearch" xml:space="preserve">
+    <value>Close search</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+    <comment>word</comment>
+  </data>
+  <data name="AssignUsersTo" xml:space="preserve">
+    <value>Assign users to</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="UnassignUsersFrom" xml:space="preserve">
+    <value>Unassign users from</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="Assign" xml:space="preserve">
+    <value>Assign</value>
+    <comment>word</comment>
+  </data>
+  <data name="Unassign" xml:space="preserve">
+    <value>Unassign</value>
+    <comment>word</comment>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Unknown</value>
+    <comment>word</comment>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Sort</value>
+    <comment>word</comment>
+  </data>
+  <data name="Alphabet" xml:space="preserve">
+    <value>Alphabet</value>
+    <comment>word</comment>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+    <comment>word</comment>
+  </data>
+  <data name="DateOwner" xml:space="preserve">
+    <value>Date / Owner</value>
+    <comment>word</comment>
+  </data>
+  <data name="ByDate" xml:space="preserve">
+    <value>By date</value>
+    <comment>word</comment>
+  </data>
+  <data name="EditAllLabelsListedBelow" xml:space="preserve">
+    <value>Edit all labels listed below</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="Finished" xml:space="preserve">
+    <value>Finished</value>
+    <comment>word</comment>
+  </data>
+  <data name="CloseThisBatchEditor" xml:space="preserve">
+    <value>Close this batch editor</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="ThisLabelIsUsedIn" xml:space="preserve">
+    <value>This label is used in</value>
+    <comment>Phrase</comment>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+    <comment>Word</comment>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Role</value>
+    <comment>Role label.</comment>
+  </data>
+  <data name="HowToUseInAspxOrAscxFile" xml:space="preserve">
+    <value>How to use in aspx or ascx file?</value>
+    <comment>Phrase</comment>
+  </data>
+  <data name="UseThisKey" xml:space="preserve">
+    <value>Use this key</value>
+    <comment>Phrase</comment>
+  </data>
+  <data name="DefaultPolicy" xml:space="preserve">
+    <value>Default policy</value>
+    <comment>label</comment>
+  </data>
+  <data name="CreateNewPolicy" xml:space="preserve">
+    <value>Create new policy</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="ShowPoliciesFor" xml:space="preserve">
+    <value>policies for:</value>
+    <comment>label</comment>
+  </data>
+  <data name="CreateNew" xml:space="preserve">
+    <value>Create new</value>
+    <comment>label</comment>
+  </data>
+  <data name="Reorder" xml:space="preserve">
+    <value>Reorder</value>
+    <comment>label</comment>
+  </data>
+  <data name="DoneReordering" xml:space="preserve">
+    <value>Done reordering</value>
+    <comment>label</comment>
+  </data>
+  <data name="WhichImageToUpload" xml:space="preserve">
+    <value>Which image to upload?</value>
+    <comment>label</comment>
+  </data>
+  <data name="WhereToStoreTheUploadedImage" xml:space="preserve">
+    <value>Where to store the uploaded image?</value>
+    <comment>label</comment>
+  </data>
+  <data name="ImageTitleWithNote" xml:space="preserve">
+    <value>Title &lt;span class='sfNote'&gt;(also displayed as a tooltip by modern browsers)&lt;/span&gt;</value>
+    <comment>phrase: Title &lt;span class='sfNote'&gt;(also displayed as a tooltip by modern browsers)&lt;/span&gt;</comment>
+  </data>
+  <data name="AlternativeTextWithNote" xml:space="preserve">
+    <value>Alternative text &lt;span class='sfNote'&gt;(for visually impaired people and search engines)&lt;/span&gt;</value>
+    <comment>phrase: Alternative text &lt;span class='sfNote'&gt;(for visually impaired people and search engines)&lt;/span&gt;</comment>
+  </data>
+  <data name="WhatTitleToDipsplayForThisDocument" xml:space="preserve">
+    <value>What title to display for this document?</value>
+    <comment>label</comment>
+  </data>
+  <data name="ResizingOptions" xml:space="preserve">
+    <value>Resizing options</value>
+    <comment>label</comment>
+  </data>
+  <data name="ShowOriginal" xml:space="preserve">
+    <value>Don't resize, show original {0}</value>
+    <comment>label</comment>
+  </data>
+  <data name="ResizeWidthTo" xml:space="preserve">
+    <value>Resize the {0} width to...</value>
+    <comment>label</comment>
+  </data>
+  <data name="ResizeSizeThumbnail" xml:space="preserve">
+    <value>Thumbnail: 100 px width</value>
+    <comment>label</comment>
+  </data>
+  <data name="ResizeSizeSmall" xml:space="preserve">
+    <value>Small: 240 px width</value>
+    <comment>label</comment>
+  </data>
+  <data name="ResizeSizeMedium" xml:space="preserve">
+    <value>Medium: 500 px width</value>
+    <comment>label</comment>
+  </data>
+  <data name="ResizeSizeLarge" xml:space="preserve">
+    <value>Large: 800 px width</value>
+    <comment>label</comment>
+  </data>
+  <data name="ResizeSizeExtraLarge" xml:space="preserve">
+    <value>Extra-large: 1024 px width</value>
+    <comment>label</comment>
+  </data>
+  <data name="FilterByResourceEntryType" xml:space="preserve">
+    <value>Filter by type</value>
+    <comment>label</comment>
+  </data>
+  <data name="OpenSingleItemInDotDotDot" xml:space="preserve">
+    <value>Open single item in...</value>
+    <comment>label</comment>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filter</value>
+    <comment>The text to be shown in the buton inside the DateFilteringWidget custom range section.</comment>
+  </data>
+  <data name="SelectCriteria" xml:space="preserve">
+    <value>- Select criteria -</value>
+    <comment>The text to be shown for select option custom sorting expression dialog.</comment>
+  </data>
+  <data name="CustomRange" xml:space="preserve">
+    <value>Custom range...</value>
+    <comment>The text of the DateFilteringWidget show-custom-range button.</comment>
+  </data>
+  <data name="AllTheTime" xml:space="preserve">
+    <value>Any time</value>
+    <comment>The text of the DateFilteringWidget clear date filter button.</comment>
+  </data>
+  <data name="LastOneDay" xml:space="preserve">
+    <value>Last &lt;strong&gt;1 day&lt;/strong&gt;</value>
+    <comment>Phrase: Last 1 day</comment>
+  </data>
+  <data name="LastThreeDays" xml:space="preserve">
+    <value>Last &lt;strong&gt;3 days&lt;/strong&gt;</value>
+    <comment>Phrase: Last 3 days</comment>
+  </data>
+  <data name="LastOneWeek" xml:space="preserve">
+    <value>Last &lt;strong&gt;1 week&lt;/strong&gt;</value>
+    <comment>Phrase: Last 1 week</comment>
+  </data>
+  <data name="LastOneMonth" xml:space="preserve">
+    <value>Last &lt;strong&gt;1 month&lt;/strong&gt;</value>
+    <comment>Phrase: Last 1 month</comment>
+  </data>
+  <data name="LastSixMonths" xml:space="preserve">
+    <value>Last &lt;strong&gt;6 months&lt;/strong&gt;</value>
+    <comment>Phrase: Last 6 months</comment>
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>last</value>
+    <comment>word: last</comment>
+  </data>
+  <data name="LastTitleCase" xml:space="preserve">
+    <value>Last</value>
+    <comment>word: Last</comment>
+  </data>
+  <data name="LastOneYear" xml:space="preserve">
+    <value>Last &lt;strong&gt;1 year&lt;/strong&gt;</value>
+    <comment>Phrase: Last 1 year</comment>
+  </data>
+  <data name="LastTwoYears" xml:space="preserve">
+    <value>Last &lt;strong&gt;2 years&lt;/strong&gt;</value>
+    <comment>Phrase: Last 2 years</comment>
+  </data>
+  <data name="LastFiveYears" xml:space="preserve">
+    <value>Last &lt;strong&gt;5 years&lt;/strong&gt;</value>
+    <comment>Phrase: Last 5 years</comment>
+  </data>
+  <data name="WithTheSameLayoutAsTheListPage" xml:space="preserve">
+    <value>with the same layout as the list page</value>
+    <comment>Phrase: with the same layout as the list page</comment>
+  </data>
+  <data name="DetailTemplates" xml:space="preserve">
+    <value>Detail templates</value>
+    <comment>Phrase: Detail templates</comment>
+  </data>
+  <data name="SelectedExistingPage" xml:space="preserve">
+    <value>Selected existing page ...</value>
+    <comment>Phrase: Selected existing page ...</comment>
+  </data>
+  <data name="AutoGeneratedPage" xml:space="preserve">
+    <value>Auto-generated page</value>
+    <comment>Phrase: Auto-generated page</comment>
+  </data>
+  <data name="AddDataField" xml:space="preserve">
+    <value>Add a data field</value>
+    <comment>Button: Add a data field.</comment>
+  </data>
+  <data name="UpdateDataField" xml:space="preserve">
+    <value>Update data field</value>
+    <comment>Button: Update data field.</comment>
+  </data>
+  <data name="DeleteDataField" xml:space="preserve">
+    <value>Delete data field</value>
+    <comment>Button: Delete data field.</comment>
+  </data>
+  <data name="MetaFieldTitle" xml:space="preserve">
+    <value>Title</value>
+    <comment>Label: Title</comment>
+  </data>
+  <data name="MetaFieldName" xml:space="preserve">
+    <value>Name</value>
+    <comment>Label: Name</comment>
+  </data>
+  <data name="MetaFieldType" xml:space="preserve">
+    <value>Type</value>
+    <comment>Label: Type</comment>
+  </data>
+  <data name="MetaFieldDBType" xml:space="preserve">
+    <value>DB Type</value>
+    <comment>Label: DB Type</comment>
+  </data>
+  <data name="MetaFieldMsSQLDBType" xml:space="preserve">
+    <value>SQL DB Type</value>
+    <comment>Label: SQL DB Type</comment>
+  </data>
+  <data name="MetaFieldMaxLength" xml:space="preserve">
+    <value>Max length</value>
+    <comment>Label: Max length</comment>
+  </data>
+  <data name="MetaFieldDefaultValue" xml:space="preserve">
+    <value>Default value</value>
+    <comment>Label: Default value</comment>
+  </data>
+  <data name="MetaFieldPrecision" xml:space="preserve">
+    <value>Precision</value>
+    <comment>Label: Precision</comment>
+  </data>
+  <data name="MetaFieldTaxonomyProvider" xml:space="preserve">
+    <value>Classification provider</value>
+    <comment>Label: Classification provider</comment>
+  </data>
+  <data name="MetaFieldTaxonomy" xml:space="preserve">
+    <value>Classification</value>
+    <comment>Label: Classification</comment>
+  </data>
+  <data name="MetaFieldAllowMultipleTaxonomies" xml:space="preserve">
+    <value>Allow multiple classifications selection</value>
+    <comment>Label: Allow multiple classifications selection</comment>
+  </data>
+  <data name="MetaFieldTypeGuid" xml:space="preserve">
+    <value>Unique identifier</value>
+    <comment>Meta type title: Unique identifier</comment>
+  </data>
+  <data name="MetaFieldTypeLString" xml:space="preserve">
+    <value>Localized text</value>
+    <comment>Meta type title: Localized text</comment>
+  </data>
+  <data name="MetaFieldTypeString" xml:space="preserve">
+    <value>Text</value>
+    <comment>Meta type title: Text</comment>
+  </data>
+  <data name="MetaFieldTypeInt" xml:space="preserve">
+    <value>Integer</value>
+    <comment>Meta type title: Integer</comment>
+  </data>
+  <data name="MetaFieldTypeDecimal" xml:space="preserve">
+    <value>Decimal</value>
+    <comment>Meta type title: Decimal</comment>
+  </data>
+  <data name="MetaFieldTypeDate" xml:space="preserve">
+    <value>Date</value>
+    <comment>Meta type title: Date</comment>
+  </data>
+  <data name="MetaFieldTypeBoolean" xml:space="preserve">
+    <value>Yes/No</value>
+    <comment>Meta type title: Boolean</comment>
+  </data>
+  <data name="MetaFieldTypeTaxonomy" xml:space="preserve">
+    <value>Classification</value>
+    <comment>Meta type title: Taxonomy</comment>
+  </data>
+  <data name="MetaFieldDuplicateFieldName" xml:space="preserve">
+    <value>A field by this name is already defined for this type.</value>
+    <comment>Meta type error message: A field by this name is already defined for this type.</comment>
+  </data>
+  <data name="EditStructure" xml:space="preserve">
+    <value>&lt;span class='sfLinkBtnIn'&gt;Change Data structure...&lt;/span&gt;</value>
+    <comment>Publishing Structure Field Control: Edit structure link</comment>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>Data</value>
+    <comment>Data</comment>
+  </data>
+  <data name="NumFieldsDefined" xml:space="preserve">
+    <value>{0} Fields defined</value>
+    <comment>Publishing Structure Field Control: {0} Fields defined</comment>
+  </data>
+  <data name="NoFieldsDefinedForThisPublishingPoint" xml:space="preserve">
+    <value>No fields defined for this publishing point</value>
+    <comment>Validation error: No fields defined for this publishing point</comment>
+  </data>
+  <data name="AllProvidersText" xml:space="preserve">
+    <value>All Providers</value>
+    <comment>The text to be shown for select option in user/roles admin UI.</comment>
+  </data>
+  <data name="AllUsers" xml:space="preserve">
+    <value>All Users</value>
+    <comment>The text to be shown All Users button in User UI.</comment>
+  </data>
+  <data name="AllRoles" xml:space="preserve">
+    <value>All Roles</value>
+    <comment>The text to be shown All Roles button in User UI.</comment>
+  </data>
+  <data name="AllProviders" xml:space="preserve">
+    <value>All Providers</value>
+    <comment>The text to be shown All Providers button in User UI.</comment>
+  </data>
+  <data name="YouHaveUnsavedChangesWantToLeavePage" xml:space="preserve">
+    <value>Are you sure you want to navigate away from this page?
+
+You have unsaved changes.
+
+Press OK to continue, or Cancel to stay on the current page.</value>
+    <comment>phrase: You have unsaved changes! Do you want to leave this page?</comment>
+  </data>
+  <data name="YouWantToLeavePage" xml:space="preserve">
+    <value>Are you sure you want to navigate away from this page?
+
+{0}
+
+Press OK to continue, or Cancel to stay on the current page.</value>
+    <comment>phrase: Do you want to leave this page?</comment>
+  </data>
+  <data name="BrowseUsers" xml:space="preserve">
+    <value>Browse Users</value>
+    <comment>The text to be shown for Browse Users button in user admin UI.</comment>
+  </data>
+  <data name="UsersByRole" xml:space="preserve">
+    <value>Users by role</value>
+    <comment>The text to be shown for Users by role section.</comment>
+  </data>
+  <data name="UsersWithoutRole" xml:space="preserve">
+    <value>Users without role</value>
+    <comment>The text to be shown for Users without role section.</comment>
+  </data>
+  <data name="ManageRoles" xml:space="preserve">
+    <value>Manage Roles</value>
+    <comment>The text to be shown for Manage Roles section.</comment>
+  </data>
+  <data name="CreateRoleLabel" xml:space="preserve">
+    <value>Create a role</value>
+    <comment>The text to be shown for Create Role form.</comment>
+  </data>
+  <data name="MoreInfo" xml:space="preserve">
+    <value>More info</value>
+    <comment>TMore info</comment>
+  </data>
+  <data name="ExampleForNewRoleName" xml:space="preserve">
+    <value>&lt;strong&gt;Example: &lt;/strong&gt;&lt;q&gt;Authors&lt;/q&gt;</value>
+    <comment>Example role name.</comment>
+  </data>
+  <data name="WhatIsRoleQuestion" xml:space="preserve">
+    <value>What is a role?</value>
+    <comment>What is a role?</comment>
+  </data>
+  <data name="RoleHelpExplanation" xml:space="preserve">
+    <value>A role is a group of users associated with a set of user permissions.</value>
+    <comment>Role Help Explanation</comment>
+  </data>
+  <data name="LastModified" xml:space="preserve">
+    <value>Last modified</value>
+    <comment>phrase: Last modified</comment>
+  </data>
+  <data name="UsedIn" xml:space="preserve">
+    <value>Used in</value>
+    <comment>phrase: Used in</comment>
+  </data>
+  <data name="QuestionBeforeDeletingUser" xml:space="preserve">
+    <value>Are you sure you want to delete this user?</value>
+    <comment>The question asked before deleting a membership user in Users administration.</comment>
+  </data>
+  <data name="QuestionBeforeDeletingUsers" xml:space="preserve">
+    <value>Are you sure you want to delete the selected users?</value>
+    <comment>The question asked before deleting multiple membership users in Users administration.</comment>
+  </data>
+  <data name="QuestionBeforeDeletingItem" xml:space="preserve">
+    <value>Are you sure you want to delete this item?</value>
+    <comment>The question asked before deleting a content item.</comment>
+  </data>
+  <data name="MandatoryFields" xml:space="preserve">
+    <value>Mandatory fields</value>
+    <comment>Mandatory fields label.</comment>
+  </data>
+  <data name="MembershipInfo" xml:space="preserve">
+    <value>Membership Info</value>
+    <comment>Membership Info label.</comment>
+  </data>
+  <data name="BackToUsers" xml:space="preserve">
+    <value>Back to Users</value>
+    <comment>Text for Back to users link in User administration UI.</comment>
+  </data>
+  <data name="BackToComments" xml:space="preserve">
+    <value>Back to Comments</value>
+    <comment>phrase: Back to Comments</comment>
+  </data>
+  <data name="BackToProfile" xml:space="preserve">
+    <value>Back to profile</value>
+    <comment>Text for back to profile link in change password dialog.</comment>
+  </data>
+  <data name="ReturnToPolicies" xml:space="preserve">
+    <value>Return to policies</value>
+    <comment>Return to policies</comment>
+  </data>
+  <data name="UserCommentLabelText" xml:space="preserve">
+    <value>Comment</value>
+    <comment>Text for comment label in User administration UI.</comment>
+  </data>
+  <data name="UserApproveLabelText" xml:space="preserve">
+    <value>Approve user</value>
+    <comment>Text for approve user label in User administration UI.</comment>
+  </data>
+  <data name="SectionSaved" xml:space="preserve">
+    <value>Configuration section saved successfully.</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="ConfirmDelete" xml:space="preserve">
+    <value>Are you sure you want to delete this section?</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>Show</value>
+    <comment>word</comment>
+  </data>
+  <data name="LabelsIn" xml:space="preserve">
+    <value>Labels in</value>
+    <comment>Labels in</comment>
+  </data>
+  <data name="WhatIsThisLabelUsedFor" xml:space="preserve">
+    <value>What is this label used for.</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="Example" xml:space="preserve">
+    <value>Example</value>
+    <comment>word</comment>
+  </data>
+  <data name="ThisIsTheButtonForSavingNews" xml:space="preserve">
+    <value>This is the button for saving news</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>Key</value>
+    <comment>word</comment>
+  </data>
+  <data name="UsedInCodeToDisplayThisLabel" xml:space="preserve">
+    <value>Used in code to display this label</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+    <comment>word</comment>
+  </data>
+  <data name="ThisIsTheClassIdValueUsedInCode" xml:space="preserve">
+    <value>This is the "class-id" value used in the code</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>Label</value>
+    <comment>word</comment>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>All</value>
+    <comment>word</comment>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>None</value>
+    <comment>word: None</comment>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>Selected</value>
+    <comment>word</comment>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Select</value>
+    <comment>Label</comment>
+  </data>
+  <data name="LastEdited" xml:space="preserve">
+    <value>Last edited</value>
+    <comment>LastEdited</comment>
+  </data>
+  <data name="SelectDotDotDot" xml:space="preserve">
+    <value>Select...</value>
+    <comment>Label</comment>
+  </data>
+  <data name="ChangeDotDotDot" xml:space="preserve">
+    <value>Change...</value>
+    <comment>Label</comment>
+  </data>
+  <data name="SelectParameter" xml:space="preserve">
+    <value>Select {0}</value>
+    <comment>Label</comment>
+  </data>
+  <data name="SelectMasterPage" xml:space="preserve">
+    <value>Select the master page you have uploaded</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="NameRequired" xml:space="preserve">
+    <value>Name cannot be empty</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="UrlNameInvalid" xml:space="preserve">
+    <value>Url cannot contain spaces or special characters!</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="UrlNameCannotBeEmpty" xml:space="preserve">
+    <value>Url cannot be empty.</value>
+    <comment>phrase: Url cannot be empty.</comment>
+  </data>
+  <data name="WhichVersionsYouWantToDelete" xml:space="preserve">
+    <value>Which versions you want to delete?</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="LabelHasBeenDeleted" xml:space="preserve">
+    <value>"{0}" label has been deleted.</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="LabelHasBeenCreated" xml:space="preserve">
+    <value>"{0}" label has been created.</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="LabelHasBeenUpdated" xml:space="preserve">
+    <value>"{0}" label has been updated.</value>
+  </data>
+  <data name="ChangesHaveBeenSaved" xml:space="preserve">
+    <value>Changes have been saved</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="DefaultLabels" xml:space="preserve">
+    <value>Default labels</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="YourChangedLabels" xml:space="preserve">
+    <value>Your changed labels</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="MoreAboutThisLabel" xml:space="preserve">
+    <value>More about this label</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="AllLanguageVersions" xml:space="preserve">
+    <value>All language versions</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="EditAllLabels" xml:space="preserve">
+    <value>Edit all labels</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="EditDescription" xml:space="preserve">
+    <value>Edit description</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="BackToAllLabels" xml:space="preserve">
+    <value>Back to all labels</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="UsernameCannotBeEmpty" xml:space="preserve">
+    <value>Enter your username</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="NameCannotBeEmpty" xml:space="preserve">
+    <value>Name cannot be empty.</value>
+    <comment>phrase: Name cannot be empty.</comment>
+  </data>
+  <data name="PasswordCannotBeEmpty" xml:space="preserve">
+    <value>Enter your password</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="OldPasswordCannotBeEmpty" xml:space="preserve">
+    <value>Enter your old password</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="NewPasswordCannotBeEmpty" xml:space="preserve">
+    <value>Enter your new password</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="ConfirmNewPasswordCannotBeEmpty" xml:space="preserve">
+    <value>Re-enter your new password</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="LoginToManage" xml:space="preserve">
+    <value>Login to manage the site</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="NoBookmarksMessage" xml:space="preserve">
+    <value>There are no social bookmarks</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="BackToAllItems" xml:space="preserve">
+    <value>Back to all items</value>
+    <comment>phrase for module dialogs</comment>
+  </data>
+  <data name="BackTo" xml:space="preserve">
+    <value>Back to {0}</value>
+    <comment>Back to {0}</comment>
+  </data>
+  <data name="BackToAllItemsParameter" xml:space="preserve">
+    <value>Back to all {0}</value>
+    <comment>phrase: Back to all {0}</comment>
+  </data>
+  <data name="ReturnToPages" xml:space="preserve">
+    <value>Return to pages</value>
+    <comment>Label</comment>
+  </data>
+  <data name="ReturnToTemplates" xml:space="preserve">
+    <value>Back to Templates</value>
+    <comment>Label</comment>
+  </data>
+  <data name="ReturnToProperties" xml:space="preserve">
+    <value>Return to properties</value>
+    <comment>Label</comment>
+  </data>
+  <data name="BackToRevisionHistory" xml:space="preserve">
+    <value>Back to Revision History</value>
+    <comment>phrase for module dialogs</comment>
+  </data>
+  <data name="BackToReviewedVersion" xml:space="preserve">
+    <value>Back to reviewed version</value>
+    <comment>phrase for module dialogs</comment>
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>Properties</value>
+    <comment>Label</comment>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name &lt;span class="sfExLab"&gt;(Displayed in navigation. &lt;strong&gt;Example:&lt;/strong&gt; &lt;em&gt;About Us&lt;/em&gt;)&lt;/span&gt;</value>
+    <comment>Label</comment>
+  </data>
+  <data name="TemplateName" xml:space="preserve">
+    <value>Name</value>
+    <comment>Label</comment>
+  </data>
+  <data name="Parent" xml:space="preserve">
+    <value>Section</value>
+    <comment>Label</comment>
+  </data>
+  <data name="ParentParameter" xml:space="preserve">
+    <value>Parent {0}</value>
+    <comment>Label: Parent {0}</comment>
+  </data>
+  <data name="NoSection" xml:space="preserve">
+    <value>No section</value>
+    <comment>Label</comment>
+  </data>
+  <data name="ParentSection" xml:space="preserve">
+    <value>Parent Section</value>
+    <comment>ParentSection</comment>
+  </data>
+  <data name="NoParentSection" xml:space="preserve">
+    <value>No parent section</value>
+    <comment>NoParentSection</comment>
+  </data>
+  <data name="Url" xml:space="preserve">
+    <value>URL</value>
+    <comment>Label</comment>
+  </data>
+  <data name="CreateThisSection" xml:space="preserve">
+    <value>Create this section</value>
+    <comment>Label</comment>
+  </data>
+  <data name="CreateThisSectionAndAddAnother" xml:space="preserve">
+    <value>Create this section and add another</value>
+    <comment>Label</comment>
+  </data>
+  <data name="CreateSection" xml:space="preserve">
+    <value>Create a Section</value>
+    <comment>Label</comment>
+  </data>
+  <data name="EditSectionProperties" xml:space="preserve">
+    <value>Edit Section Properties</value>
+    <comment>Label</comment>
+  </data>
+  <data name="CreatePage" xml:space="preserve">
+    <value>Create a Page</value>
+    <comment>Label</comment>
+  </data>
+  <data name="CreateTemplate" xml:space="preserve">
+    <value>Create a Template</value>
+    <comment>Label</comment>
+  </data>
+  <data name="EditPageProperties" xml:space="preserve">
+    <value>Edit Page Properties</value>
+    <comment>Label</comment>
+  </data>
+  <data name="EditTemplateProperties" xml:space="preserve">
+    <value>Edit template properties</value>
+    <comment>Label</comment>
+  </data>
+  <data name="SelectedSection" xml:space="preserve">
+    <value>Selected section...</value>
+    <comment>Label</comment>
+  </data>
+  <data name="SelectedParentSection" xml:space="preserve">
+    <value>Selected parent section...</value>
+    <comment>Label</comment>
+  </data>
+  <data name="CreateThisPage" xml:space="preserve">
+    <value>Create and go to select a template</value>
+    <comment>Label</comment>
+  </data>
+  <data name="CreateThis" xml:space="preserve">
+    <value>Create this</value>
+    <comment>phrase: Create this</comment>
+  </data>
+  <data name="CreateThisTemplate" xml:space="preserve">
+    <value>Create this template</value>
+    <comment>Label</comment>
+  </data>
+  <data name="CreateThisPageAndAddAnother" xml:space="preserve">
+    <value>Create and add another page</value>
+    <comment>Label</comment>
+  </data>
+  <data name="SelectLayout" xml:space="preserve">
+    <value>Select a Layout</value>
+    <comment>Label</comment>
+  </data>
+  <data name="SelectAnotherTemplate" xml:space="preserve">
+    <value>Select another Template</value>
+    <comment>Label</comment>
+  </data>
+  <data name="ViewTemplate" xml:space="preserve">
+    <value>View in a new window</value>
+    <comment>Label</comment>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Title</value>
+    <comment>Label</comment>
+  </data>
+  <data name="ClickToAddTitle" xml:space="preserve">
+    <value>Click to add a title</value>
+    <comment>Label</comment>
+  </data>
+  <data name="ClickToAdd" xml:space="preserve">
+    <value>Click to add</value>
+    <comment>Click to add</comment>
+  </data>
+  <data name="PageDescription" xml:space="preserve">
+    <value>Description</value>
+    <comment>Label</comment>
+  </data>
+  <data name="ClickToAddDescription" xml:space="preserve">
+    <value>Click to add a description</value>
+    <comment>Label</comment>
+  </data>
+  <data name="Keywords" xml:space="preserve">
+    <value>Keywords</value>
+    <comment>Label</comment>
+  </data>
+  <data name="ClickToAddKeywords" xml:space="preserve">
+    <value>Click to add keywords</value>
+    <comment>Label</comment>
+  </data>
+  <data name="ClickToAddTags" xml:space="preserve">
+    <value>Click to add Tags</value>
+    <comment>Label</comment>
+  </data>
+  <data name="ClickToAddCategory" xml:space="preserve">
+    <value>Click to add a Category</value>
+    <comment>Label</comment>
+  </data>
+  <data name="ShowInNavigation" xml:space="preserve">
+    <value>Show in navigation</value>
+    <comment>Label</comment>
+  </data>
+  <data name="ShowInNavigationTemplate" xml:space="preserve">
+    <value>Show in navigation all pages using this template &lt;br /&gt;&lt;span class="sfExLab"&gt;This option can be customized per individual page.&lt;/span&gt;</value>
+    <comment>Label</comment>
+  </data>
+  <data name="NoTemplate" xml:space="preserve">
+    <value>No template - start from scratch</value>
+    <comment>Label</comment>
+  </data>
+  <data name="UseAsDefaultTemplate" xml:space="preserve">
+    <value>Use the selected template as a default template when you create a new page</value>
+    <comment>phrase: Use the selected template as a default template when you create a new page</comment>
+  </data>
+  <data name="IncludeScriptManger" xml:space="preserve">
+    <value>Include ScriptManger</value>
+    <comment>Label</comment>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>to</value>
+    <comment>word: to</comment>
+  </data>
+  <data name="CapitalTo" xml:space="preserve">
+    <value>To</value>
+    <comment>word: To</comment>
+  </data>
+  <data name="CapitalFrom" xml:space="preserve">
+    <value>From</value>
+    <comment>Word: From</comment>
+  </data>
+  <data name="CreateAndAddAnother" xml:space="preserve">
+    <value>Create and add another</value>
+    <comment>phrase: Create and add another</comment>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Required</value>
+    <comment>word: Required</comment>
+  </data>
+  <data name="SelectPolicy" xml:space="preserve">
+    <value>Select policy</value>
+    <comment>label: Select policy</comment>
+  </data>
+  <data name="SelectAnotherPolicy" xml:space="preserve">
+    <value>Select another policy...</value>
+    <comment>label: Select policy</comment>
+  </data>
+  <data name="AdvancedFilter" xml:space="preserve">
+    <value>Advanced filter</value>
+    <comment>phrase: Advanced filter</comment>
+  </data>
+  <data name="AdvancedSynonymsNameInCode" xml:space="preserve">
+    <value>Advanced &lt;em class='sfNote'&gt;(Synonyms, Name used in code)&lt;/em&gt;</value>
+    <comment>phrase: Advanced &lt;em class='sfNote'&gt;(Synonyms, Name used in code)&lt;/em&gt;</comment>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+    <comment>word: Add</comment>
+  </data>
+  <data name="AddTags" xml:space="preserve">
+    <value>Add tags</value>
+    <comment>phrase: Add tags</comment>
+  </data>
+  <data name="ExpandAll" xml:space="preserve">
+    <value>Expand all</value>
+    <comment>phrase: Expand all</comment>
+  </data>
+  <data name="CollapseAll" xml:space="preserve">
+    <value>Collapse all</value>
+    <comment>phrase: Collapse all</comment>
+  </data>
+  <data name="BackToTop" xml:space="preserve">
+    <value>Back to top</value>
+    <comment>phrase: Back to top</comment>
+  </data>
+  <data name="OnePageUsesTemplate" xml:space="preserve">
+    <value>{0} page uses this template</value>
+    <comment>label</comment>
+  </data>
+  <data name="ManyPagesUseTemplate" xml:space="preserve">
+    <value>{0} pages use this template</value>
+    <comment>label</comment>
+  </data>
+  <data name="UseTemplate" xml:space="preserve">
+    <value>Use template</value>
+    <comment>Use template</comment>
+  </data>
+  <data name="DontUseTemplate" xml:space="preserve">
+    <value>Don't use template (start from scratch)</value>
+    <comment>Don't use template (start from scratch)</comment>
+  </data>
+  <data name="TemplatePagesMsg" xml:space="preserve">
+    <value>Template changes will affect all of these pages:</value>
+    <comment>label</comment>
+  </data>
+  <data name="ResourceKey" xml:space="preserve">
+    <value>Resource key</value>
+    <comment>phrase: Resource key</comment>
+  </data>
+  <data name="SelectedItems" xml:space="preserve">
+    <value>Selected items</value>
+    <comment>phrase: Selected items</comment>
+  </data>
+  <data name="AllItems" xml:space="preserve">
+    <value>All items</value>
+    <comment>phrase: All items</comment>
+  </data>
+  <data name="Advanced" xml:space="preserve">
+    <value>Advanced</value>
+    <comment>word: Advanced</comment>
+  </data>
+  <data name="Simpler" xml:space="preserve">
+    <value>Simple</value>
+    <comment>word: Simpler</comment>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Loading...</value>
+    <comment>word: Loading</comment>
+  </data>
+  <data name="Hide" xml:space="preserve">
+    <value>Hide</value>
+    <comment>word</comment>
+  </data>
+  <data name="MarkAsSpam" xml:space="preserve">
+    <value>Mark as Spam</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="Publish" xml:space="preserve">
+    <value>Publish</value>
+    <comment>word</comment>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>Author</value>
+    <comment>word</comment>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Comment</value>
+    <comment>word</comment>
+  </data>
+  <data name="CommentedItem" xml:space="preserve">
+    <value>Commented Item</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="MoreActions" xml:space="preserve">
+    <value>More actions</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="MoreActionsLink" xml:space="preserve">
+    <value>More actions</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="MarkAsFavourite" xml:space="preserve">
+    <value>Mark as Favourite</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="BlockIP" xml:space="preserve">
+    <value>Block IP</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="BlockEmail" xml:space="preserve">
+    <value>Block Email</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="Blocked" xml:space="preserve">
+    <value>Blocked</value>
+    <comment>word</comment>
+  </data>
+  <data name="UnblockIP" xml:space="preserve">
+    <value>Unblock IP</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="UnblockEmail" xml:space="preserve">
+    <value>Unblock Email</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="FilterAndEdit" xml:space="preserve">
+    <value>Filter and Edit</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="AllComments" xml:space="preserve">
+    <value>All Comments</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="Today" xml:space="preserve">
+    <value>Today</value>
+    <comment>word</comment>
+  </data>
+  <data name="EditAlso" xml:space="preserve">
+    <value>Edit also</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="ItemsInThisModule" xml:space="preserve">
+    <value>Items in this Module</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="PermissionsForThisModule" xml:space="preserve">
+    <value>Permissions for This Module</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="ReturnToAllCommentsFor" xml:space="preserve">
+    <value>Return to All Comments for</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="EditAComment" xml:space="preserve">
+    <value>Edit a Comment</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Preview</value>
+    <comment>word</comment>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Website</value>
+    <comment>word</comment>
+  </data>
+  <data name="PostedOn" xml:space="preserve">
+    <value>Posted on</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="IpAddress" xml:space="preserve">
+    <value>IP Address</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="Published" xml:space="preserve">
+    <value>Published</value>
+    <comment>word</comment>
+  </data>
+  <data name="Hidden" xml:space="preserve">
+    <value>Hidden</value>
+    <comment>word</comment>
+  </data>
+  <data name="DraftIsNotPublicallyVisibleOnTheWebsite" xml:space="preserve">
+    <value>Draft is not publically visible on the website</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>Comments</value>
+    <comment>word</comment>
+  </data>
+  <data name="Spam" xml:space="preserve">
+    <value>Spam</value>
+    <comment>word</comment>
+  </data>
+  <data name="CharacterSingular" xml:space="preserve">
+    <value>character</value>
+    <comment>Word</comment>
+  </data>
+  <data name="CharacterPlural" xml:space="preserve">
+    <value>characters</value>
+    <comment>Word</comment>
+  </data>
+  <data name="PasswordLengthHint" xml:space="preserve">
+    <value>At least &lt;strong&gt;{0} {1}&lt;/strong&gt;</value>
+    <comment>phrase: At least &lt;strong&gt;{0} {1}&lt;/strong</comment>
+  </data>
+  <data name="PasswordAlphaNumCharactersHint" xml:space="preserve">
+    <value>At least &lt;strong&gt;{0} non alphanumeric {1}&lt;/strong&gt;</value>
+    <comment>phrase: At least &lt;strong&gt;{0} non alphanumeric {1}&lt;/strong&gt;</comment>
+  </data>
+  <data name="ThePasswordMustBeAtLeastLong" xml:space="preserve">
+    <value>The password must be at least {0} {1} long</value>
+    <comment>The password must be at least "{0}" "{1}" long</comment>
+  </data>
+  <data name="AndMustContainNoLessThanNonAlphanumeric" xml:space="preserve">
+    <value>and must contain no less than {0} non alphanumeric {1}</value>
+    <comment>phrase: and must contain no less than "{0}" non alphanumeric "{1}"]</comment>
+  </data>
+  <data name="Simple" xml:space="preserve">
+    <value>Simple</value>
+    <comment>word: Simple</comment>
+  </data>
+  <data name="NoCreatedSections" xml:space="preserve">
+    <value>No sections have been created yet.</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="NoSectionSelected" xml:space="preserve">
+    <value>&lt;em&gt;No section selected&lt;/em&gt;</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="TitleToolTip" xml:space="preserve">
+    <value>The page title that is displayed in the browser title bar.</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="DescriptionToolTip" xml:space="preserve">
+    <value>This text describes the content of your page. Invisible to the readers, it can boost your rankings on some engines.</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="KeywordsToolTip" xml:space="preserve">
+    <value>Metadata keywords are used by browsers or search engines to find and categorize your page.</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="KeywordsExampleText" xml:space="preserve">
+    <value>Separate keywords with spaces. &lt;strong&gt;Example:&lt;/strong&gt; music guitar song</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="AboutTitle" xml:space="preserve">
+    <value>About Title</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+    <comment>Word: About</comment>
+  </data>
+  <data name="AboutDescription" xml:space="preserve">
+    <value>About Description</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="AboutKeywords" xml:space="preserve">
+    <value>About Keywords</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="EditLabel" xml:space="preserve">
+    <value>Edit label</value>
+    <comment>phrase: Edit label</comment>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>OK, Continue</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="ContinueCommand" xml:space="preserve">
+    <value>Continue</value>
+    <comment>Label: Continue</comment>
+  </data>
+  <data name="BackToTemplates" xml:space="preserve">
+    <value>Back to Templates</value>
+    <comment>Phrase: Back to Templates</comment>
+  </data>
+  <data name="BeCareful" xml:space="preserve">
+    <value>Caution!</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="BackendPagesDefaultMsg" xml:space="preserve">
+    <value>Backend Pages are pages forming this site backend interface (the system you are using now). &lt;br /&gt; You are able to create new backend pages, edit or delete existing ones. &lt;br/&gt; So, &lt;strong class='sfEmphazie'&gt;you can easily destroy the whole backend interface&lt;/strong&gt; if you don't have the expertise needed.</value>
+    <comment>The message which is displayed when the BackendPages page is accessed.</comment>
+  </data>
+  <data name="DontShowMe" xml:space="preserve">
+    <value>Don't show me this message again</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="Contains" xml:space="preserve">
+    <value>Contains</value>
+    <comment>word: Contains</comment>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Actions</value>
+    <comment>word: Actions</comment>
+  </data>
+  <data name="NoItemsEmpty" xml:space="preserve">
+    <value>No items (empty)</value>
+    <comment>phrase: No items (empty)</comment>
+  </data>
+  <data name="MoreItem" xml:space="preserve">
+    <value> more item</value>
+    <comment>used as in '1 more item'</comment>
+  </data>
+  <data name="MoreItems" xml:space="preserve">
+    <value> more items</value>
+    <comment>used as in '4 more items'</comment>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>Permissions</value>
+    <comment>word: Permissions</comment>
+  </data>
+  <data name="ForDevelopers" xml:space="preserve">
+    <value>For developers</value>
+    <comment>phrase: For developers</comment>
+  </data>
+  <data name="EditProperties" xml:space="preserve">
+    <value>Edit properties</value>
+    <comment>phrase: Edit properties</comment>
+  </data>
+  <data name="Duplicate" xml:space="preserve">
+    <value>Duplicate</value>
+    <comment>word: Duplicate</comment>
+  </data>
+  <data name="BulkOperations" xml:space="preserve">
+    <value>Bulk operations</value>
+    <comment>phrase: Bulk operations</comment>
+  </data>
+  <data name="TagsBulkEdit" xml:space="preserve">
+    <value>Bulk edit &lt;span class='sfExtraInfo'&gt;(URLs and synonyms)&lt;/span&gt;</value>
+    <comment>phrase: Bulk edit</comment>
+  </data>
+  <data name="AreYouSureYouWantToDeleteSelectedItems" xml:space="preserve">
+    <value>Are you sure you want to delete selected items?</value>
+    <comment>Confirmation message for bulk delete.</comment>
+  </data>
+  <data name="CreateNewItem" xml:space="preserve">
+    <value>Create new item</value>
+    <comment>phrase: Create new item</comment>
+  </data>
+  <data name="SaveItem" xml:space="preserve">
+    <value>Save item</value>
+    <comment>phrase: Save item</comment>
+  </data>
+  <data name="SaveAndAddAnotherItem" xml:space="preserve">
+    <value>Save and add another item</value>
+    <comment>phrase: Save and add another item</comment>
+  </data>
+  <data name="UseSelected" xml:space="preserve">
+    <value>Use Selected</value>
+    <comment>phrase: Use Selected</comment>
+  </data>
+  <data name="ViewAppMaster" xml:space="preserve">
+    <value>View only App_Master folder</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="AllFolders" xml:space="preserve">
+    <value>All Folders</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="CreateTemplFromMasterPage" xml:space="preserve">
+    <value>Create a template from selected master page</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="BrowseOtherFolders" xml:space="preserve">
+    <value>Browse other folders</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="AppMasterFolder" xml:space="preserve">
+    <value>Folder: &lt;strong&gt;App_Master&lt;/strong&gt;</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>History</value>
+    <comment>word: history</comment>
+  </data>
+  <data name="Unpublish" xml:space="preserve">
+    <value>Unpublish</value>
+    <comment>word: Unpublish</comment>
+  </data>
+  <data name="SetPermissions" xml:space="preserve">
+    <value>Set permissions</value>
+    <comment>phrase: Set permissions</comment>
+  </data>
+  <data name="SetPermissionsForItem" xml:space="preserve">
+    <value>Set &lt;strong&gt;permissions&lt;/strong&gt; for {0}.</value>
+    <comment>phrase: Set permissions for {0}.</comment>
+  </data>
+  <data name="ReviewHistory" xml:space="preserve">
+    <value>Review history</value>
+    <comment>phrase: Review history</comment>
+  </data>
+  <data name="NoMasterFiles" xml:space="preserve">
+    <value>No master files have been uploaded to &lt;em&gt;App_Master&lt;/em&gt; folder yet</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="HowToUpload" xml:space="preserve">
+    <value>How to upload</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="UrlName" xml:space="preserve">
+    <value>URL</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="AppliedTo" xml:space="preserve">
+    <value>Applied to</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="Move" xml:space="preserve">
+    <value>Move</value>
+    <comment>word: Move</comment>
+  </data>
+  <data name="MoveEllipsis" xml:space="preserve">
+    <value>Move...</value>
+    <comment>word: Move...</comment>
+  </data>
+  <data name="Top" xml:space="preserve">
+    <value>Top</value>
+    <comment>word: Top (direction)</comment>
+  </data>
+  <data name="Bottom" xml:space="preserve">
+    <value>Bottom</value>
+    <comment>word: Bottom (direction)</comment>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>Up</value>
+    <comment>word: Up (direction)</comment>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>Down</value>
+    <comment>word: Down (direction)</comment>
+  </data>
+  <data name="NoItemsHaveBeenCreatedYet" xml:space="preserve">
+    <value>No {0} have been created yet</value>
+    <comment>phrase: No {0} have been created yet</comment>
+  </data>
+  <data name="CreateYourFirstItem" xml:space="preserve">
+    <value>Create a {0}</value>
+    <comment>phrase: Create a {0}</comment>
+  </data>
+  <data name="Items" xml:space="preserve">
+    <value>items</value>
+    <comment>word: items</comment>
+  </data>
+  <data name="Item" xml:space="preserve">
+    <value>item</value>
+    <comment>word: item</comment>
+  </data>
+  <data name="ChangeParentOfSelectedItems" xml:space="preserve">
+    <value>Change parent &lt;strong&gt;of {0} selected items&lt;/strong&gt;</value>
+    <comment>phrase: Change parent of {0} selected items.</comment>
+  </data>
+  <data name="DoneWithSelecting" xml:space="preserve">
+    <value>Done selecting</value>
+    <comment>phrase: Done selecting</comment>
+  </data>
+  <data name="MoveUp" xml:space="preserve">
+    <value>Move up</value>
+    <comment>phrase: Move up (Listbox button)</comment>
+  </data>
+  <data name="MoveDown" xml:space="preserve">
+    <value>Move down</value>
+    <comment>phrase: Move down (Listbox button)</comment>
+  </data>
+  <data name="ItemsAreAboutToBeDeleted" xml:space="preserve">
+    <value>{0} items are about to be deleted. Do you want to continue?</value>
+    <comment>phrase:{0} items are about to be deleted. Do you want to continue?</comment>
+  </data>
+  <data name="AreYouSureYouWantToDeleteItem" xml:space="preserve">
+    <value>Are you sure you want to delete this item?</value>
+    <comment>Confirmation message for single item deleting.</comment>
+  </data>
+  <data name="SelectFromExisting" xml:space="preserve">
+    <value>Select from existing</value>
+    <comment>phrase: Select from existing</comment>
+  </data>
+  <data name="CloseExisting" xml:space="preserve">
+    <value>Close existing</value>
+    <comment>phrase: Close existing</comment>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>Show all</value>
+    <comment>phrase: Show all</comment>
+  </data>
+  <data name="Draft" xml:space="preserve">
+    <value>Draft</value>
+    <comment>word</comment>
+  </data>
+  <data name="Drafts" xml:space="preserve">
+    <value>Drafts</value>
+    <comment>word</comment>
+  </data>
+  <data name="Schedule" xml:space="preserve">
+    <value>Schedule</value>
+    <comment>word: Schedule</comment>
+  </data>
+  <data name="Scheduled" xml:space="preserve">
+    <value>Scheduled</value>
+    <comment>word</comment>
+  </data>
+  <data name="ScheduledDotDotDot" xml:space="preserve">
+    <value>Scheduled...</value>
+    <comment>word</comment>
+  </data>
+  <data name="Thumbnail" xml:space="preserve">
+    <value>Thumbnail</value>
+    <comment>phrase: Thumbnail</comment>
+  </data>
+  <data name="ClickToSelect" xml:space="preserve">
+    <value>Click to select</value>
+    <comment>phrase: Click to select</comment>
+  </data>
+  <data name="ShowOnlyMostPopular" xml:space="preserve">
+    <value>Show only most popular</value>
+    <comment>phrase: Show only most popular</comment>
+  </data>
+  <data name="MostPopular" xml:space="preserve">
+    <value>Most popular</value>
+    <comment>phrase: Most popular</comment>
+  </data>
+  <data name="StartTypingAndItemsWillBeHinted" xml:space="preserve">
+    <value>Start typing and will be hinted</value>
+    <comment>phrase: Start typing and will be hinted</comment>
+  </data>
+  <data name="OpeningExisting" xml:space="preserve">
+    <value>Opening existing...</value>
+    <comment>phrase: Opening existing...</comment>
+  </data>
+  <data name="OpeningAll" xml:space="preserve">
+    <value>Opening all...</value>
+    <comment>phrase: Opening all...</comment>
+  </data>
+  <data name="NoParent" xml:space="preserve">
+    <value>-- no parent --</value>
+    <comment>phrase: -- no parent --</comment>
+  </data>
+  <data name="RunningSince" xml:space="preserve">
+    <value>Running since</value>
+    <comment>The label for 'Running Since' system information screen.</comment>
+  </data>
+  <data name="SavingImgAlt" xml:space="preserve">
+    <value>Saving ...</value>
+    <comment>Alternative text for loading/saving image in create/edit item form</comment>
+  </data>
+  <data name="UserLimitReached" xml:space="preserve">
+    <value>Maximum allowed users limit was reached.</value>
+    <comment>Licensed user limit was reached.</comment>
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>User Not Found</value>
+    <comment>User not found in any provider.</comment>
+  </data>
+  <data name="UserAlreadyLoggedIn" xml:space="preserve">
+    <value>User Already Logged In</value>
+    <comment>User already logged in.</comment>
+  </data>
+  <data name="UserRevoked" xml:space="preserve">
+    <value>Either your user was deleted or user rights to access or modify the site were changed.</value>
+    <comment>User revoked</comment>
+  </data>
+  <data name="UserLoggedFromDifferentIp" xml:space="preserve">
+    <value>User is logged in from different IP address</value>
+    <comment>User already logged from different IP address.</comment>
+  </data>
+  <data name="SessionExpired" xml:space="preserve">
+    <value>Server Session Expired</value>
+    <comment>Your server session has expired.</comment>
+  </data>
+  <data name="UserLoggedOff" xml:space="preserve">
+    <value>You have been logged out from another computer or browser window.</value>
+    <comment>Server session expired.</comment>
+  </data>
+  <data name="UserLoggedFromDifferentComputer" xml:space="preserve">
+    <value>User already logged on a different computer</value>
+    <comment>User already logged on a different computer</comment>
+  </data>
+  <data name="UnknownReason" xml:space="preserve">
+    <value>You are logged off. Contact the system administrator.</value>
+    <comment>Unknown reason for deny login or logoff</comment>
+  </data>
+  <data name="NeedAdminRights" xml:space="preserve">
+    <value>You need administrative rights to logout users</value>
+    <comment>Need administrative rights to logout users</comment>
+  </data>
+  <data name="SelfLogoffLabel" xml:space="preserve">
+    <value>Someone is &lt;strong&gt;already using&lt;/strong&gt; this username and password from another computer or browser. &lt;br /&gt;To proceed, you need to &lt;strong&gt;log him/her off&lt;/strong&gt;.</value>
+    <comment>You already logged in on a different computer or browser.</comment>
+  </data>
+  <data name="DenyLogonMesage" xml:space="preserve">
+    <value>Sorry, you cannot log in because the maximum user quota has been reached.</value>
+    <comment>Denied log in</comment>
+  </data>
+  <data name="LoginRetryMessage" xml:space="preserve">
+    <value>You can wait for a user to log off and try to login again later.</value>
+    <comment>Login Retry Message</comment>
+  </data>
+  <data name="UserNotSelected" xml:space="preserve">
+    <value>Please, select a user to log out.</value>
+    <comment>User Not Selected Message</comment>
+  </data>
+  <data name="LogoutUserConfirm" xml:space="preserve">
+    <value>The selected user will be logged out and you will be logged in, continue?</value>
+    <comment>Logout User Confirm</comment>
+  </data>
+  <data name="SelfLogoutUserConfirm" xml:space="preserve">
+    <value>The other user will be logged off from the system. Are you sure you want to continue? </value>
+    <comment>Self Logout User Confirm</comment>
+  </data>
+  <data name="UserLimitLabel" xml:space="preserve">
+    <value>Maximum simultaneous users allowed limit is reached.</value>
+    <comment>User Limit Label</comment>
+  </data>
+  <data name="LogoutButtonText" xml:space="preserve">
+    <value>Force Logout selected user and login me</value>
+    <comment>Logout Button Text</comment>
+  </data>
+  <data name="SelftLogoutButtonText" xml:space="preserve">
+    <value>Log the other user off and enter</value>
+    <comment>Self Logout Button Text</comment>
+  </data>
+  <data name="FilterLoggedInUsersText" xml:space="preserve">
+    <value>Online backend users</value>
+    <comment>Message shown in users page.</comment>
+  </data>
+  <data name="UserOnline" xml:space="preserve">
+    <value>Online</value>
+    <comment>Message shown in users page.</comment>
+  </data>
+  <data name="UserOffline" xml:space="preserve">
+    <value>Offline</value>
+    <comment>Message shown in users page.</comment>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Upload {0}</value>
+    <comment>word: Upload {0}</comment>
+  </data>
+  <data name="MultipleCanBeUploadedAtATime" xml:space="preserve">
+    <value>Multiple {0} can be uploaded at a time</value>
+    <comment>word: Multiple {0} can be uploaded at a time</comment>
+  </data>
+  <data name="StatusPage" xml:space="preserve">
+    <value>Status / Page</value>
+    <comment>word: Status / Page</comment>
+  </data>
+  <data name="OnlyOneCanBeUploadedAtATime" xml:space="preserve">
+    <value>Only one {0} can be uploaded at a time</value>
+    <comment>word: Only one {0} can be uploaded at a time</comment>
+  </data>
+  <data name="CreateANewItem" xml:space="preserve">
+    <value>Create a new {0}.</value>
+    <comment>phrase: Create a new {0}.</comment>
+  </data>
+  <data name="ForceLogoutUserConfirmation" xml:space="preserve">
+    <value>You are about to force logout {0}, continue ?</value>
+    <comment>Message shown in users edit screen to confirm user log-off.</comment>
+  </data>
+  <data name="ForceLogout" xml:space="preserve">
+    <value>Force logout</value>
+    <comment>Message shown in users edit screen as the text of a button that logs out a user.</comment>
+  </data>
+  <data name="NavigationCloud" xml:space="preserve">
+    <value>Cloud</value>
+    <comment>Label shown in taxonomy control designer modes</comment>
+  </data>
+  <data name="NavigationMenu" xml:space="preserve">
+    <value>Horizontal with drop-down menus</value>
+    <comment>Label shown in taxonomy control designer modes</comment>
+  </data>
+  <data name="NavigationModeHorizontalSimple" xml:space="preserve">
+    <value>Horizontal</value>
+    <comment>Label shown in navigation control desginer modes</comment>
+  </data>
+  <data name="NavigationModeHorizontalDropDownMenu" xml:space="preserve">
+    <value>Horizontal with drop down menus</value>
+    <comment>Label shown in navigation control desginer modes</comment>
+  </data>
+  <data name="NavigationModeHorizontalTabs" xml:space="preserve">
+    <value>Horizontal with tabs</value>
+    <comment>Label shown in navigation control desginer modes</comment>
+  </data>
+  <data name="NavigationModeVerticalSimple" xml:space="preserve">
+    <value>Vertical</value>
+    <comment>Label shown in navigation control desginer modes</comment>
+  </data>
+  <data name="NavigationModeVerticalTree" xml:space="preserve">
+    <value>Tree (vertical with sub-levels)</value>
+    <comment>Label shown in navigation control desginer modes</comment>
+  </data>
+  <data name="NavigationModeSiteMapInRows" xml:space="preserve">
+    <value>Sitemap divided in rows</value>
+    <comment>Label shown in navigation control desginer modes</comment>
+  </data>
+  <data name="NavigationModeSiteMapInColumns" xml:space="preserve">
+    <value>Sitemap divided in columns</value>
+    <comment>Label shown in navigation control desginer modes</comment>
+  </data>
+  <data name="NavigationModeCustomNavigation" xml:space="preserve">
+    <value>Custom Navigation</value>
+    <comment>Label shown in navigation control desginer modes</comment>
+  </data>
+  <data name="NavigationModeHeading" xml:space="preserve">
+    <value>What type of navigation to use?</value>
+    <comment>Label shown in navigation control desginer modes</comment>
+  </data>
+  <data name="NavigationSettingsHeading" xml:space="preserve">
+    <value>Fine tune the selected type</value>
+    <comment>Label shown in navigation control desginer modes</comment>
+  </data>
+  <data name="NavigationSelectionHeading" xml:space="preserve">
+    <value>Links to which pages to display?</value>
+    <comment>Label shown in navigation control desginer modes</comment>
+  </data>
+  <data name="NavigationSelectionHeadingHorizontalSimple" xml:space="preserve">
+    <value>Links to which pages to display?|</value>
+    <comment>Label shown in navigation control desginer modes</comment>
+  </data>
+  <data name="NavigationSelectionHeadingHorizontalDropDownMenu" xml:space="preserve">
+    <value>In the top bar: Links to which pages to display?|Their child pages will be in the drop down menus</value>
+    <comment>Label shown in navigation control desginer modes</comment>
+  </data>
+  <data name="NavigationSelectionHeadingHorizontalTabs" xml:space="preserve">
+    <value>In the top bar: Links to which pages to display?|Their child pages will be in a strip below</value>
+    <comment>Label shown in navigation control desginer modes</comment>
+  </data>
+  <data name="NavigationSelectionHeadingVerticalSimple" xml:space="preserve">
+    <value>Links to which pages to display?|</value>
+    <comment>Label shown in navigation control desginer modes</comment>
+  </data>
+  <data name="NavigationSelectionHeadingVerticalTree" xml:space="preserve">
+    <value>Initially: Links to which pages to display?|Their child pages will be expanded</value>
+    <comment>Label shown in navigation control desginer modes</comment>
+  </data>
+  <data name="TheirChildPagesWillBeExpanded" xml:space="preserve">
+    <value>Their child pages will be expanded</value>
+    <comment>phrase: Their child pages will be expanded</comment>
+  </data>
+  <data name="NoPageIsSelected" xml:space="preserve">
+    <value>No page is selected</value>
+    <comment>phrase: No page is selected</comment>
+  </data>
+  <data name="NoPagesAreSelected" xml:space="preserve">
+    <value>No pages are selected</value>
+    <comment>phrase: No pages are selected</comment>
+  </data>
+  <data name="HowManyLevelsToExpandInitially" xml:space="preserve">
+    <value>How many levels to expand initially</value>
+    <comment>phrase: How many levels to expand initially</comment>
+  </data>
+  <data name="AllExistingLevels" xml:space="preserve">
+    <value>All existing levels</value>
+    <comment>phrase: All existing levels</comment>
+  </data>
+  <data name="NumberOfLevelsLowercase" xml:space="preserve">
+    <value>level(s)</value>
+    <comment>phrase: level(s)</comment>
+  </data>
+  <data name="ShowAllLevelsExpandedInitially" xml:space="preserve">
+    <value>Show all levels expanded initially</value>
+    <comment>phrase: Show all levels expanded initially</comment>
+  </data>
+  <data name="AllowCollapsing" xml:space="preserve">
+    <value>Allow collapsing</value>
+    <comment>phrase: Allow collapsing</comment>
+  </data>
+  <data name="OpenDropdownMenuOn" xml:space="preserve">
+    <value>Open drop down menu on</value>
+    <comment>phrase: Open drop down menu on</comment>
+  </data>
+  <data name="MouseOver" xml:space="preserve">
+    <value>Mouse over</value>
+    <comment>phrase: Mouse over</comment>
+  </data>
+  <data name="Click" xml:space="preserve">
+    <value>Click</value>
+    <comment>word: Click</comment>
+  </data>
+  <data name="HeadingsShouldBeLinks" xml:space="preserve">
+    <value>Headings should be links</value>
+    <comment>phrase: Headings should be links</comment>
+  </data>
+  <data name="DesignSettings" xml:space="preserve">
+    <value>Design settings</value>
+    <comment>phrase: Design settings</comment>
+  </data>
+  <data name="WrapperClassTemplate" xml:space="preserve">
+    <value>Wrapper CSS class &lt;em class='sfNote'&gt;(Skin)&lt;/em&gt;</value>
+    <comment>phrase: Wrapper CSS class &lt;em class='sfNote'&gt;(Skin)&lt;/em&gt;</comment>
+  </data>
+  <data name="CustomTemplatePath" xml:space="preserve">
+    <value>Custom template path</value>
+    <comment>phrase: Custom template path</comment>
+  </data>
+  <data name="CustomTemplatePathExample" xml:space="preserve">
+    <value>&lt;strong&gt;Example:&lt;/strong&gt; ~/YourFolder/Navigation.ascx</value>
+    <comment>phrase: &lt;strong&gt;Example:&lt;/strong&gt; ~/YourFolder/Navigation.ascx</comment>
+  </data>
+  <data name="NavigationSelectionHeadingSiteMapInColumns" xml:space="preserve">
+    <value>Links to which pages to display as column headings?|Their child pages will be listed below them</value>
+    <comment>Label shown in navigation control desginer modes</comment>
+  </data>
+  <data name="NavigationSelectionHeadingSiteMapInRows" xml:space="preserve">
+    <value>Links to which pages to display as row headings?|Their child pages will be listed below them</value>
+    <comment>Label shown in navigation control desginer modes</comment>
+  </data>
+  <data name="NavigationSelectionHeadingCustomNavigation" xml:space="preserve">
+    <value>Links to which pages to display?|</value>
+    <comment>Label shown in navigation control desginer modes</comment>
+  </data>
+  <data name="NavigationSelectionTopLevelPages" xml:space="preserve">
+    <value>Top level pages</value>
+    <comment>Label shown in navigation control desginer modes</comment>
+  </data>
+  <data name="NavigationSelectionSelectedPageChildren" xml:space="preserve">
+    <value>All pages under particular page</value>
+    <comment>Label shown in navigation control desginer modes</comment>
+  </data>
+  <data name="NavigationSelectionCurrentPageChildren" xml:space="preserve">
+    <value>All pages under currently opened page</value>
+    <comment>Label shown in navigation control desginer modes</comment>
+  </data>
+  <data name="NavigationSelectionCurrentPageSiblings" xml:space="preserve">
+    <value>All sibling pages of currently opened page</value>
+    <comment>Label shown in navigation control desginer modes</comment>
+  </data>
+  <data name="NavigationSelectionCustomSelection" xml:space="preserve">
+    <value>Custom selection of pages</value>
+    <comment>Label shown in navigation control desginer modes</comment>
+  </data>
+  <data name="NavigationDesignerTitle" xml:space="preserve">
+    <value>Navigation</value>
+    <comment>Title shown in navigation control desginer</comment>
+  </data>
+  <data name="AllPagesUnderParticularParentPage" xml:space="preserve">
+    <value>All pages under particular parent page...</value>
+    <comment>Phrase: All pages under particular parent page...</comment>
+  </data>
+  <data name="AllPagesUnder" xml:space="preserve">
+    <value>All pages under </value>
+    <comment>Phrase: All pages under </comment>
+  </data>
+  <data name="CustomSelectionOfPages" xml:space="preserve">
+    <value>Custom selection of pages...</value>
+    <comment>Phrase: Custom selection of pages...</comment>
+  </data>
+  <data name="BulkEdit" xml:space="preserve">
+    <value>Bulk edit</value>
+    <comment>phrase: Bulk edit</comment>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Owner</value>
+    <comment>word: Owner</comment>
+  </data>
+  <data name="ManageAlso" xml:space="preserve">
+    <value>Manage also</value>
+    <comment>phrase: Manage also</comment>
+  </data>
+  <data name="CustomFields" xml:space="preserve">
+    <value>Custom fields</value>
+    <comment>phrase: Custom fields</comment>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Content</value>
+    <comment>word: Content</comment>
+  </data>
+  <data name="RevisionHistory" xml:space="preserve">
+    <value>Revision History</value>
+    <comment>phrase: Revision History</comment>
+  </data>
+  <data name="Under" xml:space="preserve">
+    <value>Under</value>
+    <comment>word: Under</comment>
+  </data>
+  <data name="RemoveThisRule" xml:space="preserve">
+    <value>Remove this rule</value>
+    <comment>phrase: RemoveThisRule</comment>
+  </data>
+  <data name="AddAnotherSortingRule" xml:space="preserve">
+    <value>Add another sorting rule</value>
+    <comment>phrase: AddAnotherSortingRule</comment>
+  </data>
+  <data name="ThenBy" xml:space="preserve">
+    <value>Then by</value>
+    <comment>phrase: ThenBy</comment>
+  </data>
+  <data name="RemoveAllRules" xml:space="preserve">
+    <value>Remove all</value>
+    <comment>phrase: RemoveAllRules</comment>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Remove</value>
+    <comment>word: Remove</comment>
+  </data>
+  <data name="DoneSelecting" xml:space="preserve">
+    <value>Done selecting</value>
+    <comment>phrase: Done selecting</comment>
+  </data>
+  <data name="CSS" xml:space="preserve">
+    <value>CSS</value>
+    <comment>word: CSS</comment>
+  </data>
+  <data name="Feed" xml:space="preserve">
+    <value>Feed</value>
+    <comment>word: Feed</comment>
+  </data>
+  <data name="SearchBox" xml:space="preserve">
+    <value>Search Box</value>
+    <comment>word: Search Box</comment>
+  </data>
+  <data name="SearchResults" xml:space="preserve">
+    <value>Search Results</value>
+    <comment>word: Search Results</comment>
+  </data>
+  <data name="Media" xml:space="preserve">
+    <value>Media</value>
+    <comment>word: Media</comment>
+  </data>
+  <data name="JavaScript" xml:space="preserve">
+    <value>Java Script</value>
+    <comment>phrase: Java Script</comment>
+  </data>
+  <data name="GoogleAnalytics" xml:space="preserve">
+    <value>Google Analytics</value>
+    <comment>phrase: Google Analytics</comment>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>File</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="Paging_First" xml:space="preserve">
+    <value>First</value>
+    <comment>Text of the link to the first page in the paging control</comment>
+  </data>
+  <data name="Paging_Prev" xml:space="preserve">
+    <value>Prev</value>
+    <comment>Text of the link to the previous page in the paging control</comment>
+  </data>
+  <data name="Paging_Next" xml:space="preserve">
+    <value>Next</value>
+    <comment>Text of the link to the next page in the paging control</comment>
+  </data>
+  <data name="Paging_Last" xml:space="preserve">
+    <value>Last</value>
+    <comment>Text of the link to the last page in the paging control</comment>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Size</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="UploadedOn" xml:space="preserve">
+    <value>Uploaded on</value>
+    <comment>word: Uploaded on</comment>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Download</value>
+    <comment>word: Download</comment>
+  </data>
+  <data name="CopyAsNewest" xml:space="preserve">
+    <value>Revert to this version</value>
+    <comment>Copy this version as a base of the news item</comment>
+  </data>
+  <data name="note" xml:space="preserve">
+    <value>note</value>
+    <comment>note</comment>
+  </data>
+  <data name="BasicToolsOnly" xml:space="preserve">
+    <value>Basic options only</value>
+    <comment>phrase: Basic options only</comment>
+  </data>
+  <data name="MoreFormattingTools" xml:space="preserve">
+    <value>More formatting options</value>
+    <comment>phrase: More formatting options</comment>
+  </data>
+  <data name="FormattingOptions" xml:space="preserve">
+    <value>Formatting options</value>
+    <comment>phrase: Formatting options</comment>
+  </data>
+  <data name="HideFormattingOptions" xml:space="preserve">
+    <value>Hide formatting options</value>
+    <comment>phrase: Hide formatting options</comment>
+  </data>
+  <data name="RemoveThisCategory" xml:space="preserve">
+    <value>Remove this category</value>
+    <comment>phrase: Remove this category</comment>
+  </data>
+  <data name="RemoveThisTag" xml:space="preserve">
+    <value>Remove this tag</value>
+    <comment>phrase: Remove this tag</comment>
+  </data>
+  <data name="NotAvailable" xml:space="preserve">
+    <value>&lt;span class='sfNote'&gt;(N/A)&lt;/span&gt;</value>
+    <comment>phrase: (N/A)</comment>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Previous</value>
+    <comment>phrase: (N/A)</comment>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next</value>
+    <comment>phrase: (N/A)</comment>
+  </data>
+  <data name="PreviousVersion" xml:space="preserve">
+    <value>Older version</value>
+    <comment>phrase: Older version</comment>
+  </data>
+  <data name="NextVersion" xml:space="preserve">
+    <value>Newer version</value>
+    <comment>phrase: Newer version</comment>
+  </data>
+  <data name="CloseCategories" xml:space="preserve">
+    <value>Close categories</value>
+    <comment>phrase: Close categories</comment>
+  </data>
+  <data name="CloseTags" xml:space="preserve">
+    <value>Close tags</value>
+    <comment>The link for closing the tag filter widget in the sidebar.</comment>
+  </data>
+  <data name="ShowMoreTags" xml:space="preserve">
+    <value>{0} more tags</value>
+    <comment>phrase: {0} more tags</comment>
+  </data>
+  <data name="ShowLessTags" xml:space="preserve">
+    <value>{0} less tags</value>
+    <comment>phrase: {0} less tags</comment>
+  </data>
+  <data name="MoreOptions" xml:space="preserve">
+    <value>More options</value>
+    <comment>phrase</comment>
+  </data>
+  <data name="TextToDisplay" xml:space="preserve">
+    <value>Text to display</value>
+    <comment>phrase: Text to display</comment>
+  </data>
+  <data name="Tooltip" xml:space="preserve">
+    <value>Tooltip &lt;span class='sfLblNote'&gt;(appears when the cursor is pointed to the link)&lt;/span&gt;</value>
+    <comment>phrase: Tooltip (appears when the cursor is pointed to the link)</comment>
+  </data>
+  <data name="WebAddress" xml:space="preserve">
+    <value>Web address</value>
+    <comment>phrase: Web address</comment>
+  </data>
+  <data name="CssClass" xml:space="preserve">
+    <value>CSS class</value>
+    <comment>phrase: CSS class</comment>
+  </data>
+  <data name="OpenInNewWindow" xml:space="preserve">
+    <value>Open this link in a new window</value>
+    <comment>phrase: Open this link in a new window</comment>
+  </data>
+  <data name="OpenInNewWindowDescription" xml:space="preserve">
+    <value>&lt;strong&gt;Caution:&lt;/strong&gt; Opening a new window is in conflict with web standards</value>
+    <comment>phrase: Caution: Opening a new window is in conflict with web standards</comment>
+  </data>
+  <data name="NarrowByTyping" xml:space="preserve">
+    <value>Narrow by typing</value>
+    <comment>phrase: Narrow by typing</comment>
+  </data>
+  <data name="SelectPage" xml:space="preserve">
+    <value>Select a page</value>
+    <comment>phrase: Select a page</comment>
+  </data>
+  <data name="ClearSelectedPage" xml:space="preserve">
+    <value>Clear selected page</value>
+    <comment>phrase: Clear selected page</comment>
+  </data>
+  <data name="SelectPageExtended" xml:space="preserve">
+    <value>Select a page...</value>
+    <comment>phrase: Select a page...</comment>
+  </data>
+  <data name="ClearFilter" xml:space="preserve">
+    <value>Clear filter</value>
+    <comment>'Clear filter' button text</comment>
+  </data>
+  <data name="InProcessOfImplementation" xml:space="preserve">
+    <value>&lt;span class='sfNote'&gt;(In process of implementation.)&lt;/span&gt;</value>
+    <comment>'In process of implementation.' text</comment>
+  </data>
+  <data name="InProcessOfImplementationNoHtml" xml:space="preserve">
+    <value>In process of implementation.</value>
+    <comment>'In process of implementation.' text with no html</comment>
+  </data>
+  <data name="WebAddressExample" xml:space="preserve">
+    <value>&lt;strong&gt;Example:&lt;/strong&gt; http://weather.com</value>
+    <comment>phrase: Example: http://weather.com</comment>
+  </data>
+  <data name="WebAddressTextToDisplayExample" xml:space="preserve">
+    <value>&lt;strong&gt;Example:&lt;/strong&gt; Weather forecast</value>
+    <comment>phrase: Example: Weather forecast</comment>
+  </data>
+  <data name="PageFromThisSite" xml:space="preserve">
+    <value>Page from this site</value>
+    <comment>phrase: Page from this site</comment>
+  </data>
+  <data name="EmailAddressExample" xml:space="preserve">
+    <value>&lt;strong&gt;Example:&lt;/strong&gt; johnsmith@gmail.com</value>
+    <comment>phrase: Example: johnsmith@gmail.com</comment>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Email address</value>
+    <comment>phrase: Email address</comment>
+  </data>
+  <data name="EmailTextToDisplayExample" xml:space="preserve">
+    <value>&lt;strong&gt;Example:&lt;/strong&gt; Send email to John</value>
+    <comment>phrase: Example: Send email to John</comment>
+  </data>
+  <data name="InsertLink" xml:space="preserve">
+    <value>Insert a link</value>
+    <comment>phrase: Insert a link</comment>
+  </data>
+  <data name="LinkTo" xml:space="preserve">
+    <value>LinkTo</value>
+    <comment>phrase: Insert a link</comment>
+  </data>
+  <data name="LinkToColon" xml:space="preserve">
+    <value>Link to: </value>
+    <comment>phrase: Link to:</comment>
+  </data>
+  <data name="FromOtherSites" xml:space="preserve">
+    <value>From other sites</value>
+    <comment>phrase: From other sites</comment>
+  </data>
+  <data name="FromThisSite" xml:space="preserve">
+    <value>From this site</value>
+    <comment>phrase: From this site</comment>
+  </data>
+  <data name="SelectPages" xml:space="preserve">
+    <value>Select Pages</value>
+    <comment>phrase: Select Pages</comment>
+  </data>
+  <data name="SelectPagesLowerCase" xml:space="preserve">
+    <value>Select pages</value>
+    <comment>phrase: Select pages</comment>
+  </data>
+  <data name="SelectPagesWithDots" xml:space="preserve">
+    <value>Select pages...</value>
+    <comment>phrase: Select pages...</comment>
+  </data>
+  <data name="SelectParentWithDots" xml:space="preserve">
+    <value>Select parent...</value>
+    <comment>phrase: Select parent...</comment>
+  </data>
+  <data name="AddOtherPagesWithDots" xml:space="preserve">
+    <value>Add other pages...</value>
+    <comment>phrase: Add other pages...</comment>
+  </data>
+  <data name="PageName" xml:space="preserve">
+    <value>Name</value>
+    <comment>label: Name. Used in the dialog for selecting external pages.</comment>
+  </data>
+  <data name="PleaseSpecifyValidPages" xml:space="preserve">
+    <value>Please specify valid name and URL for all external pages.</value>
+    <comment>Message: Please specify valid name and URL for all external pages.</comment>
+  </data>
+  <data name="Last1Day" xml:space="preserve">
+    <value>Last 1 day</value>
+    <comment>phrase: Last 1 day</comment>
+  </data>
+  <data name="Last3Days" xml:space="preserve">
+    <value>Last 3 days</value>
+    <comment>phrase: Last 3 days</comment>
+  </data>
+  <data name="Last1Week" xml:space="preserve">
+    <value>Last 1 week</value>
+    <comment>phrase: Last 1 week</comment>
+  </data>
+  <data name="Last1Month" xml:space="preserve">
+    <value>Last 1 month</value>
+    <comment>phrase: Last 1 month</comment>
+  </data>
+  <data name="Last6Months" xml:space="preserve">
+    <value>Last 6 months</value>
+    <comment>phrase: Last 6 months</comment>
+  </data>
+  <data name="Last1Year" xml:space="preserve">
+    <value>Last 1 year</value>
+    <comment>phrase: Last 1 year</comment>
+  </data>
+  <data name="Last2Years" xml:space="preserve">
+    <value>Last 2 years</value>
+    <comment>phrase: Last 2 years</comment>
+  </data>
+  <data name="Last5Years" xml:space="preserve">
+    <value>Last 5 years</value>
+    <comment>phrase: Last 5 years</comment>
+  </data>
+  <data name="DisplayNewsPublishedIn" xml:space="preserve">
+    <value>Display news published in...</value>
+    <comment>phrase: Display news published in...</comment>
+  </data>
+  <data name="DisplayProductsAddedIn" xml:space="preserve">
+    <value>Display products added in...</value>
+    <comment>phrase: Display products added in...</comment>
+  </data>
+  <data name="SelectDates" xml:space="preserve">
+    <value>Select Dates</value>
+    <comment>phrase: Select Dates</comment>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>From</value>
+    <comment>word: From</comment>
+  </data>
+  <data name="Unlock" xml:space="preserve">
+    <value>Unlock</value>
+    <comment>Label: Unlock</comment>
+  </data>
+  <data name="ViewReadOnly" xml:space="preserve">
+    <value>View as read-only</value>
+    <comment>Label: ViewReadOnly</comment>
+  </data>
+  <data name="ExportLanguagePack" xml:space="preserve">
+    <value>Export language pack</value>
+    <comment>phrase: Export language pack</comment>
+  </data>
+  <data name="ImportLanguagePack" xml:space="preserve">
+    <value>Import language pack</value>
+    <comment>phrase : Import language pack</comment>
+  </data>
+  <data name="SelectLanguageToImportFrom" xml:space="preserve">
+    <value>Select a language &lt;span class='sfLblNote'&gt;for which you will import labels&lt;/span&gt;</value>
+    <comment>phrase : Select a language &lt;span class='sfLblNote'&gt;for which you will import labels&lt;/span&gt;</comment>
+  </data>
+  <data name="SelectXLSXFile" xml:space="preserve">
+    <value>Select a .XLSX file &lt;span class='sfLblNote'&gt;with the translated labels for the selected language&lt;/span&gt;</value>
+    <comment>phrase : Select a .XLSX file &lt;span class='sfLblNote'&gt;with the translated labels for the selected language&lt;/span&gt;</comment>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Import</value>
+    <comment>phrase : Import language pack</comment>
+  </data>
+  <data name="TranslateAllMissingLabelsGoogle" xml:space="preserve">
+    <value>Translate all missing labels (using Google Translator)</value>
+    <comment>phrase: Translate all missing labels (using Google Translator)</comment>
+  </data>
+  <data name="DisplayPostsPublishedIn" xml:space="preserve">
+    <value>Display posts published in...</value>
+    <comment>phrase: Display posts published in...</comment>
+  </data>
+  <data name="DisplayEvetnsPublishedIn" xml:space="preserve">
+    <value>Display events published in...</value>
+    <comment>phrase: Display events published in...</comment>
+  </data>
+  <data name="RegistrationDate" xml:space="preserve">
+    <value>Registration date</value>
+    <comment>phrase: Registration date</comment>
+  </data>
+  <data name="LastLogin" xml:space="preserve">
+    <value>Last login</value>
+    <comment>phrase: Last login</comment>
+  </data>
+  <data name="LastActivity" xml:space="preserve">
+    <value>Last activity</value>
+    <comment>phrase: Last activity</comment>
+  </data>
+  <data name="PublishedStatusDescription" xml:space="preserve">
+    <value>Everyone can view this post on the website</value>
+    <comment>phrase: Everyone can view this post on the website</comment>
+  </data>
+  <data name="ScheduledStatusDescription" xml:space="preserve">
+    <value>This post will be automatically published on the website.</value>
+    <comment>phrase: This post will be automatically published on the website.</comment>
+  </data>
+  <data name="SelectRolesOrUsers" xml:space="preserve">
+    <value>Select roles or users</value>
+    <comment>phrase: Select roles or users</comment>
+  </data>
+  <data name="TemplateChangeWarning" xml:space="preserve">
+    <value>&lt;strong&gt;Warning:&lt;/strong&gt; changing the template might break the layout of the page.</value>
+    <comment>Message: Warning: changing the template might break the layout of the page.</comment>
+  </data>
+  <data name="AcceptChanges" xml:space="preserve">
+    <value>Accept changes</value>
+    <comment>phrase: Accept changes</comment>
+  </data>
+  <data name="TranslationsAreSynchronized" xml:space="preserve">
+    <value>&lt;strong&gt;All translations of this page are synced&lt;/strong&gt; &lt;span class='sfNote'&gt;Adding/deleting widgets to this page will affect all its translations&lt;/span&gt;.</value>
+    <comment>Message: All translations are synced. ...</comment>
+  </data>
+  <data name="TemplateTranslationsAreSynchronized" xml:space="preserve">
+    <value>&lt;strong&gt;All translations of this template are synced&lt;/strong&gt; &lt;span class='sfNote'&gt;Adding/deleting widgets to this template will affect all its translations&lt;/span&gt;.</value>
+    <comment>Message: All translations are synced. ...</comment>
+  </data>
+  <data name="StopSyncing" xml:space="preserve">
+    <value>Stop syncing</value>
+    <comment>Label: Stop syncing</comment>
+  </data>
+  <data name="ShowOtherTranslations" xml:space="preserve">
+    <value>Show other translations</value>
+    <comment>Label: Show other translations</comment>
+  </data>
+  <data name="HideOtherTranslations" xml:space="preserve">
+    <value>Hide other translations</value>
+    <comment>Label: Hide other translations</comment>
+  </data>
+  <data name="CompareTranslations" xml:space="preserve">
+    <value>Compare translations</value>
+    <comment>Label: Compare translations</comment>
+  </data>
+  <data name="CloseComparison" xml:space="preserve">
+    <value>Close comparison</value>
+    <comment>Label: Close comparison</comment>
+  </data>
+  <data name="OtherLanguageVersions" xml:space="preserve">
+    <value>Other language versions:</value>
+    <comment>Label: Other language versions:</comment>
+  </data>
+  <data name="CopyOtherLanguage" xml:space="preserve">
+    <value>Copy from another language</value>
+    <comment>Button: Copy from another language</comment>
+  </data>
+  <data name="StartFromScratch" xml:space="preserve">
+    <value>Start from scratch</value>
+    <comment>Button: Start from scratch</comment>
+  </data>
+  <data name="TitleCopyOtherLanguage" xml:space="preserve">
+    <value>Copy content from another language</value>
+    <comment>Title: Copy content from another language</comment>
+  </data>
+  <data name="SelectSourceVersion" xml:space="preserve">
+    <value>Select a language to copy from</value>
+    <comment>Label: Select a language to copy from</comment>
+  </data>
+  <data name="NoneStartFromScratch" xml:space="preserve">
+    <value>None (start from scratch)</value>
+    <comment>Label: None (start from scratch)</comment>
+  </data>
+  <data name="KeepPagesSynced" xml:space="preserve">
+    <value>Keep all language versions synced as one page</value>
+    <comment>Label: Keep all language versions synced as a one page</comment>
+  </data>
+  <data name="KeepPagesSyncedDescr" xml:space="preserve">
+    <value>If a widget is added to (or deleted from) a language version it will be added to (or deleted from) all language versions. The same widget will automatically display content in different languages according to selection of the user.</value>
+    <comment>Label: Description for 'Keep all language versions synced' checkbox</comment>
+  </data>
+  <data name="StopSyncWarningMessage" xml:space="preserve">
+    <value>Are you sure you want to stop syncing translations of this page?&lt;br /&gt;There is no undo. &lt;strong class='sfImportantWarning'&gt;Stopping synchronization is permanent for this page&lt;/strong&gt;</value>
+    <comment>Message: Stop page synchronization: This action is NOT undoable! Are you sure?</comment>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Warning</value>
+    <comment>Title: Warning</comment>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OK</value>
+    <comment>Label: Ok</comment>
+  </data>
+  <data name="NarrowSelection" xml:space="preserve">
+    <value>Narrow selection</value>
+    <comment>phrase: Narrow selection</comment>
+  </data>
+  <data name="NarrowSelectionComplementoryText" xml:space="preserve">
+    <value>Narrow selection &lt;span class='sfNote'&gt;(by category, tag, date)&lt;/span&gt;</value>
+    <comment>Narrow selection complementory text</comment>
+  </data>
+  <data name="SelectedItemWasDeletedSelectAnotherItem" xml:space="preserve">
+    <value>The selected item was deleted. Please select another item.</value>
+    <comment>phrase: The selected item was deleted. Please select another item.</comment>
+  </data>
+  <data name="SelectedItemWasDeleted" xml:space="preserve">
+    <value>The selected item was deleted</value>
+    <comment>phrase: The selected item was deleted</comment>
+  </data>
+  <data name="NarrowByTypingTitleOrAuthorOrDate" xml:space="preserve">
+    <value>Narrow by typing title or author or date</value>
+    <comment>phrase: Narrow by typing title or author or date</comment>
+  </data>
+  <data name="NarrowByTypingTitleOrDate" xml:space="preserve">
+    <value>Narrow by typing title or date</value>
+    <comment>phrase: Narrow by typing title or date</comment>
+  </data>
+  <data name="NoContentSelected" xml:space="preserve">
+    <value>No content selected</value>
+    <comment>phrase: No content selected</comment>
+  </data>
+  <data name="AdvancedSelection" xml:space="preserve">
+    <value>Advanced selection</value>
+    <comment>phrase: Advanced selection</comment>
+  </data>
+  <data name="ChooseNews" xml:space="preserve">
+    <value>Choose News</value>
+    <comment>phrase: Choose News</comment>
+  </data>
+  <data name="AllPublishedNews" xml:space="preserve">
+    <value>All published news</value>
+    <comment>phrase: All published news</comment>
+  </data>
+  <data name="OneParticularNewsOnly" xml:space="preserve">
+    <value>One particular news item only...</value>
+    <comment>phrase: One particular news item only...</comment>
+  </data>
+  <data name="SelectionOfNews" xml:space="preserve">
+    <value>Selection of news:</value>
+    <comment>phrase: Selection of news:</comment>
+  </data>
+  <data name="WhichNewsToDisplay" xml:space="preserve">
+    <value>Which news to display?</value>
+    <comment>phrase: Which news to display?</comment>
+  </data>
+  <data name="SelectNews" xml:space="preserve">
+    <value>Select news</value>
+    <comment>phrase: Select news</comment>
+  </data>
+  <data name="NoNewsHaveBeenCreatedYet" xml:space="preserve">
+    <value>No news have been created yet</value>
+    <comment>phrase: No news have been created yet</comment>
+  </data>
+  <data name="ChooseProduct" xml:space="preserve">
+    <value>Choose Product</value>
+    <comment>phrase: Choose Product</comment>
+  </data>
+  <data name="WhichProductsToDisplay" xml:space="preserve">
+    <value>Which products to display?</value>
+    <comment>phrase: Which products to display?</comment>
+  </data>
+  <data name="AllPublishedProducts" xml:space="preserve">
+    <value>All published products</value>
+    <comment>phrase: All published products</comment>
+  </data>
+  <data name="OneParticularProductOnly" xml:space="preserve">
+    <value>One particular product only...</value>
+    <comment>phrase: One particular product only...</comment>
+  </data>
+  <data name="SelectionOfProducts" xml:space="preserve">
+    <value>Selection of products:</value>
+    <comment>phrase: Selection of products:</comment>
+  </data>
+  <data name="NoProductsHaveBeenCreatedYet" xml:space="preserve">
+    <value>No products have been created yet</value>
+    <comment>phrase: No products have been created yet</comment>
+  </data>
+  <data name="SelectProduct" xml:space="preserve">
+    <value>Select product</value>
+    <comment>phrase: Select product</comment>
+  </data>
+  <data name="ChooseOrderInvoicePage" xml:space="preserve">
+    <value>Choose Order Invoice page</value>
+    <comment>phrase: Choose Order Invoice page</comment>
+  </data>
+  <data name="SelectOrderInvoicePage" xml:space="preserve">
+    <value>Select Order Invoice page</value>
+    <comment>phrase: Select Order Invoice page</comment>
+  </data>
+  <data name="SelectBlog" xml:space="preserve">
+    <value>Select a blog</value>
+    <comment>phrase: Select a blog</comment>
+  </data>
+  <data name="ChooseBlogs" xml:space="preserve">
+    <value>Choose Blogs</value>
+    <comment>phrase: Choose Blogs</comment>
+  </data>
+  <data name="NarrowBlogTitle" xml:space="preserve">
+    <value>Narrow by typing blog title</value>
+    <comment>phrase: Narrow by typing blog title</comment>
+  </data>
+  <data name="NarrowPostTitle" xml:space="preserve">
+    <value>Narrow by typing post title</value>
+    <comment>phrase: Narrow by typing post title</comment>
+  </data>
+  <data name="ChooseBlogPost" xml:space="preserve">
+    <value>Choose a Blog Post</value>
+    <comment>phrase: Choose a Blog Post</comment>
+  </data>
+  <data name="WhichBlogPostsToDisplay" xml:space="preserve">
+    <value>Which blog posts to display?</value>
+    <comment>phrase: Which blog posts to display?</comment>
+  </data>
+  <data name="FromAllBlogs" xml:space="preserve">
+    <value>From all blogs</value>
+    <comment>phrase: From all blogs</comment>
+  </data>
+  <data name="FromSelectedBlogsOnly" xml:space="preserve">
+    <value>From selected blogs only...</value>
+    <comment>phrase: From selected blogs only...</comment>
+  </data>
+  <data name="BlogNotSelected" xml:space="preserve">
+    <value>Blog is not selected</value>
+    <comment>phrase: Blog is not selected</comment>
+  </data>
+  <data name="NotSelected" xml:space="preserve">
+    <value>not selected</value>
+    <comment>phrase: not selected</comment>
+  </data>
+  <data name="AllPublishedPostsFromSelectedBlogs" xml:space="preserve">
+    <value>All published posts from selected blogs</value>
+    <comment>phrase: All published posts from selected blogs</comment>
+  </data>
+  <data name="OneParticularPostOnly" xml:space="preserve">
+    <value>One particular post only...</value>
+    <comment>phrase: One particular post only...</comment>
+  </data>
+  <data name="NoSelectedBlogPost" xml:space="preserve">
+    <value>No selected blog post</value>
+    <comment>phrase: No selected blog post</comment>
+  </data>
+  <data name="SelectBlogPost" xml:space="preserve">
+    <value>Select a blog post</value>
+    <comment>phrase: Select a blog post</comment>
+  </data>
+  <data name="SelectionOfPosts" xml:space="preserve">
+    <value>Selection of posts:</value>
+    <comment>phrase: Selection of posts:</comment>
+  </data>
+  <data name="ByCategories" xml:space="preserve">
+    <value>by Categories...</value>
+    <comment>phrase: by Categories...</comment>
+  </data>
+  <data name="ByTags" xml:space="preserve">
+    <value>by Tags...</value>
+    <comment>phrase: by Tags...</comment>
+  </data>
+  <data name="ByDates" xml:space="preserve">
+    <value>by Dates...</value>
+    <comment>phrase: by Dates...</comment>
+  </data>
+  <data name="NoBlogsAreCreated" xml:space="preserve">
+    <value>No blogs are created</value>
+    <comment>phrase: No blogs are created</comment>
+  </data>
+  <data name="SelectedBlogWasDeletedSelectAnotherBlog" xml:space="preserve">
+    <value>The selected blog was deleted. Please select another blog.</value>
+    <comment>phrase: The selected blog was deleted. Please select another blog.</comment>
+  </data>
+  <data name="SelectedBlogWasDeleted" xml:space="preserve">
+    <value>The selected blog was deleted</value>
+    <comment>phrase: The selected blog was deleted</comment>
+  </data>
+  <data name="ChooseLists" xml:space="preserve">
+    <value>Choose Lists</value>
+    <comment>phrase: Choose Lists</comment>
+  </data>
+  <data name="NarrowListTitle" xml:space="preserve">
+    <value>Narrow by typing list title</value>
+    <comment>phrase: Narrow by typing list title</comment>
+  </data>
+  <data name="ChooseListItem" xml:space="preserve">
+    <value>Choose a List Item</value>
+    <comment>phrase: Choose a List Item</comment>
+  </data>
+  <data name="NarrowListItemTitle" xml:space="preserve">
+    <value>Narrow by typing list item title</value>
+    <comment>phrase: Narrow by typing list item title</comment>
+  </data>
+  <data name="WhichListItemsToDisplay" xml:space="preserve">
+    <value>Which list items to display?</value>
+    <comment>phrase: Which list items to display?</comment>
+  </data>
+  <data name="FromAllLists" xml:space="preserve">
+    <value>From all lists</value>
+    <comment>phrase: From all lists</comment>
+  </data>
+  <data name="FromSelectedListsOnly" xml:space="preserve">
+    <value>From selected lists only...</value>
+    <comment>phrase: From selected lists only...</comment>
+  </data>
+  <data name="ListNotSelected" xml:space="preserve">
+    <value>List is not selected</value>
+    <comment>phrase: List is not selected</comment>
+  </data>
+  <data name="SelectList" xml:space="preserve">
+    <value>Select a list</value>
+    <comment>phrase: Select a list</comment>
+  </data>
+  <data name="AllPublishedItemsFromSelectedLists" xml:space="preserve">
+    <value>All published items from selected lists</value>
+    <comment>phrase: All published items from selected lists</comment>
+  </data>
+  <data name="OneParticularListItemOnly" xml:space="preserve">
+    <value>One particular list item only...</value>
+    <comment>phrase: One particular list item only...</comment>
+  </data>
+  <data name="NoSelectedListItem" xml:space="preserve">
+    <value>No selected list item</value>
+    <comment>phrase: No selected list item</comment>
+  </data>
+  <data name="SelectListItem" xml:space="preserve">
+    <value>Select a list item</value>
+    <comment>phrase: Select a list item</comment>
+  </data>
+  <data name="SelectionOfListItems" xml:space="preserve">
+    <value>Selection of list items:</value>
+    <comment>phrase: Selection of list items:</comment>
+  </data>
+  <data name="DisplayListItemsPublishedIn" xml:space="preserve">
+    <value>Display list items published in...</value>
+    <comment>phrase: Display list items published in...</comment>
+  </data>
+  <data name="NoListsAreCreated" xml:space="preserve">
+    <value>No lists are created</value>
+    <comment>phrase: No lists are created</comment>
+  </data>
+  <data name="SelectedListWasDeleted" xml:space="preserve">
+    <value>The selected list was deleted</value>
+    <comment>phrase: The selected list was deleted</comment>
+  </data>
+  <data name="SelectedListWasDeletedSelectAnotherList" xml:space="preserve">
+    <value>The selected list was deleted. Please select another list.</value>
+    <comment>phrase: The selected list was deleted. Please select another list.</comment>
+  </data>
+  <data name="SelectionOfEvents" xml:space="preserve">
+    <value>Selection of events</value>
+    <comment>phrase: Selection of events</comment>
+  </data>
+  <data name="SelectEvent" xml:space="preserve">
+    <value>Select an event</value>
+    <comment>phrase: Select an event</comment>
+  </data>
+  <data name="OneParticularEventOnly" xml:space="preserve">
+    <value>One particular event only...</value>
+    <comment>phrase: One particular event only...</comment>
+  </data>
+  <data name="AllPublishedEvents" xml:space="preserve">
+    <value>All published events</value>
+    <comment>phrase: All published events</comment>
+  </data>
+  <data name="ChooseEvents" xml:space="preserve">
+    <value>Choose events</value>
+    <comment>phrase: Choose events</comment>
+  </data>
+  <data name="WhichEventsToDisplay" xml:space="preserve">
+    <value>Which events to display?</value>
+    <comment>phrase: Which events to display?</comment>
+  </data>
+  <data name="AllUpcommingCurrentAndPastEvents" xml:space="preserve">
+    <value>All upcoming, current, and past events</value>
+    <comment>phrase: All upcoming, current, and past events</comment>
+  </data>
+  <data name="UpcommingEventsOnly" xml:space="preserve">
+    <value>Upcoming events only</value>
+    <comment>phrase: Upcoming events only</comment>
+  </data>
+  <data name="CurrentEventsOnly" xml:space="preserve">
+    <value>Current events only</value>
+    <comment>phrase: Current events only</comment>
+  </data>
+  <data name="PastEventsOnly" xml:space="preserve">
+    <value>Past events only</value>
+    <comment>phrase: Past events only</comment>
+  </data>
+  <data name="UpcommingAndCurrentEvents" xml:space="preserve">
+    <value>Upcoming and current events</value>
+    <comment>phrase: Upcoming and current events</comment>
+  </data>
+  <data name="CurrentAndPastEvents" xml:space="preserve">
+    <value>Current and past events</value>
+    <comment>phrase: Current and past events</comment>
+  </data>
+  <data name="NoEventsHaveBeenCreatedYet" xml:space="preserve">
+    <value>No events have been created yet</value>
+    <comment>phrase: No events have been created yet</comment>
+  </data>
+  <data name="AllPublishedImagesFromSelectedAlbum" xml:space="preserve">
+    <value>All published images from selected library</value>
+    <comment>phrase: All published images from selected library</comment>
+  </data>
+  <data name="SelectionOfImages" xml:space="preserve">
+    <value>Selection of images:</value>
+    <comment>phrase: Selection of images:</comment>
+  </data>
+  <data name="DisplayImagesPublishedIn" xml:space="preserve">
+    <value>Display images published in...</value>
+    <comment>phrase: Display images published in...</comment>
+  </data>
+  <data name="AllPublishedVideosFromSelectedLibrary" xml:space="preserve">
+    <value>All published videos from selected library</value>
+    <comment>phrase: All published videos from selected library</comment>
+  </data>
+  <data name="SelectionOfVideos" xml:space="preserve">
+    <value>Selection of videos:</value>
+    <comment>phrase: Selection of videos:</comment>
+  </data>
+  <data name="DisplayVideosPublishedIn" xml:space="preserve">
+    <value>Display videos published in...</value>
+    <comment>phrase: Display videos published in...</comment>
+  </data>
+  <data name="AllPublishedDocumentsFromSelectedLibrary" xml:space="preserve">
+    <value>All published documents from selected library</value>
+    <comment>phrase: All published documents from selected library</comment>
+  </data>
+  <data name="SelectionOfDocuments" xml:space="preserve">
+    <value>Selection of documents:</value>
+    <comment>phrase: Selection of documents:</comment>
+  </data>
+  <data name="DisplayDocumentsPublishedIn" xml:space="preserve">
+    <value>Display documents published in...</value>
+    <comment>phrase: Display documents published in...</comment>
+  </data>
+  <data name="SelectLanguageVersion" xml:space="preserve">
+    <value>Select language version</value>
+    <comment>phrase: Select language version</comment>
+  </data>
+  <data name="SelectContent" xml:space="preserve">
+    <value>Select content</value>
+    <comment>phrase: Select content</comment>
+  </data>
+  <data name="AllLanguages" xml:space="preserve">
+    <value>All languages</value>
+    <comment>phrase: All languages</comment>
+  </data>
+  <data name="AllContent" xml:space="preserve">
+    <value>All content</value>
+    <comment>phrase: All content</comment>
+  </data>
+  <data name="Bulgarian" xml:space="preserve">
+    <value>Bulgarian</value>
+    <comment>word: Bulgarian</comment>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>English</value>
+    <comment>word: English</comment>
+  </data>
+  <data name="Russian" xml:space="preserve">
+    <value>Russian</value>
+    <comment>word: Russian</comment>
+  </data>
+  <data name="French" xml:space="preserve">
+    <value>French</value>
+    <comment>word: French</comment>
+  </data>
+  <data name="Translations" xml:space="preserve">
+    <value>Translations</value>
+    <comment>word: Translations</comment>
+  </data>
+  <data name="ArgumentNameCannotBeZero" xml:space="preserve">
+    <value>Argument {0} cannot be zero (0)</value>
+    <comment>Error message. {0} is a placeholder for the argument name</comment>
+  </data>
+  <data name="CustomSorting" xml:space="preserve">
+    <value>Custom sorting</value>
+    <comment>Custom sorting</comment>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>Ascending</value>
+    <comment>Ascending</comment>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>Descending</value>
+    <comment>Descending</comment>
+  </data>
+  <data name="SelectCssFile" xml:space="preserve">
+    <value>Select a CSS file</value>
+    <comment>phrase: Select a CSS file</comment>
+  </data>
+  <data name="SelectJsFile" xml:space="preserve">
+    <value>Select a JavaScript file</value>
+    <comment>phrase: Select a JavaScript file</comment>
+  </data>
+  <data name="SelectATemplate" xml:space="preserve">
+    <value>Select a template</value>
+    <comment>phrase: Select a template</comment>
+  </data>
+  <data name="GenerateThumbnails" xml:space="preserve">
+    <value>Generate thumbnails</value>
+    <comment>phrase: Generate thumbnails</comment>
+  </data>
+  <data name="GeneralSettings" xml:space="preserve">
+    <value>General settings</value>
+    <comment>Phrase: General settings</comment>
+  </data>
+  <data name="ProjectName" xml:space="preserve">
+    <value>Project name</value>
+    <comment>Phrase: Project name</comment>
+  </data>
+  <data name="TimeZone" xml:space="preserve">
+    <value>Time zone</value>
+    <comment>Phrase: Time zone</comment>
+  </data>
+  <data name="AutomaticallyAdjustClockForDaylightSavingTime" xml:space="preserve">
+    <value>Automatically adjust clock for Daylight Saving Time</value>
+    <comment>Phrase: Automatically adjust clock for Daylight Saving Time</comment>
+  </data>
+  <data name="DaylightSavingTimeEndsMessage" xml:space="preserve">
+    <value>Daylight Saving Time ends on {0} at {1}. The clock is set to go back {2} hour at that time.</value>
+    <comment>Phrase: Daylight Saving Time ends on 31 October at 04:00. The clock is set to go back 1 hour at that time.</comment>
+  </data>
+  <data name="DaylightSavingTimeBeginsMessage" xml:space="preserve">
+    <value>Daylight Saving Time begins on {0} at {1}. The clock is set to go forward {2} hour at that time.</value>
+    <comment>Phrase: Daylight Saving Time begins on 27 March 2011 at 03:00. The clock is set to go forward 1 hour at that time.</comment>
+  </data>
+  <data name="SetAsDefault" xml:space="preserve">
+    <value>Set as default</value>
+    <comment>phrase: Set as default</comment>
+  </data>
+  <data name="AddLanguagesHellip" xml:space="preserve">
+    <value>Add languages&amp;hellip;</value>
+    <comment>phrase: Add languages&amp;hellip;</comment>
+  </data>
+  <data name="AddServer" xml:space="preserve">
+    <value>Add a server</value>
+    <comment>phrase: Add a server</comment>
+  </data>
+  <data name="TranslateFrom" xml:space="preserve">
+    <value>Translate from:</value>
+    <comment>Phrase: Translate from:</comment>
+  </data>
+  <data name="DefaultLanguageBackendSystem" xml:space="preserve">
+    <value>Default language for the backend system</value>
+    <comment>phrase: Default language for the backend system</comment>
+  </data>
+  <data name="Languages" xml:space="preserve">
+    <value>Languages</value>
+    <comment>word: Languages</comment>
+  </data>
+  <data name="LanguagesPublicContent" xml:space="preserve">
+    <value>Languages for public content</value>
+    <comment>phrase: Languages for public content</comment>
+  </data>
+  <data name="ManageBackendLanguages" xml:space="preserve">
+    <value>Manage backend languages</value>
+    <comment>phrase: Manage backend languages</comment>
+  </data>
+  <data name="LanguagesForBackendSystem" xml:space="preserve">
+    <value>Languages for the backend system</value>
+    <comment>phrase: Languages for the backend system</comment>
+  </data>
+  <data name="CloseLanguagesBackendSystem" xml:space="preserve">
+    <value>Close languages for the backend system</value>
+    <comment>phrase: Close languages for the backend system</comment>
+  </data>
+  <data name="MultilingualUrls" xml:space="preserve">
+    <value>Multilingual URLs</value>
+    <comment>phrase: Multilingual URLs</comment>
+  </data>
+  <data name="Directories" xml:space="preserve">
+    <value>Directories</value>
+    <comment>word: Directories</comment>
+  </data>
+  <data name="DifferentDomains" xml:space="preserve">
+    <value>Different domains</value>
+    <comment>phrase: Different domains</comment>
+  </data>
+  <data name="ExampleDirectoriesUrlStrategy" xml:space="preserve">
+    <value>&lt;strong&gt;Example:&lt;/strong&gt;&lt;br /&gt;domain.com/contact-us - English;&lt;br /&gt;domain.com/es/contacto - Spanish</value>
+    <comment>phrase: Example: domain.com/contact-us - English; domain.com/es/contacto - Spanish</comment>
+  </data>
+  <data name="ExampleDomainsUrlStrategy" xml:space="preserve">
+    <value>&lt;strong&gt;Example:&lt;/strong&gt;&lt;br /&gt;domain.com - English;&lt;br /&gt;es.domain.com or domain.es - Spanish</value>
+    <comment>phrase: Example: domain.com - English; es.domain.com or domain.es - Spanish</comment>
+  </data>
+  <data name="SpecifyDomainForEachLanguage" xml:space="preserve">
+    <value>Specify domain for each language</value>
+    <comment>phrase: Specify domain for each language</comment>
+  </data>
+  <data name="SettingsUpdated" xml:space="preserve">
+    <value>Settings have been updated.</value>
+    <comment>phrase: Settings have been updated.</comment>
+  </data>
+  <data name="LanguageSelectorDesignerEditorTitle" xml:space="preserve">
+    <value>Language selector</value>
+    <comment>Title: Language selector</comment>
+  </data>
+  <data name="LanguageSelectorModeText" xml:space="preserve">
+    <value>Display language selector as...</value>
+    <comment>Label: Display language selector as...</comment>
+  </data>
+  <data name="HeaderLanguagesWithoutTranslation" xml:space="preserve">
+    <value>What to do with languages without translations?</value>
+    <comment>Label - no translation action setting - header</comment>
+  </data>
+  <data name="HeaderLanguagesWithoutTranslationExpl" xml:space="preserve">
+    <value>Some pages or content items may not be translated to all languages. How should the language selector behave when a translation is missing?</value>
+    <comment>Label - no translation action setting - explanation</comment>
+  </data>
+  <data name="NoTranslationHideLink" xml:space="preserve">
+    <value>Hide the link to the missing translation</value>
+    <comment>Label: Hide the link to the missing translation</comment>
+  </data>
+  <data name="NoTranslationRedirectToPage" xml:space="preserve">
+    <value>Redirect to the home page in the language of the missing translation</value>
+    <comment>Label: Redirect to the home page in the language of the missing translation</comment>
+  </data>
+  <data name="IncludeCurrentLanguage" xml:space="preserve">
+    <value>Include the current language in the selector</value>
+    <comment>Label: Include the current language in the selector</comment>
+  </data>
+  <data name="HorizontalList" xml:space="preserve">
+    <value>Horizontal list</value>
+    <comment>Label: Horizontal list</comment>
+  </data>
+  <data name="VerticalList" xml:space="preserve">
+    <value>Vertical list</value>
+    <comment>Label: Vertical list</comment>
+  </data>
+  <data name="DropDownMenu" xml:space="preserve">
+    <value>Drop-down menu</value>
+    <comment>Label: Drop-down menu</comment>
+  </data>
+  <data name="OnlyAvailableInMultilingualMode" xml:space="preserve">
+    <value>This control is only available in multilingual mode.</value>
+    <comment>Message: This control is only available in multilingual mode.</comment>
+  </data>
+  <data name="ShowCultures" xml:space="preserve">
+    <value>Show cultures</value>
+    <comment>phrase: Show cultures</comment>
+  </data>
+  <data name="ShowOnlyLanguages" xml:space="preserve">
+    <value>Show only languages</value>
+    <comment>phrase: Show only languages</comment>
+  </data>
+  <data name="SelectLanguages" xml:space="preserve">
+    <value>Select languages</value>
+    <comment>phrase: Select languages</comment>
+  </data>
+  <data name="InvalidDomain" xml:space="preserve">
+    <value>Invalid domain</value>
+    <comment>phrase: Invalid domain</comment>
+  </data>
+  <data name="SelectedLanguagesAlreadyAdded" xml:space="preserve">
+    <value>One or more of the selected languages are already added.</value>
+    <comment>phrase: One or more of the selected languages are already added.</comment>
+  </data>
+  <data name="CustomLowercase" xml:space="preserve">
+    <value>custom</value>
+    <comment>Labels: custom</comment>
+  </data>
+  <data name="NoCommentsLabel" xml:space="preserve">
+    <value>Go comment!</value>
+    <comment>phrase: The label to be set if there are no comments.</comment>
+  </data>
+  <data name="GoBack" xml:space="preserve">
+    <value>Go back</value>
+    <comment>phrase: Go back</comment>
+  </data>
+  <data name="StartingPageUnpublished" xml:space="preserve">
+    <value>Warning: the selected starting page is unpublished.</value>
+    <comment>Message: The starting page is unpublished.</comment>
+  </data>
+  <data name="StartingPageIsNotAccessible" xml:space="preserve">
+    <value>Warning: the selected starting page is not accessible.</value>
+    <comment>Message: The selected starting page is not accessible.</comment>
+  </data>
+  <data name="LockedByFormat" xml:space="preserve">
+    <value>Locked by {0} | {1}</value>
+    <comment>phrase: Locked by {0} | {1}</comment>
+  </data>
+  <data name="NewerThanPublishedInParentheses" xml:space="preserve">
+    <value>(newer than published)</value>
+    <comment>phrase: (newer than published)</comment>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+    <comment>word: Back</comment>
+  </data>
+  <data name="CustomFieldsSection" xml:space="preserve">
+    <value>CustomFieldsSection</value>
+    <comment>phrase: CustomFieldsSection</comment>
+  </data>
+  <data name="GoToTheSite" xml:space="preserve">
+    <value>Live site</value>
+    <comment>phrase: GoToTheSite</comment>
+  </data>
+  <data name="GoToTheSiteTitle" xml:space="preserve">
+    <value>Opens live site in a new window</value>
+    <comment>phrase: Opens live site in a new window</comment>
+  </data>
+  <data name="YesStopSyncing" xml:space="preserve">
+    <value>Yes, Stop syncing</value>
+    <comment>phrase: Yes, Stop syncing</comment>
+  </data>
+  <data name="WidgetTitle" xml:space="preserve">
+    <value>Widget title</value>
+    <comment>The title of the widget.</comment>
+  </data>
+  <data name="WidgetDescription" xml:space="preserve">
+    <value>Widget description</value>
+    <comment>The description of the widget.</comment>
+  </data>
+  <data name="NameForDevs" xml:space="preserve">
+    <value>Developer name (used in code)</value>
+    <comment>word</comment>
+  </data>
+  <data name="YouDoNotHaveThePermissionsToDeleteThisItem" xml:space="preserve">
+    <value>You do not have the permissions to delete this item.</value>
+    <comment>This error message appears when the user tries to delete a single item, but has no permissions to do it.</comment>
+  </data>
+  <data name="YouDoNotHaveThePermissionsToDeleteTheseItems" xml:space="preserve">
+    <value>You do not have the permissions to delete these items.</value>
+    <comment>This error message appears when the user tries to delete multiple items, but has no permissions delete any of them.</comment>
+  </data>
+  <data name="YouDoNotHaveThePermissionsToDeleteSomeOfTheItems" xml:space="preserve">
+    <value>You do not have the permissions to delete {0} of the items.</value>
+    <comment>This error message appears when the user tries to delete multiple items, but has no permissions delete some of them.</comment>
+  </data>
+  <data name="WhatDoYouWantToDelete" xml:space="preserve">
+    <value>What do you want to delete?</value>
+    <comment>This message appears when deleting an item in multilingual mode.</comment>
+  </data>
+  <data name="DeleteAllTranslations" xml:space="preserve">
+    <value>Delete all translations</value>
+    <comment>Button label: Delete all translations</comment>
+  </data>
+  <data name="DeleteOnlyTranslation" xml:space="preserve">
+    <value>Delete only {0} translation</value>
+    <comment>Button label: Delete only translation</comment>
+  </data>
+  <data name="ChangesSuccessfullySaved" xml:space="preserve">
+    <value>Changes are successfully saved.</value>
+    <comment>Label: Changes are successfully saved.</comment>
+  </data>
+  <data name="LinkToRadiosLabel" xml:space="preserve">
+    <value>Link to</value>
+    <comment>phrase: Link to</comment>
+  </data>
+  <data name="ForAllTranslations" xml:space="preserve">
+    <value>for all translations</value>
+    <comment>phrase: for all translations</comment>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+    <comment>phrase: Settings</comment>
+  </data>
+  <data name="Sitefinity40" xml:space="preserve">
+    <value>Sitefinity 6.3</value>
+    <comment>Label: Sitefinity 6.3</comment>
+  </data>
+  <data name="TelerikIncAllRightsReserved" xml:space="preserve">
+    <value>Telerik Inc. All rights reserved</value>
+    <comment>Label: Telerik Inc. All rights reserved</comment>
+  </data>
+  <data name="FooterDocumentation" xml:space="preserve">
+    <value>Documentation</value>
+    <comment>Footer Label: Documentation</comment>
+  </data>
+  <data name="EditContentDirectlyBrowsingTheSite" xml:space="preserve">
+    <value>Edit content directly browsing the site</value>
+    <comment>Dashboard Label: Edit content directly browsing the site</comment>
+  </data>
+  <data name="WatchVideo" xml:space="preserve">
+    <value>Watch Video</value>
+    <comment>Dashboard Label: Watch Video</comment>
+  </data>
+  <data name="WelcomeToSitefinity40" xml:space="preserve">
+    <value>Welcome to Sitefinity 6.3</value>
+    <comment>Dashboard Label: Welcome to Sitefinity 6.3</comment>
+  </data>
+  <data name="DashboardGeneralParagraph" xml:space="preserve">
+    <value>The new release delivers a web content management system that empowers you to create websites, corporate intranets, community portals and blogs</value>
+    <comment>Dashboard general paragraph: The new release delivers a web content management system that empowers you to create websites, corporate intranets, community portals and blogs</comment>
+  </data>
+  <data name="DashboardListItem1" xml:space="preserve">
+    <value>For general presentation of Sitefinity and its features, click on the overview video to the left</value>
+    <comment>Dashboard list item 1: For general presentation of Sitefinity and its features, click on the overview video to the left</comment>
+  </data>
+  <data name="DashboardListItem2" xml:space="preserve">
+    <value>To learn more details on specific parts of the product, explore the video tutorials below</value>
+    <comment>Dashboard list item 2: To learn more details on specific parts of the product, explore the video tutorials below</comment>
+  </data>
+  <data name="DashboardGettingStarted" xml:space="preserve">
+    <value>Getting started...</value>
+    <comment>Dashboard Label: Getting started...</comment>
+  </data>
+  <data name="DashboardHowToCreateASimplePage" xml:space="preserve">
+    <value>How to create a simple page?</value>
+    <comment>Dashboard Label: How to create a simple page?</comment>
+  </data>
+  <data name="DashboardHowToCreateASimpleBlog" xml:space="preserve">
+    <value>How to create a simple blog?</value>
+    <comment>Dashboard Label: How to create a simple blog?</comment>
+  </data>
+  <data name="DashboardHowToSetNavigation" xml:space="preserve">
+    <value>How to set navigation?</value>
+    <comment>Dashboard Label: How to set navigation?</comment>
+  </data>
+  <data name="DashboardVideoTutorialsAbout" xml:space="preserve">
+    <value>Video tutorials about...</value>
+    <comment>Dashboard Label: Video tutorials about...</comment>
+  </data>
+  <data name="MobileWeb" xml:space="preserve">
+    <value>Mobile web</value>
+    <comment>Dashboard Label: Mobile web</comment>
+  </data>
+  <data name="MobileWebNote" xml:space="preserve">
+    <value>Learn how to use the responsive design techniques</value>
+    <comment>Learn how to use the responsive design techniques</comment>
+  </data>
+  <data name="TemplateBuilder" xml:space="preserve">
+    <value>Template builder</value>
+    <comment>Dashboard Label: Template builder</comment>
+  </data>
+  <data name="TemplateBuilderNote" xml:space="preserve">
+    <value>See how to easily build templates using the Template builder</value>
+    <comment>Dashboard Label: See how to easily build templates using the Template builder</comment>
+  </data>
+  <data name="DashboardPageLayouts" xml:space="preserve">
+    <value>Page layouts</value>
+    <comment>Dashboard Label: Page layouts</comment>
+  </data>
+  <data name="DashboardLearnHowToDesignAndModifyLayoutsOfPages" xml:space="preserve">
+    <value>Learn how to design and modify layouts of pages</value>
+    <comment>Dashboard Label: Learn how to design and modify layouts of pages</comment>
+  </data>
+  <data name="Forms" xml:space="preserve">
+    <value>Forms</value>
+    <comment>Dashboard Label: Forms</comment>
+  </data>
+  <data name="DashboardLearnHowToCreateAndUseForms" xml:space="preserve">
+    <value>Learn how to create and use forms</value>
+    <comment>Dashboard Label: Learn how to create and use forms</comment>
+  </data>
+  <data name="DashboardFluentApi" xml:space="preserve">
+    <value>Fluent API</value>
+    <comment>Dashboard Label: Fluent API</comment>
+  </data>
+  <data name="DashboardDiscoverHowTheFluentApiEnablesYouToInteractWithTheSitefinityData" xml:space="preserve">
+    <value>Discover how the Fluent API enables you to interact with the Sitefinity data</value>
+    <comment>Dashboard Label: Discover how the Fluent API enables you to interact with the Sitefinity data</comment>
+  </data>
+  <data name="DashboardPageSetupWithWidgets" xml:space="preserve">
+    <value>Page setup with widgets</value>
+    <comment>Dashboard Label: Page setup with widgets</comment>
+  </data>
+  <data name="DashboardFindOutHowToWorkWithWidgetsToSetupYourPages" xml:space="preserve">
+    <value>Find out how to work with widgets to setup your pages</value>
+    <comment>Dashboard Label: Find out how to work with widgets to setup your pages</comment>
+  </data>
+  <data name="DashboardCategoriesAndTags" xml:space="preserve">
+    <value>Categories and tags</value>
+    <comment>Dashboard Label: Categories and tags</comment>
+  </data>
+  <data name="DashboardLearnHowToOrganizeTheContentInYourWebsiteByUsingCategoriesAndTags" xml:space="preserve">
+    <value>Learn how to organize the content in your website by using categories and tags</value>
+    <comment>Dashboard Label: Learn how to organize the content in your website by using categories and tags</comment>
+  </data>
+  <data name="DashboardWebAnalytics" xml:space="preserve">
+    <value>Web Analytics</value>
+    <comment>Dashboard Label: Web Analytics</comment>
+  </data>
+  <data name="DashboardLearnHowToMeasureYourWebsitePerformanceUsingTheWebAnalyticsFeature" xml:space="preserve">
+    <value>Learn how to measure your website performance using the web analytics feature</value>
+    <comment>Dashboard Label: Learn how to measure your website performance using the web analytics feature</comment>
+  </data>
+  <data name="DashboardInlineEditing" xml:space="preserve">
+    <value>Inline editing</value>
+    <comment>Dashboard Label: Inline editing</comment>
+  </data>
+  <data name="DashboardSeeHowYouCanEditYourContentWhileBrowsingTheLiveWebsite" xml:space="preserve">
+    <value>See how you can edit your content while browsing the live website</value>
+    <comment>Dashboard Label: See how you can edit your content while browsing the live website</comment>
+  </data>
+  <data name="DashboardRevisionHistory" xml:space="preserve">
+    <value>Revision history</value>
+    <comment>Dashboard Label: Revision history</comment>
+  </data>
+  <data name="ShowParentPageInNavigation" xml:space="preserve">
+    <value>Show the parent page in navigation</value>
+    <comment>Label: Show the parent page in navigation</comment>
+  </data>
+  <data name="ShowSelectedPageInNavigation" xml:space="preserve">
+    <value>Show the selected page in navigation</value>
+    <comment>Label: Show the selected page in navigation</comment>
+  </data>
+  <data name="ShowCurrentPageInNavigation" xml:space="preserve">
+    <value>Show the currently opened page in navigation</value>
+    <comment>Label: Show the currently opened page in navigation</comment>
+  </data>
+  <data name="GroupPageNavigation" xml:space="preserve">
+    <value>Group pages redirect to the first subpage</value>
+    <comment>Label: Group pages redirect to the first subpage</comment>
+  </data>
+  <data name="ShowEmailToOthers" xml:space="preserve">
+    <value>Show my email to others</value>
+    <comment>Label: Show my email to others</comment>
+  </data>
+  <data name="DashboardFindOutHowToKeepAllTheDifferentVersionsOfYourContentUsingTheRevisionHistory" xml:space="preserve">
+    <value>Find out how to keep all the different versions of your content using the revision history</value>
+    <comment>Dashboard Label: Find out how to keep all the different versions of your content using the revision history</comment>
+  </data>
+  <data name="DashboardFullDocumentation" xml:space="preserve">
+    <value>Documentation portal</value>
+    <comment>Dashboard Label: Documentation portal</comment>
+  </data>
+  <data name="ProfileFrontentCreate" xml:space="preserve">
+    <value>&lt;i&gt;Create a profile&lt;/i&gt; in the Frontend</value>
+    <comment>Label used in automatically created views for profile types.</comment>
+  </data>
+  <data name="ProfileFrontentEdit" xml:space="preserve">
+    <value>&lt;i&gt;Edit a profile&lt;/i&gt; in the Frontend</value>
+    <comment>Label used in automatically created views for profile types.</comment>
+  </data>
+  <data name="ProfileBackendCreate" xml:space="preserve">
+    <value>&lt;i&gt;Create a profile&lt;/i&gt; in the Backend</value>
+    <comment>Label used in automatically created views for profile types.</comment>
+  </data>
+  <data name="ProfileBackendEdit" xml:space="preserve">
+    <value>&lt;i&gt;Edit a profile&lt;/i&gt; in the Backend</value>
+    <comment>Label used in automatically created views for profile types.</comment>
+  </data>
+  <data name="SelectImageDotDotDot" xml:space="preserve">
+    <value>Select image...</value>
+    <comment>Select image...</comment>
+  </data>
+  <data name="Px" xml:space="preserve">
+    <value>px</value>
+    <comment>px.</comment>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Update</value>
+    <comment>Word: Update</comment>
+  </data>
+  <data name="BackToEditPage" xml:space="preserve">
+    <value>Back to edit page</value>
+    <comment>Label: Back to edit page</comment>
+  </data>
+  <data name="DontDisplayAnySingleItemPage" xml:space="preserve">
+    <value>Don't display any single item page</value>
+    <comment>Label: Don't display any single item page</comment>
+  </data>
+  <data name="InTheBackend" xml:space="preserve">
+    <value>in the Backend</value>
+    <comment>Label: in the Backend</comment>
+  </data>
+  <data name="InTheFrontend" xml:space="preserve">
+    <value>in the Public site</value>
+    <comment>Label: in the Public site</comment>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>Label: Name</comment>
+  </data>
+  <data name="OnlyListWithoutLinks" xml:space="preserve">
+    <value>(only list without links)</value>
+    <comment>Label: (only list without links)</comment>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Details</value>
+    <comment>word: Details</comment>
+  </data>
+  <data name="WhatsThis" xml:space="preserve">
+    <value>What's this?</value>
+    <comment>phrase: What's this?</comment>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+    <comment>word: Yes</comment>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+    <comment>word: No</comment>
+  </data>
+  <data name="SelectedCaching" xml:space="preserve">
+    <value>Selected caching</value>
+    <comment>phrase: Selected caching</comment>
+  </data>
+  <data name="EnableCaching" xml:space="preserve">
+    <value>Enable caching</value>
+    <comment>phrase: Enable caching</comment>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Duration</value>
+    <comment>word: Duration</comment>
+  </data>
+  <data name="SlidingExpiration" xml:space="preserve">
+    <value>Sliding expiration</value>
+    <comment>phrase: Sliding expiration</comment>
+  </data>
+  <data name="NoSlidingExpiration" xml:space="preserve">
+    <value>No sliding expiration</value>
+    <comment>phrase: No sliding expiration</comment>
+  </data>
+  <data name="SameAsForWholeSite" xml:space="preserve">
+    <value>The same as for the whole site</value>
+    <comment>phrase: The same as for the whole site</comment>
+  </data>
+  <data name="NoCache" xml:space="preserve">
+    <value>no cache</value>
+    <comment>phrase: no cache</comment>
+  </data>
+  <data name="NoExplicitClientCaching" xml:space="preserve">
+    <value>no explicit client caching</value>
+    <comment>phrase: no explicit client caching</comment>
+  </data>
+  <data name="NoExplicitClientCachingMessage" xml:space="preserve">
+    <value>No explicit client caching.</value>
+    <comment>phrase: No explicit client caching.</comment>
+  </data>
+  <data name="HttpHeader" xml:space="preserve">
+    <value>HTTP Header</value>
+    <comment>phrase: HTTP Header</comment>
+  </data>
+  <data name="CacheSettingsChanges" xml:space="preserve">
+    <value>These values can be changed in</value>
+    <comment>phrase: These values can be changed in</comment>
+  </data>
+  <data name="CacheSettingsLocation" xml:space="preserve">
+    <value>Administration &gt; Settings &gt; Advanced settings &gt; System &gt; Output Cache Settings</value>
+    <comment>phrase: Administration &gt; Settings &gt; Advanced settings &gt; System &gt; Output Cache Settings</comment>
+  </data>
+  <data name="DaysAbbreviated" xml:space="preserve">
+    <value>d</value>
+    <comment>word: d</comment>
+  </data>
+  <data name="HoursAbbreviated" xml:space="preserve">
+    <value>hr</value>
+    <comment>word: hr</comment>
+  </data>
+  <data name="MinutesAbbreviated" xml:space="preserve">
+    <value>min</value>
+    <comment>word: min</comment>
+  </data>
+  <data name="SecondsAbbreviated" xml:space="preserve">
+    <value>sec</value>
+    <comment>word: sec</comment>
+  </data>
+  <data name="AllPublishedListItems" xml:space="preserve">
+    <value>All published list items</value>
+    <comment>phrase: All published list items</comment>
+  </data>
+  <data name="WhichDocumentsToDisplay" xml:space="preserve">
+    <value> Which documents and files to display</value>
+    <comment>phrase: Which documents and files to display?</comment>
+  </data>
+  <data name="LanguageSettings" xml:space="preserve">
+    <value>Language settings</value>
+    <comment>phrase: Language settings</comment>
+  </data>
+  <data name="AllTranslations" xml:space="preserve">
+    <value>All translations</value>
+    <comment>phrase: All translations</comment>
+  </data>
+  <data name="CurrentTranslation" xml:space="preserve">
+    <value>Current translation only</value>
+    <comment>phrase: Current translation only</comment>
+  </data>
+  <data name="SaveAllTranslations" xml:space="preserve">
+    <value>Save to all translations</value>
+    <comment>phrase: Save to all translations</comment>
+  </data>
+  <data name="WidgetSettings" xml:space="preserve">
+    <value>Widget settings are applied to...</value>
+    <comment>phrase: Widget settings are applied to...</comment>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Image</value>
+    <comment>word: Image</comment>
+  </data>
+  <data name="SelectPageButton" xml:space="preserve">
+    <value>Select Page</value>
+    <comment>phrase: Select Page</comment>
+  </data>
+  <data name="ChangePageButton" xml:space="preserve">
+    <value>Change Page</value>
+    <comment>phrase: Change Page</comment>
+  </data>
+  <data name="AsSetInAdvancedMode" xml:space="preserve">
+    <value>As set in Advanced mode</value>
+    <comment>phrase: As set in Advanced mode</comment>
+  </data>
+  <data name="EditSeparator" xml:space="preserve">
+    <value>Edit...</value>
+    <comment>Edit separator in action menus</comment>
+  </data>
+  <data name="FacebookFeedDomain" xml:space="preserve">
+    <value>Domain to show activity for</value>
+    <comment>phrase: The domain to show activity e.g. 'www.example.com'</comment>
+  </data>
+  <data name="FacebookFeedWidth" xml:space="preserve">
+    <value>Width</value>
+    <comment>phrase: The width of the Facebook activite feed widget</comment>
+  </data>
+  <data name="FacebookFeedHeight" xml:space="preserve">
+    <value>Height</value>
+    <comment>phrase: The height of the Facebook activite feed widget</comment>
+  </data>
+  <data name="FacebookFeedColorScheme" xml:space="preserve">
+    <value>Color scheme</value>
+    <comment>phrase: The color scheme of the Facebook activite feed widget</comment>
+  </data>
+  <data name="FacebookFeedFont" xml:space="preserve">
+    <value>Font</value>
+    <comment>phrase: The font of the Facebook activite feed widget</comment>
+  </data>
+  <data name="FacebookFeedBorderColor" xml:space="preserve">
+    <value>Border color</value>
+    <comment>phrase: The border color of the Facebook activite feed widget</comment>
+  </data>
+  <data name="FacebookFeedShowHeader" xml:space="preserve">
+    <value>Show header</value>
+    <comment>phrase: Should show header of the Facebook activite feed widget</comment>
+  </data>
+  <data name="FacebookFeedShowRecommendations" xml:space="preserve">
+    <value>Show recommendations</value>
+    <comment>phrase: Should show recommendations of the Facebook activite feed widget</comment>
+  </data>
+  <data name="FacebookFeedTrackRefferals" xml:space="preserve">
+    <value>Label for tracking referrals</value>
+    <comment>phrase: Should track referrals</comment>
+  </data>
+  <data name="FacebookLinkTarget" xml:space="preserve">
+    <value>Open the content links</value>
+    <comment>phrase: Open the content links</comment>
+  </data>
+  <data name="FacebookActivityFeed" xml:space="preserve">
+    <value>Facebook activity feed</value>
+    <comment>word: Facebook activity feed</comment>
+  </data>
+  <data name="FacebookUrlToLike" xml:space="preserve">
+    <value>URL to Like</value>
+    <comment>phrase: URL to Like</comment>
+  </data>
+  <data name="FacebookLikeLayoutStyle" xml:space="preserve">
+    <value>Layout style</value>
+    <comment>phrase: Layout style</comment>
+  </data>
+  <data name="FacebookActionLabel" xml:space="preserve">
+    <value>Button Label</value>
+    <comment>phrase: Button Label</comment>
+  </data>
+  <data name="FacebookShowFaces" xml:space="preserve">
+    <value>Show profile pictures below the button (in Standard Layout style)</value>
+    <comment>phrase: Show profile pictures below the button (in Standard Layout style)</comment>
+  </data>
+  <data name="FacebookSendBtn" xml:space="preserve">
+    <value>Show send button</value>
+    <comment>phrase: Show send button</comment>
+  </data>
+  <data name="FacebookCurrentPage" xml:space="preserve">
+    <value>Current page</value>
+    <comment>phrase: Current page</comment>
+  </data>
+  <data name="FacebookOtherPage" xml:space="preserve">
+    <value>Other page...</value>
+    <comment>phrase: Other page... </comment>
+  </data>
+  <data name="InvalidURL" xml:space="preserve">
+    <value>The URL you entered is invalid.</value>
+    <comment>phrase: The URL you entered is invalid.</comment>
+  </data>
+  <data name="FacebookLike" xml:space="preserve">
+    <value>Facebook like</value>
+    <comment>word: Facebook like</comment>
+  </data>
+  <data name="Facebook" xml:space="preserve">
+    <value>Facebook</value>
+    <comment>The label next to Facebook icon in social share options.</comment>
+  </data>
+  <data name="Twitter" xml:space="preserve">
+    <value>Twitter</value>
+    <comment>The label next to Twitter icon in social share options.</comment>
+  </data>
+  <data name="LinkedIn" xml:space="preserve">
+    <value>LinkedIn</value>
+    <comment>The label next to LinkedIn icon in social share options.</comment>
+  </data>
+  <data name="GooglePlusOne" xml:space="preserve">
+    <value>Google +</value>
+    <comment>The label next to Google + icon in social share options.</comment>
+  </data>
+  <data name="Blogger" xml:space="preserve">
+    <value>Blogger</value>
+    <comment>The label next to Blogger icon in social share options.</comment>
+  </data>
+  <data name="Delicious" xml:space="preserve">
+    <value>Delicious</value>
+    <comment>The label next to Delicious icon in social share options.</comment>
+  </data>
+  <data name="Tumblr" xml:space="preserve">
+    <value>Tumblr</value>
+    <comment>The label next to Tumblr icon in social share options.</comment>
+  </data>
+  <data name="GoogleBookmarks" xml:space="preserve">
+    <value>Google bookmarks</value>
+    <comment>The label next to Google bookmarks icon in social share options.</comment>
+  </data>
+  <data name="Digg" xml:space="preserve">
+    <value>Digg</value>
+    <comment>The label next to Digg icon in social share options.</comment>
+  </data>
+  <data name="MySpace" xml:space="preserve">
+    <value>My Space</value>
+    <comment>The label next to My Space icon in social share options.</comment>
+  </data>
+  <data name="StumbleUpon" xml:space="preserve">
+    <value>Stumble upon</value>
+    <comment>The label next to Stumble upon icon in social share options.</comment>
+  </data>
+  <data name="Reddit" xml:space="preserve">
+    <value>Reddit</value>
+    <comment>The label next to Reddit icon in social share options.</comment>
+  </data>
+  <data name="MailTo" xml:space="preserve">
+    <value>MailTo</value>
+    <comment>The label next to Mail to icon in social share options.</comment>
+  </data>
+  <data name="ChooseOptions" xml:space="preserve">
+    <value>Which are the sharing options you want to use</value>
+    <comment>The label above buttons' checkboxes in social share options.</comment>
+  </data>
+  <data name="ChooseMode" xml:space="preserve">
+    <value>Select icons style</value>
+    <comment>The label above radio buttons in social share options.</comment>
+  </data>
+  <data name="SmallIcons" xml:space="preserve">
+    <value>&lt;span class="sficon sffacebook"&gt;&lt;/span&gt;Small icons</value>
+    <comment>The label next to small icons radio button in social share options.</comment>
+  </data>
+  <data name="BigIcons" xml:space="preserve">
+    <value>&lt;span class="sficon sffacebookbig"&gt;&lt;/span&gt;Big icons</value>
+    <comment>The label next to big icons radio button in social share options.</comment>
+  </data>
+  <data name="IconsWithText" xml:space="preserve">
+    <value>&lt;span class="sficon sffacebooktxt"&gt;&lt;/span&gt;Icons with text</value>
+    <comment>The label next to icons with text radio button in social share options.</comment>
+  </data>
+  <data name="DisplayCounters" xml:space="preserve">
+    <value>Display counters</value>
+    <comment>The label next to display counters checkbox in social share options.</comment>
+  </data>
+  <data name="DisplayCountersToolTip" xml:space="preserve">
+    <value>For Facebook, Twitter and Google+ shows the number of people who also shared the  same item</value>
+    <comment>The tooltip for Details link next to Display Counters checkbox in social share options.</comment>
+  </data>
+  <data name="EnableSocial" xml:space="preserve">
+    <value>Enable social share buttons</value>
+    <comment>The label next to enable social buttons checkbox in designer view.</comment>
+  </data>
+  <data name="EnableSocialToolTip" xml:space="preserve">
+    <value>In Administration&gt; Settings you can select which social networks to use</value>
+    <comment>The tooltip for Details link next to enable social options checkbox in designer view.</comment>
+  </data>
+  <data name="PageSharing" xml:space="preserve">
+    <value>Page sharing</value>
+    <comment>Page sharing.</comment>
+  </data>
+  <data name="ShowItemCount" xml:space="preserve">
+    <value>Show item count</value>
+    <comment>Show item count</comment>
+  </data>
+  <data name="ShowEmptyItems" xml:space="preserve">
+    <value>Show empty items</value>
+    <comment>Show empty items</comment>
+  </data>
+  <data name="SortOrder" xml:space="preserve">
+    <value>Sort items</value>
+    <comment>SortOrder</comment>
+  </data>
+  <data name="SortOrderAlphabetical" xml:space="preserve">
+    <value>Alphabetically (A-Z)</value>
+    <comment>SortOrderAlphabetical</comment>
+  </data>
+  <data name="SortOrderUserDefined" xml:space="preserve">
+    <value>As they are ordered in departments</value>
+    <comment>User Defined</comment>
+  </data>
+  <data name="SortOrderReverseAlphabetical" xml:space="preserve">
+    <value>Alphabetically (Z-A)</value>
+    <comment>Reverse Alphabetical</comment>
+  </data>
+  <data name="WhichItemsToDisplay" xml:space="preserve">
+    <value>&lt;strong&gt;Which items to display?&lt;/strong&gt;</value>
+    <comment>Which items to display?</comment>
+  </data>
+  <data name="ItemsFromTopLevelOnly" xml:space="preserve">
+    <value>Items from top level only</value>
+    <comment>Items from top level only</comment>
+  </data>
+  <data name="HierarchicalListExpansion" xml:space="preserve">
+    <value>Expand / collapse</value>
+    <comment>HierarchicalListExpansion</comment>
+  </data>
+  <data name="HierarchicalListExpandAll" xml:space="preserve">
+    <value>All items are &lt;strong&gt;expanded initially&lt;/strong&gt;</value>
+    <comment>HierarchicalListExpandAll</comment>
+  </data>
+  <data name="HierarchicalListCollapseAll" xml:space="preserve">
+    <value>All items are &lt;strong&gt;collapsed initially&lt;/strong&gt;</value>
+    <comment>HierarchicalListCollapseAll</comment>
+  </data>
+  <data name="HierarchicalListExpandCurrent" xml:space="preserve">
+    <value>Only &lt;strong&gt;current level is expanded initially&lt;/strong&gt;</value>
+    <comment>HierarchicalListExpandCurrent</comment>
+  </data>
+  <data name="PromptMessageCannotEdit" xml:space="preserve">
+    <value>You are not allowed to edit this item</value>
+    <comment>Prompt message when opening a content item for edit and no actions are possible</comment>
+  </data>
+  <data name="PromptMessageCannotEditExplaination" xml:space="preserve">
+    <value>Ask you administrator for details, if you think there is something wrong</value>
+    <comment>Explaination of prompt message when opening a content item for edit and no actions are possible</comment>
+  </data>
+  <data name="ManageBackendLanguagesDescription" xml:space="preserve">
+    <value>To add a new translation, go to Administration &gt; Interface labels and messages and import a language pack. You can download a language pack from Sitefinity Marketplace or you can create your own.</value>
+    <comment>Description how to add more backend languages in basic settings &gt; languages</comment>
+  </data>
+  <data name="ManageBackendLanguagesTitle" xml:space="preserve">
+    <value>Manage backend languages</value>
+    <comment>Manage backend languages title in basic settings &gt; languages</comment>
+  </data>
+  <data name="FileSize" xml:space="preserve">
+    <value>File Size</value>
+    <comment>Label: File Size</comment>
+  </data>
+  <data name="ImageSize" xml:space="preserve">
+    <value>Image Size</value>
+    <comment>Label: Image Size</comment>
+  </data>
+  <data name="ChangeImage" xml:space="preserve">
+    <value>Change Image</value>
+    <comment>Label: Change Image</comment>
+  </data>
+  <data name="CropResizeRotateDotDotDot" xml:space="preserve">
+    <value>Crop/Resize/Rotate...</value>
+    <comment>Label: Crop/Resize/Rotate...</comment>
+  </data>
+  <data name="Alignment" xml:space="preserve">
+    <value>Alignment</value>
+    <comment> Word: Alignment</comment>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>Left</value>
+    <comment> Word: Left</comment>
+  </data>
+  <data name="Center" xml:space="preserve">
+    <value>Center</value>
+    <comment> Word: Center</comment>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>Right</value>
+    <comment> Word: Right</comment>
+  </data>
+  <data name="SomeRequiredPropertiesAreNotSet" xml:space="preserve">
+    <value>Some &lt;strong&gt;required properties&lt;/strong&gt; are not set</value>
+    <comment>phrase: Some &lt;strong&gt;required properties&lt;/strong&gt; are not set</comment>
+  </data>
+  <data name="SynchronizationSettings" xml:space="preserve">
+    <value>Staging &amp; Synchronization</value>
+    <comment>Phrase: Staging &amp; Synchronization</comment>
+  </data>
+  <data name="SaveAs" xml:space="preserve">
+    <value>Save as</value>
+    <comment>word</comment>
+  </data>
+  <data name="TwitterFeed" xml:space="preserve">
+    <value>Twitter feed</value>
+    <comment>word: Twitter activity feed</comment>
+  </data>
+  <data name="TwitterFeedContent" xml:space="preserve">
+    <value>Content</value>
+    <comment>word: Content tab</comment>
+  </data>
+  <data name="TwitterFeedAppearance" xml:space="preserve">
+    <value>Appearance</value>
+    <comment>word: Appearance tab</comment>
+  </data>
+  <data name="DisplayTweetsLabel" xml:space="preserve">
+    <value>Display tweets from a...</value>
+    <comment>word: Display tweets from a...</comment>
+  </data>
+  <data name="ProfileWidgetTypeLabel" xml:space="preserve">
+    <value>Profile</value>
+    <comment>word: Profile widget type label</comment>
+  </data>
+  <data name="SearchWidgetTypeLabel" xml:space="preserve">
+    <value>Search</value>
+    <comment>word: Search widget type label</comment>
+  </data>
+  <data name="FavoritesWidgetTypeLabel" xml:space="preserve">
+    <value>Favorites</value>
+    <comment>word: Favorites widget type label</comment>
+  </data>
+  <data name="ListWidgetTypeLabel" xml:space="preserve">
+    <value>List</value>
+    <comment>word: List widget type label</comment>
+  </data>
+  <data name="TwitterWidgetUsername" xml:space="preserve">
+    <value>Username</value>
+    <comment>word: Username of the twitter account</comment>
+  </data>
+  <data name="TwitterWidgetUsernameExample" xml:space="preserve">
+    <value>Only tweets of this user will be displayed</value>
+    <comment>word: Additionall info for the Twitter widget's Username property</comment>
+  </data>
+  <data name="TwitterWidgetTitle" xml:space="preserve">
+    <value>Title</value>
+    <comment>word: Widget title</comment>
+  </data>
+  <data name="TwitterWidgetSubtitle" xml:space="preserve">
+    <value>Subtitle</value>
+    <comment>word: Twitter widget subtitle</comment>
+  </data>
+  <data name="TwitterWidgetSearch" xml:space="preserve">
+    <value>Search</value>
+    <comment>word: Twitter widget search label</comment>
+  </data>
+  <data name="TwitterWidgetSearchExample" xml:space="preserve">
+    <value>Tweets matching searching words or a hash tag will be displayed</value>
+    <comment>phrase: Tweets matching searching words or a hash tag will be displayed</comment>
+  </data>
+  <data name="TwitterWidgetTimingLabel" xml:space="preserve">
+    <value>Timing</value>
+    <comment>word: Twitter widget timing label</comment>
+  </data>
+  <data name="TwitterWidgetLoadAuto" xml:space="preserve">
+    <value>Load new tweets automatically</value>
+    <comment>word: Load new tweets automatically</comment>
+  </data>
+  <data name="TwitterWidgetLoadEvery" xml:space="preserve">
+    <value>Check for new tweets every...</value>
+    <comment>word: Check for new tweets every...</comment>
+  </data>
+  <data name="TwitterWidgetLoadEveryFiveChoiceText" xml:space="preserve">
+    <value>5 minutes</value>
+    <comment>word: Check for new tweets every 5 minutes</comment>
+  </data>
+  <data name="TwitterWidgetLoadEveryTenChoiceText" xml:space="preserve">
+    <value>10 minutes</value>
+    <comment>word: Check for new tweets every 10 minutes</comment>
+  </data>
+  <data name="TwitterWidgetLoadEveryThirtyChoiceText" xml:space="preserve">
+    <value>30 minutes</value>
+    <comment>word: Check for new tweets every 30 minutes</comment>
+  </data>
+  <data name="TwitterWidgetLoadEveryOneHourChoiceText" xml:space="preserve">
+    <value>1 hour</value>
+    <comment>word: Check for new tweets every 1 hour</comment>
+  </data>
+  <data name="TwitterWidgetNumberOfTweets" xml:space="preserve">
+    <value>Number of displayed tweets</value>
+    <comment>word: Number of displayed tweets</comment>
+  </data>
+  <data name="TwitterWidgetInclude" xml:space="preserve">
+    <value>Include...</value>
+    <comment>word: Include...</comment>
+  </data>
+  <data name="TwitterWidgetTimestampLabel" xml:space="preserve">
+    <value>Timestamp</value>
+    <comment>word: Timestamp</comment>
+  </data>
+  <data name="TwitterWidgetAvatarsLabel" xml:space="preserve">
+    <value>Avatars</value>
+    <comment>word: Avatars</comment>
+  </data>
+  <data name="TwitterWidgetHashtagsLabel" xml:space="preserve">
+    <value>Hash tags</value>
+    <comment>phrase: Hash tags</comment>
+  </data>
+  <data name="TwitterWidgetSizeLabel" xml:space="preserve">
+    <value>Size</value>
+    <comment>word: Size label</comment>
+  </data>
+  <data name="TwitterWidgetColorSchemeLabel" xml:space="preserve">
+    <value>Color scheme</value>
+    <comment>word: Color scheme label</comment>
+  </data>
+  <data name="TwitterWidgetAutoSize" xml:space="preserve">
+    <value>Auto</value>
+    <comment>word: Auto size</comment>
+  </data>
+  <data name="TwitterWidgetFixedSize" xml:space="preserve">
+    <value>Fixed...</value>
+    <comment>word: Fixed size</comment>
+  </data>
+  <data name="TwitterWidgetDefaultColorScheme" xml:space="preserve">
+    <value>Default</value>
+    <comment>word: Default color scheme</comment>
+  </data>
+  <data name="TwitterWidgetCustomColorScheme" xml:space="preserve">
+    <value>Custom</value>
+    <comment>word: Custom color scheme</comment>
+  </data>
+  <data name="TwitterWidgetWidth" xml:space="preserve">
+    <value>Width</value>
+    <comment>word: Width</comment>
+  </data>
+  <data name="TwitterWidgetPixelsLabel" xml:space="preserve">
+    <value>px</value>
+    <comment>word: Pixels</comment>
+  </data>
+  <data name="TwitterWidgetHeight" xml:space="preserve">
+    <value>Height</value>
+    <comment>word: Height</comment>
+  </data>
+  <data name="TwitterWidgetShellBackground" xml:space="preserve">
+    <value>Shell background</value>
+    <comment>word: Shell background</comment>
+  </data>
+  <data name="TwitterWidgetShellTextColor" xml:space="preserve">
+    <value>Shell text color</value>
+    <comment>word: Shell text color</comment>
+  </data>
+  <data name="TwitterWidgetTweetBackground" xml:space="preserve">
+    <value>Tweet background</value>
+    <comment>word: Tweet background</comment>
+  </data>
+  <data name="TwitterWidgetTweetTextColor" xml:space="preserve">
+    <value>Tweet text color</value>
+    <comment>word: Tweet background</comment>
+  </data>
+  <data name="TwitterWidgetLinks" xml:space="preserve">
+    <value>Links</value>
+    <comment>word: Links</comment>
+  </data>
+  <data name="TwitterWidgetListOfLabel" xml:space="preserve">
+    <value>List of </value>
+    <comment>word: List of</comment>
+  </data>
+  <data name="TwitterWidgetIncludeScrollBar" xml:space="preserve">
+    <value>Include scrollbar</value>
+    <comment>word: Include scrollbar</comment>
+  </data>
+  <data name="TwitterWidgetNotAvailableInEditMode" xml:space="preserve">
+    <value>The Twitter widget could not be displayed here. To see it click the Preview button on top of this page or publish the page.</value>
+    <comment>phrase: The Twitter widget could not be displayed here. To see it click the Preview button on top of this page or publish the page.</comment>
+  </data>
+  <data name="LoggedInAtTheMoment" xml:space="preserve">
+    <value>Logged in at the moment are:</value>
+    <comment>Phrase: Logged in at the moment are:</comment>
+  </data>
+  <data name="WaitForUserToLogOffOr" xml:space="preserve">
+    <value>You can wait for a user to log off or you can</value>
+    <comment>Phrase: You can wait for a user to log off or you can</comment>
+  </data>
+  <data name="BrowsePublicWebsite" xml:space="preserve">
+    <value>browse the public website</value>
+    <comment>Phrase: browse the public website</comment>
+  </data>
+  <data name="ForceSomeloneToLogout" xml:space="preserve">
+    <value>Force someone to logout</value>
+    <comment>Phrase: Force someone to logout</comment>
+  </data>
+  <data name="UserLimitReachedMessage" xml:space="preserve">
+    <value>You cannot be logged in because the maximum allowed users limit has been reached.&lt;br /&gt;Up to {0} users can be logged in the backend at the same time</value>
+    <comment>Text for the message when backend user limit is reached</comment>
+  </data>
+  <data name="ChooseWhichUserToLogout" xml:space="preserve">
+    <value>Choose which user to be logged out:</value>
+    <comment>Phrase: Choose which user to be logged out:</comment>
+  </data>
+  <data name="ImageSingular" xml:space="preserve">
+    <value>Image</value>
+    <comment>word: Image</comment>
+  </data>
+  <data name="ImagePlural" xml:space="preserve">
+    <value>Images</value>
+    <comment>word: Images</comment>
+  </data>
+  <data name="DocumentSingular" xml:space="preserve">
+    <value>Document</value>
+    <comment>word: Document</comment>
+  </data>
+  <data name="DocumentPlural" xml:space="preserve">
+    <value>Documents</value>
+    <comment>word: Documents</comment>
+  </data>
+  <data name="VideoSingular" xml:space="preserve">
+    <value>Video</value>
+    <comment>word: Video</comment>
+  </data>
+  <data name="VideoPlural" xml:space="preserve">
+    <value>Videos</value>
+    <comment>word: Videos</comment>
+  </data>
+  <data name="TextEditorSettings" xml:space="preserve">
+    <value>Text editor settings</value>
+    <comment>Phrase: Text editor settings</comment>
+  </data>
+  <data name="CustomToolSets" xml:space="preserve">
+    <value>Custom tool sets</value>
+    <comment>Phrase: Custom tool sets</comment>
+  </data>
+  <data name="CreateToolSet" xml:space="preserve">
+    <value>Create a tool set</value>
+    <comment>Phrase: Create a tool set</comment>
+  </data>
+  <data name="EditToolSet" xml:space="preserve">
+    <value>Edit tool set</value>
+    <comment>Phrase: Edit tool set</comment>
+  </data>
+  <data name="CreateNewBasedOnDefaultToolSet" xml:space="preserve">
+    <value>Create a new tool set based on the default one</value>
+    <comment>Phrase: Create a new tool set based on the default one</comment>
+  </data>
+  <data name="UploadFile" xml:space="preserve">
+    <value>Upload a file</value>
+    <comment>Phrase: Upload a file</comment>
+  </data>
+  <data name="AddToolSetByUploadingXmlFile" xml:space="preserve">
+    <value>Add your own tool set by uploading an .xml file</value>
+    <comment>Phrase: Add your own tool set by uploading an .xml file</comment>
+  </data>
+  <data name="SelectXmlFile" xml:space="preserve">
+    <value>Select .xml file</value>
+    <comment>Phrase: Select .xml file</comment>
+  </data>
+  <data name="BrowseDotDotDot" xml:space="preserve">
+    <value>Browse...</value>
+    <comment>word: Browse...</comment>
+  </data>
+  <data name="AreYouSureYouWantToDeleteAndRestoreItem" xml:space="preserve">
+    <value>Are you sure you want to delete this item and then restore the default one?</value>
+    <comment>Phrase: Select .xml file</comment>
+  </data>
+  <data name="UsedInAllBackendContentTypes" xml:space="preserve">
+    <value>Used in all backend content types</value>
+    <comment>Phrase: Used in all backend content types</comment>
+  </data>
+  <data name="UsedInThePublicSiteWhereThereAreComments" xml:space="preserve">
+    <value>Used in the public site where there are comments</value>
+    <comment>Phrase: Used in the public site where there are comments</comment>
+  </data>
+  <data name="UsedInThePublicSiteWhereThereAreForums" xml:space="preserve">
+    <value>Used in the public site where there are forums</value>
+    <comment>Phrase: Used in the public site where there are forums</comment>
+  </data>
+  <data name="ForumsTitle" xml:space="preserve">
+    <value>Forums</value>
+    <comment>Title for the Forums module.</comment>
+  </data>
+  <data name="Forums module" xml:space="preserve">
+    <value>ForumsDescription</value>
+    <comment>Forums</comment>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>hour</value>
+    <comment>word: hour</comment>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>hours</value>
+    <comment>word: hours</comment>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>day</value>
+    <comment>word: day</comment>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>days</value>
+    <comment>word: days</comment>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>minute</value>
+    <comment>word: minute</comment>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minutes</value>
+    <comment>word: minutes</comment>
+  </data>
+  <data name="LessThanAMintueAgo" xml:space="preserve">
+    <value>less than a minute ago</value>
+    <comment>phrase: less than a minute ago</comment>
+  </data>
+  <data name="Ago" xml:space="preserve">
+    <value>ago</value>
+    <comment>word: ago</comment>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>and</value>
+    <comment>word</comment>
+  </data>
+  <data name="Sitefinity" xml:space="preserve">
+    <value>Sitefinity</value>
+    <comment>Word: Sitefinity</comment>
+  </data>
+  <data name="ToResetYourPasswordEnterYourEmail" xml:space="preserve">
+    <value>To reset your password, enter your email</value>
+    <comment>phrase: To reset your password, enter your email</comment>
+  </data>
+  <data name="PasswordResetInstructionsHaveBeenSentToYourEmail" xml:space="preserve">
+    <value>Password reset instructions have been sent to your email</value>
+    <comment>phrase: Password reset instructions have been sent to your email</comment>
+  </data>
+  <data name="LostPasswordEmailBody" xml:space="preserve">
+    <value>Dear &lt;%\s*UserDisplayName\s*%&gt;, we received a request for password change for username &lt;%\s*UserName\s*%&gt; at &lt;%\s*SiteName\s*%&gt;.&lt;br /&gt;
+&lt;a href="&lt;%\s*ConfirmationUrl\s*%&gt;" target="_blank"&gt;Go to this page&lt;/a&gt; to set your new password. The link will be active for one hour.&lt;br /&gt;
+&lt;br /&gt;
+Regards,&lt;br /&gt;
+The &lt;%\s*SiteName\s*%&gt; team</value>
+    <comment>The body of the email sent to users for changing their passwords</comment>
+  </data>
+  <data name="ContinueToWebsite" xml:space="preserve">
+    <value>Continue to website</value>
+    <comment>phrase: Continue to website</comment>
+  </data>
+  <data name="BreadcrumbIncludeOptions" xml:space="preserve">
+    <value>What to include in the breadcrumb?</value>
+    <comment>What to include in the breadcrumb?</comment>
+  </data>
+  <data name="BreadcrumbShowFullPath" xml:space="preserve">
+    <value>Full path to the current page</value>
+    <comment>Full path to the current page</comment>
+  </data>
+  <data name="BreadcrumbSelectSpecificPage" xml:space="preserve">
+    <value>Path starting from a specific page...</value>
+    <comment>Path starting from a specific page...</comment>
+  </data>
+  <data name="BreadcrumbShowParentPage" xml:space="preserve">
+    <value>Show Home page link</value>
+    <comment>Show Home page link</comment>
+  </data>
+  <data name="BreadcrumbShowGroupPages" xml:space="preserve">
+    <value>Show group pages in the breadcrumb</value>
+    <comment>Show group pages in the breadcrumb</comment>
+  </data>
+  <data name="BreadcrumbShowCurrentPage" xml:space="preserve">
+    <value>Show current page In the end of the breadcrumb</value>
+    <comment>Show current page In the end of the breadcrumb</comment>
+  </data>
+  <data name="BreadcrumbLabel" xml:space="preserve">
+    <value>Label</value>
+    <comment>Label</comment>
+  </data>
+  <data name="BreadcrumbLabelExample" xml:space="preserve">
+    <value>Example: </value>
+    <comment>Example: </comment>
+  </data>
+  <data name="BreadcrumbExampleText" xml:space="preserve">
+    <value>&lt;strong&gt;Example: &lt;/strong&gt; &lt;em&gt;You are here:&lt;/em&gt;</value>
+    <comment>You are here:</comment>
+  </data>
+  <data name="BreadcrumbOnTemplateMessage" xml:space="preserve">
+    <value>Breadcrumb is visible when you are on a particular page.</value>
+    <comment>Breadcrumb is visible when you are on a particular page.</comment>
+  </data>
+  <data name="toggle_user_menu" xml:space="preserve">
+    <value>Toggle user menu</value>
+    <comment>This is the button for the top menu</comment>
+  </data>
+  <data name="user_preferences" xml:space="preserve">
+    <value>User preferences</value>
+  </data>
+</root>

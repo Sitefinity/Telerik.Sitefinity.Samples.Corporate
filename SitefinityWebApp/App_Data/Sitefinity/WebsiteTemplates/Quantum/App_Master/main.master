@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title></title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js" language="javascript"></script>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />     
+    <script>
+        $(document).ready(function() {
+            
+
+            $i = 0;
+            $(".rmSlide").each(function() {
+                $(this).addClass("item"+$i);
+                $i=$i+1;
+            })
+            $i = 0;
+            $(".departments .RadTabStrip .rtsLink").each(function() {
+                $(this).addClass("item"+$i);
+                $i=$i+1;
+            })
+
+
+            $("#toggle").click(function() {
+                
+                
+                $("#userstrip").slideToggle();
+            })
+
+            $('.sfAddToCartWrp input').click(function() {
+                
+                $("#userstrip").slideDown();
+                $('body').animate({scrollTop:0}, 2000);
+                $('.sfproductMainImgWrp img').clone().addClass('flyout1').appendTo(".sfproductMainImgWrp").animate({
+                    'top':'-150px',
+                    'opacity': 0
+                });
+            })
+        })
+    </script>
+
+    <!--[if IE]>
+        <link href="/Sitefinity/WebsiteTemplates/Quantum/App_Themes/QuantumNew/Styles/internet_explorer.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+
+
+
+
+</head>
+<body class="main-body">
+    <form id="form1" runat="server">     
+<asp:ScriptManager ID="ScriptManager1" runat="server" />	
+        <div id="wrapper">
+			<div id="userstrip-holder">
+                <div id="userstrip">
+                    <asp:contentplaceholder id="userstrip" runat="server" />
+
+                </div>
+                <div id="toggle">
+                    <asp:Literal id="mylit" Text="<%$Resources:Labels, toggle_user_menu %>" runat="server"/>
+                </div>
+			</div>
+        	<div id="header-holder">
+                <div id="header">
+				    <div id="main-navigation-login">
+    					<asp:contentplaceholder id="mainnavigation" runat="server"/>
+				    </div>
+                </div>                    
+        	</div>
+        	<div id="content">
+                
+	        	<asp:contentplaceholder id="content" runat="server" />
+                <div id="footer">
+                    <asp:contentplaceholder id="footer" runat="server" />
+                </div>
+        	</div>			
+        	
+        </div>
+   </form>
+</body>
+</html>
+
+

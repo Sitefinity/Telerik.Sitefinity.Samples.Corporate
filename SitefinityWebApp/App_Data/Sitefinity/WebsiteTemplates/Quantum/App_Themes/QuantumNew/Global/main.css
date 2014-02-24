@@ -1,0 +1,4977 @@
+/*===================================================
+
+Wrapper
+---Userstrip
+---Language selector
+---Header
+
+===================================================*/
+
+
+
+@font-face
+{
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ropa Sans'), local('RopaSans-Regular'), url('http://themes.googleusercontent.com/static/fonts/ropasans/v2/QnguTd82yEUxQZygH2gm8D8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+
+/*===================================================
+GENERAL STYLES
+===================================================*/
+
+body
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Ropa Sans', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    background-attachment: scroll !important;
+    color: #555555;
+    background-color: #fff;
+    background-image: url(../Images/background.jpg);
+    background-repeat: repeat-x;
+    background-position: left top;
+}
+
+#wrapper
+{
+    position: relative;
+    width: 100%;
+}
+
+.sfContentBlock strong
+{
+    color: black;
+    font-weight: normal;
+}
+
+#content .sfContentBlock ul li
+{
+    margin-left: 20px;
+}
+
+#content a img
+{
+    border: 0;
+}
+
+.sfContentBlock h1,
+h1.sfshoppingCartTitle,
+h1.sfordersListTitle
+{
+    color: black;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: -2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.sfContentBlock h2
+{
+    color: black;
+    font-weight: normal;
+    font-size: 28px;
+    letter-spacing: -2px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    clear: both;
+}
+
+.sfContentBlock h4
+{
+    color: black;
+    font-weight: normal;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+/*===================================================
+USER STRIP
+===================================================*/
+
+#userstrip-holder
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    background-color: #3a3a3a;
+    background-image: url(../Images/userstrip_bg.png);
+    background-position: left bottom;
+    background-repeat: repeat-x;
+}
+
+#userstrip .logout-button
+{
+    position: relative;
+    float: left;
+}
+
+#userstrip .logout-button a,
+#userstrip a.your-account
+{
+    color: #0a8ee2;
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 20px;
+    background-image: url(../Images/logout.png);
+    background-repeat: no-repeat;
+    background-position: left 5px;
+}
+
+#userstrip .logout-button a:hover,
+#userstrip a.your-account:hover
+{
+    color: #63D1FF;
+}
+
+#userstrip
+{
+    position: relative;
+    left: 50%;
+    margin-left: -480px;
+    width: 960px;
+    padding-bottom: 10px;
+    display: none;
+    color: #ccc;
+    background-image: url(../Images/userstrip_bg_lines.png);
+    background-repeat: no-repeat;
+    background-position: center 20px;
+}
+
+#userstrip fieldset.sfLoginWrp,
+#userstrip fieldset#sfLoginWidgetWrp
+{
+    padding: 0px;
+    margin: 0 0 15px 0;
+    border: 0px;
+    padding: 0;
+ 
+}
+
+#sfLoginWidgetWrp .sfError
+{
+    position: relative;
+    float: left;
+}
+
+#main-navigation-login .sf_colsIn.sf_2cols_2in_33
+{
+    text-align: right;
+}
+#main-navigation-login .sf_colsIn.sf_2cols_2in_33 a
+{
+    color: #0a8ee2;
+    text-decoration: none;
+}
+
+#userstrip .sfLoginField,
+#userstrip .sfLoginFieldsWrp li
+{
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+    float: left;
+}
+
+#userstrip .sfLoginField .sfTxtLbl
+{
+    font-size: 14px;
+}
+
+#userstrip .sfLoginField .sfTxt:focus
+{
+    background-color: #111;
+    border: 1px solid #555;
+}
+
+#userstrip .sfValidator
+{
+    font-size: 12px;
+    color: orange;
+    padding: 0;
+}
+
+#userstrip .sfContentBlock br
+{
+    display: none;
+}
+#userstrip .sfLoginField .sfTxt,
+#userstrip #sfLoginWidgetWrp .sfTxt
+{
+    background-color: #222;
+    border: 1px solid #484848;
+    color: white;
+    padding: 6px;
+    width: 80%;
+    outline: none;
+}
+#userstrip .sfSubmitBtnWrp a
+{
+    color: #008eee;
+    text-decoration: none;
+}
+#userstrip-holder #toggle
+{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    line-height: 28px;
+    color: white;
+    cursor: pointer;
+    height: 28px;
+}
+
+#userstrip-holder #toggle:hover
+{
+    color: #ccc;
+}
+
+#userstrip h3
+{
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    border-bottom: 1px solid #555;
+    padding-bottom: 15px;
+}
+
+#userstrip h3 strong
+{
+    font-weight: normal;
+}
+/*==== Language selector ====*/
+
+#langsWrapper
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    float: right;
+}
+
+#langsWrapper li.sflanguageItem
+{
+    float: left;
+    line-height: 30px;
+}
+
+#langsWrapper li.sflanguageItem a.sflanguageLnk
+{
+    color: #666;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px 0 0;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+#langsWrapper li.sflanguageItem a.sflanguageLnk:hover
+{
+    color: #000;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+#userstrip .sfprofileListLikeWrp
+{
+    position: relative;
+    float: left;
+}
+
+/* --- Calendar --- */
+.sfcalendarWrp
+{
+    position: relative;
+}
+.sfcalendarWrp .sfcalendar
+{
+    width: 80%;
+    float: left;
+    z-index: 10;
+}
+.sfcalendarWrp .RadScheduler .rsHeader ul
+{
+    margin-right: 85px;
+}
+.sfcalendarWrp .sfcalendarSidebar
+{
+    width: 18%;
+    float: right;
+}
+.sfcalendarListTitle
+{
+    font-weight: bold;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.sfcalendarList
+{
+    margin-top: 5px;
+}
+.sfcalendarList li
+{
+    margin-bottom: 15px;
+}
+.sfcalendarList .sfColorWrp
+{
+    padding: 5px 5px 3px;
+    vertical-align: middle;
+}
+.sfcalendarList label
+{
+    padding-left: 3px;
+    vertical-align: middle;
+}
+.sfcalendarList .sfdelete
+{
+    display: none;
+    margin-left: 5px;
+    width: 11px;
+    height: 13px;
+    text-indent: -9999px;
+    overflow: hidden;
+    vertical-align: middle;
+    background: transparent url(../Images/sfPublicContent.gif) no-repeat 0 -2400px;
+}
+.sfcalendarList .sfcalendarListItm:hover .sfdelete
+{
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+.sfcalendarWrp a.sfSubmitBtn, .sfcalendarWrp a.sfSubmitBtn:link, .sfcalendarWrp a.sfSubmitBtn:visited, .sfcalendarWrp a.sfSubmitBtn:hover, .sfcalendarWrp a.sfSubmitBtn:active
+{
+    border: #fff 1px solid;
+    color: #fff !important;
+    padding: 1px 15px 2px;
+}
+.sfcalendarWrp a.sfCreateBtn
+{
+    position: absolute;
+    right: 20%;
+    top: 0;
+    z-index: 1000;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+.sfcalendarCreateNewWrp .sftoggleCreateCalendar
+{
+    font-size: 11px;
+}
+.sfcalendarCreateNewWrp li
+{
+    margin-bottom: 10px;
+}
+.sfcalendarCreateNewWrp .sfTxtLbl
+{
+    display: block;
+    font-weight: bold;
+}
+.sfcalendarCreateNewWrp .sfTxt
+{
+    width: 150px;
+
+    padding: 3px;
+    vertical-align: middle;
+    font-family: Arial, Verdana, Sans-serif;
+    font-size: 12px;
+}
+.sfcalendarCreateNewWrp .sfCancel
+{
+    font-size: 11px;
+    color: #f00;
+    margin-left: 10px;
+}
+.sfcalendarCreateNewWrp .sfCancel:hover
+{
+    color: #00f;
+}
+div.k-window.sfcalendarEventPreviewWrp
+{
+    width: 300px !important;
+    padding-top: 0 !important;
+    border: 1px solid #a1a1a1;
+    background-color: #fff;
+    box-shadow: 4px 4px 0 #d7d7d7;
+}
+.sfcalendarEventPreviewWrp .k-window-titlebar
+{
+    width: auto;
+    right: 0;
+    border-bottom: 0 none;
+    margin-top: 0 !important;
+}
+.sfcalendarEventPreviewWrp .k-window-titlebar .k-state-hover
+{
+    border: 0;
+    padding: 2px;
+}
+.sfcalendarEventPreviewWrp div.k-window-content
+{
+    padding: 20px;
+}
+.sfcalendarEventPreviewWrp .k-i-close
+{
+    background: transparent url(../Images/sfPublicContent.gif) no-repeat 0 -1200px;
+}
+.sfcalendarEventPreviewTitle
+{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+}
+.sfcalendarEventPreviewWrp .sfcalendarEventPreviewEditLnkWrp
+{
+    font-size: 11px;
+    text-align: right;
+}
+.sfcalendarEventPreviewWrp .sfAddEventWrp
+{
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.sfprofileField.sfprofileAvatar img
+{
+    width: 120px;
+    border-radius: 10px;
+    background-color: #666;
+    box-shadow: 0 0 25px #111;
+}
+
+.sfprofileField.sfprofileAvatar
+{
+    position: relative;
+    margin-right: 15px;
+    float: left;
+    width: 160px;
+}
+
+#userstrip .sfprofileField
+{
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    width: 140px;
+    line-height: 18px;
+}
+
+#userstrip .sfprofileField  .sfTxtLbl
+{
+    font-size: 12px;
+    color: #999;
+}
+
+#userstrip .sfprofileField  .sfTxtContent
+{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+#userstrip .sfprofileField.sfprofileAbout
+{
+    width: 100%;
+    margin-top: 20px;
+}
+
+#userstrip .sfprofileField.sfprofileAbout .sfTxtLbl
+{
+    color: white;
+    font-size: 16px;
+}
+
+#userstrip .sfprofileField.sfprofileAbout .sfTxtContent
+{
+    font-size: 12px;
+    line-height: 16px;
+    font-size: 11px;
+    font-family: Tahoma;
+    color: #aaa;
+}
+
+#userstrip .sfprofileLnkWrp
+{
+    width: 100%;
+    position: relative;
+    float: left;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+#userstrip .sfprofileLnkWrp a
+{
+    color: #0a8ee2; 
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+#userstrip .sfprofileLnkWrp a:hover
+{
+    color: #63d1ff;
+}
+
+#userstrip .sfprofileLnkWrp a.sfprofileEditLnk
+{
+    background-image: url(../Images/profile.png);
+    background-repeat: no-repeat;
+    background-position: 0 3px;
+}
+
+#userstrip .sfprofileLnkWrp a.sfprofileChangePasswordLnk
+{
+    background-image: url(../Images/key.png);
+    background-repeat: no-repeat;
+    background-position: 0 3px;
+}
+/*===================================================
+HEADER
+===================================================*/
+
+#header-holder
+{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    float: left;
+    background-color: white;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    min-height: 30px;
+}
+
+#header
+{
+    position: relative;
+    left: 50%;
+    margin-left: -480px;
+    width: 900px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header
+{
+
+}
+
+/*==== Logo ====*/
+a#logo
+{
+    position: relative;
+    display: block;
+    width: 196px;
+    height: 68px;
+    background-image: url(../Images/logo.jpg);
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+a#logo:hover
+{
+    -webkit-transition: all 0.3s ease-in-out;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    filter: alpha(opacity=5);
+}
+
+/*==== Main navigation ====*/
+
+#main-navigation-login
+{
+    position: relative;
+}
+
+#main-navigation-login br { display: none; }			/* HACK - should be fixed*/
+
+/*New Navigation*/
+#navigationUl
+{
+    font-size: 18px;
+    margin-top: 15px;
+}
+ 
+#navigationUl a
+{
+    color: #000;
+    text-decoration: none;
+}
+ 
+#navigationUl a:hover
+{
+    color: #444;
+}
+ 
+#navigationUl > li.simpleNavLi > a.k-link, #navigationUl > li.simpleNavLiSelected > a.k-link
+{
+    background-image: url(../Images/menu_arrow_down.jpg);
+    font-family: 'Ropa Sans', Arial, sans-serif;
+    color: #000;
+    line-height: 22px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding: 0 12px 1px 0;
+}
+ 
+#navigationUl > li > div > ul
+{
+    background-color: #f1f1f1;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+ 
+#navigationUl > li.simpleNavLi, #navigationUl > li.simpleNavLiSelected
+{
+    margin-right: 15px;
+    border: none;
+    font-family: 'Ropa Sans', Arial, sans-serif;
+}
+ 
+#navigationUl > li > div > ul > li
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ 
+#navigationUl > li > div > ul > li > a
+{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 16px;
+    border-bottom: 1px solid #d8d8d8;
+    border-top: 1px solid #fff;
+    background-image: url(../Images/arrow_right.png);
+    background-repeat: no-repeat;
+    background-position: 5px 22px;
+}
+
+/*===================================================
+CONTENT
+===================================================*/
+
+
+#content
+{
+    position: relative;
+    width: 910px;
+    left: 50%;
+    margin-left: -480px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    float: left;
+    background-color: white;
+    padding: 25px;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+/*==== Top products ====*/
+
+.topproducts
+{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.topproducts h2.sflistTitle
+{
+    display: none;
+}
+
+.topproducts ul.sflistList
+{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+.topproducts .sflistList li.sflistListItem
+{
+    float: left;
+    padding: 0px;
+    width: 23%;
+    padding-right: 1%;
+    padding-left: 1%;
+    border: 0px;
+    background-image: url(../Images/background_spacer.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.topproducts .sflistList li.sflistListItem:last-child
+{
+    background: none;
+}
+
+.topproducts .sflistList li.sflistListItem ul
+{
+    padding-left: 15px;
+    margin: 0px;
+
+}
+
+.topproducts .sflistList li.sflistListItem .sflistItemContent
+{
+    width: 100%;
+}
+
+.topproducts .sflistList li.sflistListItem .sflistItemContent img
+{
+    width: 100%;
+}
+
+.topproducts .sflistList li.sflistListItem ul li
+{
+    line-height: 20px;
+    font-size: 14px;
+    padding: 0px;
+    list-style-image: url(../Images/bullet.png);
+}
+
+.topproducts li.sflistListItem h3.sflistItemTitle
+{
+    color: black;
+    font-weight: normal;
+    margin-top: 0px;
+    font-size: 22px;
+}
+.topproducts .sflistItemContent
+{
+    position: relative;
+    padding-bottom: 50px;
+    float: left;
+}
+#wrapper .topproducts li.sflistListItem a.button
+{
+    position: absolute;
+    left: 0px;
+    top: 240px;
+}
+
+/*==== Galleria ====*/
+.galleria-container
+{
+    background-color: white;
+}
+
+.galleria-thumbnails .galleria-image
+{
+    border: 0px;
+}
+
+/*==== Product Page ====*/
+.productSpecs
+{
+    background-color: #f0f0f0;
+    position: relative;
+    float: none;
+    padding: 30px;
+}
+
+.productSpecs .sflistList
+{
+    padding: 0px;
+    margin: 0;
+    list-style: none;
+}
+
+.productSpecs .sflistList .sflistListItem
+{
+    border-bottom: 1px solid #ccc;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.productSpecs .sflistList .sflistListItem .sflistItemTitle
+{
+    color: black;
+    font-size: 16px;
+}
+
+.price
+{
+    color: white;
+    background-color: #0a8ee2;
+    padding: 5px 10px;
+    float: left;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.sfAddToCartWrp
+{
+    position: relative;
+    float: left;
+}
+.sfAddToCartWrp input
+{
+    color: white;
+    background-color: #000;
+    padding: 7px 10px 6px;
+    cursor: pointer;
+
+    position: relative;
+    margin-top: 15px;
+    border: 0px;
+    margin-bottom: 15px;
+    font-size: 18px; 
+    font-family: 'Ropa Sans';
+    clear: right;
+}
+
+.sfBuyNowBtnWrp input
+{
+    color: white;
+    background-color: #000;
+    padding: 7px 10px 6px;
+    cursor: pointer;
+	
+    margin-top: 15px;
+    border: 0px;
+    margin-bottom: 15px;
+    font-size: 18px; 
+    font-family: 'Ropa Sans';
+	
+	
+}
+
+h1#model_intro, h1#model_name, .short-review h1
+{
+    display: none;
+}
+.short-review
+{
+    margin-top: 10px;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.short-review ul
+{
+    padding: 0;
+    margin: 0;
+    padding-left: 15px;
+    list-style-image: url(../Images/arrow_right.png);
+}
+
+.short-review ul li
+{
+    padding-bottom: 10px;
+}
+
+.sfdownloadFileWrp
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.sfimagesTmbList.sfLightboxMode
+{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    float: left;
+    list-style: none;
+}
+
+.sfimageWrp
+{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.sfimagesTmbList.sfLightboxMode .sfimagesTmb
+{
+    position: relative;
+    float: left;
+    margin-right: 5px;
+}
+
+.sfdownloadFileWrp a
+{
+    color: #333;
+    text-decoration: none;
+}
+
+/*===================================================
+FOOTER
+===================================================*/
+#footer
+{
+    position: relative;
+    width: 910px;
+    float: left;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+/*==== Sitemap navigation ====*/
+.RadTabStrip_footer
+{
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.RadTabStrip_footer .rtsLink
+{
+    color: black;
+
+}
+
+.RadTabStrip_footer .rtsLink .rtsOut,
+.RadTabStrip_footer .rtsLink .rtsIn
+{ 
+    padding: 0px;
+}
+
+.RadTabStrip_footer a.rtsLink:hover
+{
+    color: #444;
+}
+
+#footer h4
+{
+    position: relative;
+    float: left;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 32px;
+    color: #666;
+    margin-right: 15px;
+}
+
+#footer .twitter,
+#footer .facebook,
+#footer .youtube,
+#footer .google-plus
+{
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: #666;
+    position: relative;
+    float: left;
+    margin-left: 5px;
+    background-image: url(../Images/social_buttons.png);
+}
+
+#footer .twitter:hover,
+#footer .facebook:hover,
+#footer .youtube:hover,
+#footer .google-plus:hover,
+#footer .sitefinity:hover
+{
+    background-color: #0a8ee2;
+}
+
+#footer .youtube { background-position: -32px 0; }
+#footer .facebook { background-position: -64px 0; }
+#footer .google-plus { background-position: -96px 0; }
+
+#footer a.sitefinity
+{
+    display: block;
+    position: relative;
+    float: left;
+    width: 112px;
+    height: 44px;
+    background-color: #666;
+    background-image: url(../Images/powered_by.png);
+    margin-left: 15px;
+    margin-top: -7px;
+}
+
+/*===================================================
+SHOPPING CART
+===================================================*/
+.sidebar
+{
+    background-color: #ccc;
+}
+
+.sfordersListWrp
+{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.sfordersList
+{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.sfordersListItem
+{
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    float: left;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.sfordersListItem .sforderOrderedOn a,
+.sforderBtnskWrp a
+{
+    color: #008eee;
+    text-decoration: none;
+}
+
+.sforderBtnskWrp a
+{
+    width: 100%;
+    display: block;
+}
+
+.sfordersListItem .RadGrid table.rgMasterTable,
+.sfordersListDetailView .RadGrid table.rgMasterTable
+{
+    width: 100%;
+    border-top: 2px solid #000;
+}
+
+.sfordersListItem .RadGrid table.rgMasterTable td,
+.sfordersListItem .RadGrid table.rgMasterTable th,
+.sfordersListDetailView .RadGrid table.rgMasterTable th,
+.sfordersListDetailView .RadGrid table.rgMasterTable td
+{
+    border-right: 1px solid #ddd;
+    text-align: left;
+    padding: 5px;
+}
+
+.sfcheckoutTotalPriceWrp
+{
+    padding: 0;
+    position: relative;
+    margin: 0;
+    padding-left: 15px;
+    list-style-image: url(../Images/arrow_right.png);
+    margin-top: 20px;
+}
+
+.sforderBriefInfoList
+{
+    padding: 0;
+    margin: 0;
+    padding-left: 15px;
+    list-style-image: url(../Images/arrow_right.png);
+    margin-top: 20px;
+}
+
+.sfordersListCount
+{
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.sforderBriefInfoWrp
+{
+    position: relative;
+    float: left;
+    width: 30%;
+}
+
+.sfordersListDetailView
+{
+    position: relative;
+    float: left;
+    width: 65%;
+    height: auto !important;
+    padding-left: 4%;
+    border-left: 1px solid #ddd;
+}
+
+.sfproductsList
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    padding-top: 0px;
+    margin: 0;
+    list-style: none;
+}
+
+.sfproductOptionsList
+{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.sfproductsList li.sfproductListItem
+{ 
+    float: left;
+    width: 23%;
+    background-color: #fff;
+	
+    border-radius: 15px;
+    margin-right: 2%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
+    height: 180px;
+    background-image: url(../Images/shadow_bottom.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
+
+.sfproductsList li.sfproductListItem:hover
+{
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.3);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
+
+.sfproductsList li.sfproductListItem h2.sfproductTitle
+{
+    color: black;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 0;
+    text-align: center;
+
+}
+
+.sfproductsList li.sfproductListItem h2.sfproductTitle a
+{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.sfproductsList li.sfproductListItem .sfproductPrice
+{
+    color: white;
+    background-color: #0a8ee2;
+    padding: 3px 6px;
+    position: absolute;
+
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    top: 80px;
+    left: 0px;
+    font-size: 15px;
+}
+
+.sfproductsList li.sfproductListItem:hover .sfproductPrice
+{
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    left: -5px;
+}
+
+.sfproductsList li.sfproductListItem .sfproductTmbWrp
+{
+    width: 100%;
+    position: relative;
+    float: left;
+    height: 150px;
+    overflow: hidden;
+}
+
+.sfproductsList li.sfproductListItem .sfproductTmbWrp a
+{
+    position: relative;
+    margin: 0 auto;
+    display: block !important;
+}
+.departments .RadTabStrip_Sitefinity
+{
+    float: left;
+    margin-left: 0;
+    margin-top: 0;
+}
+.departments .RadTabStrip_Sitefinity  .rtsLink
+{
+    color: black;
+    border-right: 1px solid #ddd;
+    font-family: 'Ropa Sans'; 
+    font-size: 16px;
+    padding: 0px;
+    padding-bottom: 15px;
+    padding-top: 80px;
+    background: none;
+    width: 130px;
+}
+
+.departments .RadTabStrip_Sitefinity  .rtsLink
+{
+    background-position: center 5px;
+    background-image: url(../Images/department.png);
+    background-repeat: no-repeat;
+}
+
+.departments .RadTabStrip_Sitefinity  .rtsLink:hover
+{
+    background-position: center -86px;
+}
+
+.departments .RadTabStrip_Sitefinity  .rtsLink.rtsSelected
+{
+    background-position: center -172px;
+}
+
+.departments .RadTabStrip_Sitefinity a.rtsLink:hover .rtsTxt
+{
+    text-decoration: none;
+}
+.departments .RadTabStrip_Sitefinity  .rtsLink.item0 { background-position: 0px -20px; background-image: url(../Images/buttons_sprite.png); }
+.departments .RadTabStrip_Sitefinity  .rtsLink.item1 { background-position: -130px -20px; background-image: url(../Images/buttons_sprite.png); }
+.departments .RadTabStrip_Sitefinity  .rtsLink.item2 { background-position: -260px -20px; background-image: url(../Images/buttons_sprite.png); }
+.departments .RadTabStrip_Sitefinity  .rtsLink.item3 { background-position: -390px -20px; background-image: url(../Images/buttons_sprite.png); }
+.departments .RadTabStrip_Sitefinity  .rtsLink.item4 { background-position: -520px -20px; background-image: url(../Images/buttons_sprite.png); }
+.departments .RadTabStrip_Sitefinity  .rtsLink.item5 { background-position: -650px -20px; background-image: url(../Images/buttons_sprite.png); }
+.departments .RadTabStrip_Sitefinity  .rtsLink.item6 { background-position: -780px -20px; background-image: url(../Images/buttons_sprite.png); }
+
+.departments .RadTabStrip_Sitefinity  .rtsLink.item0:hover { background-position: 0px -150px; }
+.departments .RadTabStrip_Sitefinity  .rtsLink.item1:hover { background-position: -130px -150px; }
+.departments .RadTabStrip_Sitefinity  .rtsLink.item2:hover { background-position: -260px -150px; }
+.departments .RadTabStrip_Sitefinity  .rtsLink.item3:hover { background-position: -390px -150px; }
+.departments .RadTabStrip_Sitefinity  .rtsLink.item4:hover { background-position: -520px -150px; }
+.departments .RadTabStrip_Sitefinity  .rtsLink.item5:hover { background-position: -650px -150px; }
+.departments .RadTabStrip_Sitefinity  .rtsLink.item6:hover { background-position: -780px -150px; }
+
+.departments .RadTabStrip_Sitefinity  .rtsLink.rtsSelected.item0 { background-position: 0px -280px; background-image: url(../Images/buttons_sprite.png); }
+.departments .RadTabStrip_Sitefinity  .rtsLink.rtsSelected.item1 { background-position: -130px -280px; background-image: url(../Images/buttons_sprite.png); }
+.departments .RadTabStrip_Sitefinity  .rtsLink.rtsSelected.item2 { background-position: -260px -280px; background-image: url(../Images/buttons_sprite.png); }
+.departments .RadTabStrip_Sitefinity  .rtsLink.rtsSelected.item3 { background-position: -390px -280px; background-image: url(../Images/buttons_sprite.png); }
+.departments .RadTabStrip_Sitefinity  .rtsLink.rtsSelected.item4 { background-position: -520px -280px; background-image: url(../Images/buttons_sprite.png); }
+.departments .RadTabStrip_Sitefinity  .rtsLink.rtsSelected.item5 { background-position: -650px -280px; background-image: url(../Images/buttons_sprite.png); }
+.departments .RadTabStrip_Sitefinity  .rtsLink.rtsSelected.item6 { background-position: -780px -280px; background-image: url(../Images/buttons_sprite.png); }
+
+.departments .RadTabStrip_Sitefinity  .rtsLink.rtsSelected
+{
+    background-color: white;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #fff;
+}
+
+.departments .RadTabStrip_Sitefinity  .rtsLink .rtsIn,
+.departments .RadTabStrip_Sitefinity  .rtsLink .rtsOut
+{
+    margin: 0px;
+    padding: 0px;
+    background: none;
+}
+
+ul.sfproductsList
+{
+    margin: 0px;
+    padding: 0px;
+}
+.sfproductImgsWrp
+{
+    float: left;
+    position: relative;
+    width: 36%;
+}
+.sfproductMainImgWrp
+{
+    position: relative;
+    float: left;
+}
+
+.sfproductImgsListWrp
+{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.sfproductImgsList
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.sfproductImgsList .sfproductImgWrp
+{
+    float: left;
+}
+
+.sfproductInfoWrp
+{
+    position: relative;
+    float: left;
+    width: 60%;
+}
+
+.sfproductDescription
+{
+
+	
+    width: 100%;
+}
+
+.sfAddToWishlistWidget
+{
+	
+    max-width: 200px;
+    float: left;
+}
+
+.sfAddToWishListLnkWrp
+{
+    background-color: #0a8ee2;
+    display: inline-block;
+    height: 19px;
+    margin-top: 71px;
+    color: White;
+    font-size: 18px;
+    font-family: 'Ropa Sans';
+    padding: 7px 10px 6px;
+}
+
+#content .sfAddToWishListLnkWrp a
+{
+
+    color: White;
+	
+}
+
+h1.sfproductTitle
+{
+    color: black;
+    font-size: 34px;
+    font-weight: normal;
+}
+
+.sfproductInfoWrp .sfRegPrice
+{
+    color: white;
+    background-color: #0a8ee2;
+    padding: 5px 10px;
+
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.sfproductDetails
+{
+    margin-top: 30px;
+}
+
+.sfproductDetails  h2
+{
+    font-weight: normal;
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ddd;
+}
+
+.sfproductInfoWrp ul
+{
+    padding: 0;
+    margin: 0;
+    padding-left: 15px;
+    list-style-image: url(../Images/arrow_right.png);
+}
+.sfproductInfoWrp .sfAddToCartWrp
+{
+    margin-top: 20px;
+}
+.sfproductInfoWrp .sfAddToCartWrp .sfQuantity
+{
+    background-color: #fff;
+    color: black;
+    width: 80px;
+    border: 1px solid #ccc;
+}
+
+.sfproductInfoWrp .sfAddToCartWrp label
+{
+    font-size: 20px;
+    color: black;
+    width: 100%;
+    display: block; 
+    height: 35px;
+}
+
+.sfError
+{
+    color: #ff7e00;
+}
+
+.sfMessage.sfMsgPositive
+{
+    background-color: #0a8ee2 !important;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.sfMessage.sfMsgNegative
+{
+    background-color: #ff6029 !important;
+    padding: 10px 20px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.sfcartSummaryWrp.sfcartSummaryExpandableWrp
+{
+    float: right;
+    margin-top: 4px;
+}
+
+.sfcartSummaryNoItems
+{
+    padding-top: 70px;
+    background-image: url(../Images/emptycart.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+}
+
+.sfcartSummaryBtnsWrp input
+{
+    background-image: url(../Images/button_bg.jpg);
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #222;
+    text-shadow: -1px -1px 0 #195781;
+    border: 0px;
+    padding: 6px 20px;
+    line-height: 18px;
+    float: left;
+    text-decoration: none;
+    position: relative;
+    background-color: #008eee;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    margin: 5px;
+    text-decoration: none;
+    font-family: 'Ropa Sans'; 
+}
+
+.sfcartSummaryBtnsWrp input:hover
+{
+    background-position: 0 -38px;
+    cursor: pointer;
+}
+
+.sfcartSummaryWrp.sfcartSummaryExpandableWrp .sflnkToggleCart
+{
+    color: #ccc;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.sfcartSummaryWrp.sfcartSummaryExpandableWrp .sflnkToggleCart strong
+{
+    color: white;
+    font-weight: normal;
+}
+
+.sfCStep0 .sfStep1 .rtsIn
+{
+    color: #0a8ee2;
+}
+
+.sfcartSummaryDetailsWrp
+{
+    position: absolute;
+    z-index: 3;
+    background-color: white;
+    right: 0px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+}
+
+.sfDisplayNone.sfServiceBaseUrlLiteral,
+.sfDisplayNone.sfCartIdLiteral
+{
+    display: none;
+}
+
+.sfminiShoppingCart
+{
+    width: 100%;
+}
+.sfminiShoppingCart td
+{
+    border-bottom: 1px dotted #555;
+    padding: 5px;
+    color: #fff;
+}
+.sfminiShoppingCart .sfItmTitleCol a
+{
+    color: #0a8ee2; 
+    text-decoration: none; 
+    font-size: 18px;
+}
+.sfminiShoppingCart .sfItmTitleCol a:hover
+{
+    color: #63d1ff;
+}
+
+.sfItmPriceCol
+{
+    text-align: right;
+    color: #777;
+    font-size: 12px;
+}
+
+.sfItmPriceCol span.sfPrice
+{
+    font-size: 16px;
+}
+
+.sfcartSummaryDetailsWrp .sfPrice
+{
+    font-weight: normal;
+    color: black;
+}
+.sfPriceTotal
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #999;
+    text-align: right;
+}
+
+.sfPriceTotal strong.sfBold
+{
+    font-weight: normal;
+    font-size: 20px;
+    color: white;
+}
+
+.sflnkToCart
+{
+    color: #0a8ee2;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 15px;
+    line-height: 40px;
+}
+
+.sfcartSummaryDetailsWrp .sfCheckoutBtn
+{
+    border: 0px;
+    padding: 3px 6px;
+    line-height: 18px;
+    background-color: #008eee;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    margin: 5px;
+    margin-left: 0px;
+    text-decoration: none;
+    font-family: 'Ropa Sans';
+}
+
+.note
+{
+    background-color: #fff6dc;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    float: left;
+    border-radius: 10px;
+}
+
+.sfsearchResultTitle
+{
+    font-size: 18px;
+}
+
+.sfsearchResultUrl,
+.sfsearchResultSnippet
+{
+    margin: 0px;
+}
+
+.sfregisterFormWrp
+{
+    border: 0;
+    padding: 0px;
+}
+
+.sfregisterFormWrp ol.sfregisterFieldsList
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sfregisterLnkWrp input
+{
+    background-image: url(../Images/button_bg.jpg);
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #222;
+    text-shadow: -1px -1px 0 #195781;
+    border: 0px;
+    padding: 6px 20px;
+    line-height: 18px;
+    float: left;
+    text-decoration: none;
+    position: relative;
+    background-color: #008eee;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    margin: 5px;
+    text-decoration: none;
+    font-family: 'Ropa Sans'; 
+}
+
+.sfsearchResultSnippet
+{
+    font-size: 12px;
+}
+
+.sfsearchResultUrl a
+{
+    color: #888;
+    text-decoration: none;
+}
+
+.sfsearchResultStatistics
+{
+    font-size: 18px;
+}
+
+.sfsearchResultHighLighter
+{
+    margin: 0px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  
+}
+
+.sfsearchResultTitle a
+{
+    color: #008eee;
+    text-decoration: none;
+}
+
+.note ul
+{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 15px;
+    list-style-image: url(../Images/arrow_right.png);
+}
+.note h4
+{
+    margin-top: 0px;
+}
+
+.sfshoppingCartWrp table.rgMasterTable, .sfwishListWrp table.rgMasterTable, .sfcheckoutPreviewWrp table.rgMasterTable 
+{
+    border-collapse: collapse;
+    border: 0px;
+}
+
+.sfshoppingCartWrp .rgMasterTable td, .sfwishListWrp .rgMasterTable td, .sfcheckoutPreviewWrp .rgMasterTable td
+{
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.sfshoppingCartWrp .rgMasterTable th, .sfwishListWrp .rgMasterTable th, .sfcheckoutPreviewWrp .rgMasterTable th
+{
+    font-weight: normal;
+    color: white;
+    text-align: left;
+    background-color: black;
+    padding: 8px;
+
+}
+
+.sfshoppingCartWrp .rgMasterTable .sfItmTitleWrp a, .sfwishListWrp .rgMasterTable .sfItmTitleWrp a, .sfcheckoutPreviewWrp .rgMasterTable .sfItmTitleWrp strong
+{
+    color: #0a8ee2;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.sfItmRemove
+{
+    color: #777;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.sfshoppingCartWrp .rgMasterTable .sfRegPrice, .sfwishListWrp .rgMasterTable .sfRegPrice, .sfcheckoutPreviewWrp .rgMasterTable .sfRegPrice
+{
+    font-size: 18px;
+    color: black;
+}
+.sfshoppingCartWrp .rgMasterTable .sfproductTmbWrp img, .sfwishListWrp .rgMasterTable .sfproductTmbWrp img, .sfcheckoutPreviewWrp .rgMasterTable .sfproductTmbWrp img
+{
+    height: 100px;
+}
+
+.sfshoppingCartWrp .rgMasterTable .sfTxt, .sfwishListWrp .rgMasterTable .sfTxt
+{
+    color: black;
+    padding: 6px;
+    width: 100px;
+    font-size: 17px;
+    font-family: 'Ropa Sans';
+}
+
+.sfshoppingCartWrp .rgMasterTable .sfItmPriceCol, .sfwishListWrp .rgMasterTable .sfItmPriceCol, .sfcheckoutPreviewWrp .rgMasterTable .sfItmPriceCol
+{
+    font-size: 16px;
+}
+
+.sfshoppingCartWrp .rgMasterTable .sfItmPriceCol .sfTxtLbl, .sfwishListWrp .rgMasterTable .sfItmPriceCol .sfTxtLbl, .sfcheckoutPreviewWrp .rgMasterTable .sfItmPriceCol .sfTxtLbl
+{
+    color: black;
+    font-size: 24px;
+    letter-spacing: -1px;
+}
+
+.sfcouponCodeEntryViewWrap 
+{
+    background-color: #fbfae7;
+    margin-top: 10px;
+    float: left;
+    padding: 15px;
+    border: 1px solid #d9cbb6;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); 
+}
+
+.sfcouponCodeEntryViewWrap a
+{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.sfApplyCouponBtn
+{
+    border: 0px;
+    padding: 3px 6px;
+    line-height: 18px;
+    background-color: #ff6029;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    margin: 5px;
+    margin-left: 0px;
+    text-decoration: none;
+    font-family: 'Ropa Sans'; 
+}
+.sfShoppingCartGridFooter
+{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.sfShoppingCartTotal
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    margin-top: 15px;
+}
+
+.sfShoppingCartDiscountList
+{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.sfTotalRowWrp
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: right;
+    padding-top: 15px;
+}
+
+#content a.sfshoppingCartUpdateLnk
+{
+    position: relative;
+    float: left;
+    border: 0px;
+    padding: 3px 6px;
+    line-height: 18px;
+    background-color: #0a8ee2;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    margin: 5px;
+    margin-left: 0px;
+    text-decoration: none;
+    font-family: 'Ropa Sans';
+}
+
+#userstrip .sfprofileAutoEditFormWrp
+{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+#userstrip .sfExpandedTarget ul
+{
+    list-style: none;
+}
+
+#userstrip .sfLoginField
+{
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+    float: left;
+}
+
+#userstrip .sfExpandedTarget .sfTxtLbl
+{
+    font-size: 14px;
+}
+#userstrip .sfExpandedTarget .sfTxt
+{
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    border: 1px solid #666;
+}
+
+#userstrip .sfprofileAutoEditFormWrp .sfprofileLnkWrp input
+{
+    background-image: url(../Images/button_bg.jpg);
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #222;
+    text-shadow: -1px -1px 0 #195781;
+    border: 0px;
+    padding: 6px 20px;
+    line-height: 18px;
+    float: left;
+    text-decoration: none;
+    position: relative;
+    background-color: #008eee;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    margin: 5px;
+    text-decoration: none;
+    font-family: 'Ropa Sans'; 
+}
+
+#userstrip .sfprofileAutoEditFormWrp .sfChange, #userstrip .sfprofileAutoEditFormWrp .sfCancel
+{
+    color: #008eee;
+    text-decoration: none;
+}
+
+#userstrip .sfprofileAutoEditFormWrp a.sfLinkBtnIn span.sfLinkBtnIn
+{
+    text-decoration: none; 
+}
+
+#userstrip .sfExpandedTarget textarea
+{
+    font-family: Arial;
+    width: 250px;
+    outline: none;
+    resize: none;
+}
+#userstrip .sfExpandedTarget .sfTxt:focus
+{
+    background-color: #111;
+    border: 1px solid #555;
+}
+
+strong.sfPriceTotal
+{
+    color: black;
+    font-size: 29px;
+    letter-spacing: -2px;
+    font-weight: normal;
+}
+
+.sfshoppingCartBtnsWrp
+{
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+.sfshoppingCartBtnsWrp  a
+{
+    text-decoration: none;
+    color: #0a8ee2;
+}
+
+.sfshoppingCartBtnsWrp input
+{
+    color: white;
+    background-color: #000;
+    padding: 7px 10px 6px;
+    cursor: pointer;
+	
+    margin-top: 15px;
+    border: 0px;
+    margin-bottom: 15px;
+    font-size: 18px; 
+    font-family: 'Ropa Sans'; 
+    margin-left: 20px;
+    float: right;
+}
+
+body fieldset.sfcheckoutFormWrp,
+body fieldset.sfcheckoutFormWrp.sfcheckoutPaymentFormWrp
+{
+    border: 0px;
+    padding: 15px;
+}
+
+.sfcheckoutShippingFormWrp.sfcheckoutFormWrp ul,
+ul.sfcheckoutFormList
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sfcheckoutShippingFormWrp.sfcheckoutFormWrp ul li.sfcheckoutFormItm
+{
+    width: 100%;
+    padding-top: 5px;
+    float: left;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.sfcheckoutPreviewAddress address
+{
+    font-style: normal;
+}
+
+.sforderDetailsAddressBlock
+{
+    font-style: normal;
+}
+
+.sforderDetailsAddressBlock strong.sforderDetailsTitle,
+h3.sforderDetailsTitle
+{
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 40px;
+}
+
+#content .sfcheckoutPreviewAddressBlock a
+{
+    background-color: #008eee;
+    font-size: 12px;
+    color: white;
+    padding: 3px 5px;
+    text-decoration: none;
+}
+
+.sfcheckoutPreviewAddressBlockInner { min-height: 132px; }
+
+.sfcheckoutPreviewAddress address strong
+{
+    font-weight: normal;
+}
+
+.sfcheckoutPreviewProduct table td
+{
+    border-bottom: 1px solid #eee;
+}
+
+.sfcheckoutPreviewProduct table th,
+.sfcheckoutPreviewProduct table td
+{ 
+    text-align: right;
+}
+.sfcheckoutPreviewProduct table th.sfItmTitleCol,
+.sfcheckoutPreviewProduct table td.sfItmTitleCol
+{ 
+    text-align: left;
+}
+
+.sfcheckoutPreviewProduct table th.sfSingleItmPriceCol.rgHeader div
+{
+    text-align: right;
+}
+
+.sfcheckoutPreviewProduct table td.sfItmOptionsCol div
+{
+    display: inline-block;
+    min-width: 30px;
+}
+
+h2.sfcheckoutStepTitle
+{
+    border-bottom: 1px solid #ddd;
+}
+
+.sfcheckoutPreviewProduct table td strong
+{
+    font-weight: normal;
+}
+
+.sfcheckoutShippingFormWrp.sfcheckoutFormWrp ul li.sfcheckoutFormItm label
+{
+    position: relative;
+    float: left;
+    width: 250px;
+    display: block;
+}
+
+ul.sfcheckoutFormList li
+{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+ul.sfcheckoutFormList li ol
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul.sfcheckoutFormList li label,
+ul.sfcheckoutFormList li .sfTxtLbl
+{
+    position: relative;
+    float: left;
+    width: 250px;
+    display: block;
+}
+
+.sfcheckoutBtnsWrp .sfcheckoutContinueBtn
+{
+    border: 0px;
+    padding: 6px 12px;
+    line-height: 18px;
+    background-color: #008eee;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    margin: 5px;
+    margin-left: 0px;
+    text-decoration: none;
+    font-family: 'Ropa Sans';
+}
+
+h2.sfcheckoutStepTitle
+{
+    color: black;
+    font-weight: normal;
+    font-size: 28px;
+    letter-spacing: -2px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    clear: both;
+}
+
+.sfcheckoutFormWrp .sfTxt
+{
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.sfcheckoutTabstrip  .rtsLink
+{
+    color: #0a8ee2;
+    background-image: url("../Images/arrow_right_thin.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 41px;
+    line-height: 41px;
+    padding-right: 20px;
+}
+
+.sfcheckoutTabstrip .rtsLink.rtsDisabled
+{
+    color: #666;
+}
+
+h1.sfcheckoutTitle
+{
+    color: black;
+    font-weight: normal;
+    font-size: 36px;
+    letter-spacing: -2px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px; 
+}
+
+h3.sfcheckoutStepSubTitle
+{
+    color: black;
+    font-weight: normal;
+    margin-top: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.sfexpandableListWrp
+{
+    padding: 0px;
+}
+
+.sflistExpandAllLnkWrp a
+{
+    color: #666;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.sfexpandableListWrp h2.sflistTitle
+{
+    display: none;
+}
+
+.sflistList
+{
+    padding: 0px;
+    list-style: none;
+    margin: 0;
+}
+.sflistList .sflistListItem
+{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.sflistList .sflistListItem h3.sflistItemTitle
+{
+    font-weight: normal;
+    color: #0a8ee2;
+    margin-bottom: 3px;
+    padding-bottom: 3px;
+    margin-top: 3px;
+    padding-top: 3px;
+    font-size: 16px;
+}
+
+.sflistList .sflistListItem h3.sflistItemTitle a
+{
+    color: #0a8ee2;
+    text-decoration: none;
+}
+
+.sfnewsletterForm.sfSubscribe
+{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sfnewsletterFieldsList
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none
+}
+
+.sfnewsletterFieldsList li
+{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.sfnewsletterFieldsList li label
+{
+    width: 140px;
+    display: block;
+    float: left;
+    position: relative;
+}
+
+.sfnewsletterTitle
+{
+    color: black;
+    font-weight: normal;
+}
+
+.sfNote
+{
+    font-size: 13px;
+    color: #999;
+}
+
+.sfnewsletterSubmitBtnWrp input
+{
+    border: 0px;
+    padding: 3px 6px;
+    line-height: 18px;
+    background-color: #008eee;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    margin: 5px;
+    margin-left: 0px;
+    text-decoration: none;
+    font-family: 'Ropa Sans'; 
+}
+
+.sfcheckoutShippingFormWrp.sfcheckoutFormWrp ul li label.sfErrorWrp
+{
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+.sfErrorWrp strong
+{
+    font-weight: normal;
+}
+
+.sfPrintBtn
+{
+    border: 0px;
+    background-color: white;
+    padding-left: 70px;
+    height: 64px;
+    line-height: 64px;
+    float: right;
+    cursor: pointer;
+    font-family: 'Ropa Sans'; 
+    font-size: 20px;
+    background-image: url(../Images/print.jpg);
+    background-repeat: no-repeat;
+}
+
+.sfnewsList,
+.sfpostsList
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2.sfnewsTitle,
+h2.sfpostTitle
+{
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+h2.sfnewsTitle a,
+h2.sfpostTitle a
+{
+    color: #0a8ee2;
+    text-decoration: none;
+}
+
+.sfnewsAuthorAndDate,
+.sfpostAuthorAndDate
+{
+    color: #888;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.sfnewsCommentsCount,
+.sfpostCommentsCount
+{
+    color: #0a8ee2;
+    text-decoration: none;
+}
+.sf_pagerNumeric
+{
+    margin-top: 30px;
+}
+#content .sf_pagerNumeric a
+{
+
+    display: block;
+    float: left;
+    margin-right: 1px;
+
+    background-color: #fff;
+    color: #000;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#content .sf_pagerNumeric a.sf_PagerCurrent
+{
+    background-color: #0a8ee2;
+    color: white;
+}
+
+.sftaxonCloud,
+.sfarchiveList
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.sftaxonCloud li.sftaxonItem a,
+.sfarchiveList li a
+{
+    color: #0a8ee2;
+    text-decoration: none;
+}
+
+.sfblogsList.sfblogsListTitleDate
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sfblogsList.sfblogsListTitleDate h2
+{
+    font-size: 22px;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sfblogsList.sfblogsListTitleDate h2 a
+{
+    color: #0a8ee2;
+    text-decoration: none;
+}
+
+#content a.sfnewsBack,
+#content a.sfeventBack,
+#content a.sfpostBack
+{
+    border: 0px;
+    padding: 3px 6px;
+    line-height: 18px;
+    background-color: #008eee;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    margin: 5px;
+    margin-left: 0px;
+    text-decoration: none;
+    font-family: 'Ropa Sans'; 
+}
+
+.RadSocialShare
+{
+    border: 0px;
+}
+
+.sfcommentsForm
+{
+    border: 0px;
+}
+
+.sfcommentsFieldsList
+{
+    padding: 0px;
+    list-style: none;
+}
+
+.sfcommentsSubmitBtnWrp input
+{
+    border: 0px;
+    padding: 3px 6px;
+    line-height: 18px;
+    background-color: #008eee;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    margin: 5px;
+    margin-left: 0px;
+    text-decoration: none;
+    font-family: 'Ropa Sans'; 
+}
+
+body.sfreContentArea
+{
+    background-image: none;
+}
+
+.RadGrid.sfdownloadTable td
+{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.RadGrid.sfdownloadTable td a.sfdownloadLink
+{
+    color: #0a8ee2;
+    text-decoration: none;
+}
+
+.sfdownloadList
+{
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+h1.sfforumsTitle,
+h1.sfforumTitle
+{
+    color: black;
+    font-weight: normal;
+    font-size: 36px;
+    letter-spacing: -2px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px; 
+}
+
+table.sfforumsList,
+.sfforumThreadsList
+{
+    width: 100%;
+    float: left;
+    border-collapse: collapse;
+}
+table.sfforumsList th,
+.sfforumThreadsList th
+{
+    padding: 0px;
+}
+table.sfforumsList th h2,
+table.sfforumThreadsList th
+{
+    text-align: left;
+    padding: 5px;
+    font-weight: normal;
+    font-size: 22px;
+    color: black;
+    background-color: #ddd;
+    font-weight: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+
+ol.sfcommentsList
+{
+    list-style: none;
+}
+
+.sfforumRssLnk
+{
+    float: right;
+    display: block;
+    padding-left: 20px;
+    height: 25px;
+    line-height: 25px;
+    background-image: url(../Images/rss.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+table.sfforumsList td,
+.sfforumThreadsList td
+{
+    border-bottom: 1px solid #eee;
+    padding: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+td.sfforumThreadsCountWrp
+{
+    background-color: #f6f6f6;
+}
+
+td.sfforumTitleWrp a
+.table.sfforumsList td
+{
+    font-size: 18px;
+}
+
+table.sfforumsList td a,
+.sfforumThreadsList a
+{
+    text-decoration: none;
+    color: #0a8ee2;
+}
+
+.sfforumLastPostWrp
+{
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.sfforumPostBreabcrumbWrp a,
+.sfforumSubscribeWrp a
+{
+    color: #0a8ee2;
+    text-decoration: none;
+}
+#content a.sfforumNewThreadLnk
+{
+    border: 0px;
+    padding: 3px 6px;
+    line-height: 18px;
+    float: left;
+    background-color: #008eee;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    margin: 5px;
+    margin-left: 0px;
+    text-decoration: none;
+    font-family: 'Ropa Sans'; 
+}
+
+h1.sfforumPostTitle
+{
+    font-weight: normal;
+    color: black;
+    width: 100%;
+}
+
+#threadTitleText
+{
+    float: left;
+    display: block;
+}
+
+.sfDisplayNone
+{
+    display: none;
+}
+
+.sfforumPostTitleEdit
+{
+    border: 0px;
+    padding: 3px 6px;
+    line-height: 18px;
+    float: left;
+    background-color: #333;
+    color: white;
+    font-weight: normal;
+    font-size: 13px;
+    margin: 0px;
+    margin-left: 30px;
+    text-decoration: none;
+    font-family: 'Ropa Sans'; 
+}
+.sfforumReplyPostWrp
+{
+    float: left;
+    width: 100%;
+}
+.sfforumReplyPostWrp input
+{
+    border: 0px;
+    padding: 3px 6px;
+    line-height: 18px;
+    float: left;
+    background-color: #008eee;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    margin: 5px;
+    margin-left: 0px;
+    text-decoration: none;
+    font-family: 'Ropa Sans';
+}
+
+.sfforumSocialShareWrp
+{
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+.sfforumThreadPostList
+{
+    position: relative;
+    float: left;
+}
+
+.sfforumPostReplyForm
+{
+    position: relative;
+    float: left;
+}
+
+.sfforumThreadPostList
+{
+    list-style-type: none;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sfforumThreadPostList li.sfforumThreadPost
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.sfforumThreadPostUser
+{
+    position: relative;
+    float: left;
+    width: 20%;
+}
+
+.sfforumThreadPostContentWrp
+{
+    position: relative;
+    float: left;
+    width: 80%;
+}
+
+.sfforumUser
+{
+    font-weight: normal;
+    color: black;
+    font-size: 25px;
+    margin-bottom: 20px;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.sfforumUserPostsInfo
+{
+    line-height: 20px;
+}
+.sfforumPostIsFeaturedWrp
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.sfforumPostIsFeaturedWrp a
+{
+    color: #0a8ee2;
+    text-decoration: none;
+}
+
+#contetn a.sfEditBtn,
+.sfforumReplyBtn, #cotnent a.sfQuote, .sfnewsletterSubmitBtn
+
+{
+    border: 0px;
+    padding: 3px 6px;
+    line-height: 18px;
+    float: none;
+    position: relative;
+    background-color: #008eee;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    margin: 5px;
+    text-decoration: none;
+    font-family: 'Ropa Sans';
+    cursor: pointer;
+}
+
+.sfforumPostAge
+{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.sfforumPostPermalink
+{
+    color: #0a8ee2;
+    text-decoration: none;
+    position: absolute;
+    right: 150px;
+    top: 0px;
+}
+
+.sfforumThreadPostContent
+{
+    margin-top: 20px;
+}
+
+.sfforumPostReplyContainer
+{
+    position: relative;
+    float: left;
+    display: none;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+fieldset.sfforumPostReplyForm
+{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    overflow: visible !important;
+}
+
+.sfforumReplyThreadContent
+{
+    position: relative;
+    float: left;
+    width: 80%;
+}
+
+h2.sfforumsReplyToTitle
+{
+    font-weight: normal;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    color: black;
+    margin-bottom: 15px;
+}
+
+a.sfQuote
+{
+    margin-left: 0px;
+}
+
+.sfforumPostReplyContainer .reToolbarWrapper
+{
+    display: none;
+}
+
+.sfEditorWrp
+{
+    margin-top: 30px;
+}
+
+.sfSubmitBtnWrp input
+{
+    border: 0px;
+    padding: 3px 6px;
+    line-height: 18px;
+    float: none;
+    position: relative;
+    background-color: #008eee;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    margin: 5px;
+    text-decoration: none;
+    font-family: 'Ropa Sans';
+}
+
+.sfitemsList.sfitemsListTitleDateTmb
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sfitemsList.sfitemsListTitleDateTmb .sfitem
+{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.sfitemsList.sfitemsListTitleDateTmb h2.sfitemTitle
+{
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+}
+.sfitemsList.sfitemsListTitleDateTmb h2.sfitemTitle a
+{
+    color: #0a8ee2;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.sfnewsFullStory
+{
+    color: #0a8ee2;
+    text-decoration: none;
+}
+
+.sfitemPublicationDate,
+.sfitemChoices
+{
+    color: black;
+    font-size: 16px;
+}
+
+.sfitemChoices
+{
+    margin-bottom: 20px;
+}
+
+.sfitemDetails .sfTxtLbl, .sfitemDetails .sfChoiceContent
+{
+    display: inline-block;
+}
+
+h2.sfFormTitle.sfTitleSmall
+{
+    font-size: 22px;
+    font-weight: normal;
+    color: black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.sfFormBox
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.sfFormBox .sfTxtLbl
+{
+    display: block;
+    position: relative;
+    float: left;
+    width: 150px;
+}
+.sfFormRadiolist
+{
+    margin-top: 30px;
+}
+.sfFormRadiolist .sfTxtLbl
+{
+    font-size: 16px;
+    color: black;
+}
+.sfFormSubmit
+{
+    margin-top: 30px;
+}
+.sfFormSubmit input
+{
+    border: 0px;
+    padding: 10px 20px;
+    line-height: 18px;
+    float: none;
+    position: relative;
+    background-color: #008eee;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    margin: 5px;
+    text-decoration: none;
+    font-family: 'Ropa Sans';
+}
+
+.sfeventsList
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.sfeventsList .sfeventListItem
+{ 
+    margin-bottom: 4%;
+}
+
+h2.sfeventTitle
+{
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h2.sfeventTitle a
+{
+    color: #0a8ee2;
+    text-decoration: none;
+}
+
+.city div
+{
+    display: inline-block;
+}
+
+h1.sfeventTitle
+{
+    color: black;
+    font-weight: normal;
+}
+
+.sfeventDatesLocationContacts
+{
+    padding: 0;
+    margin: 0;
+    padding-left: 15px;
+    list-style-image: url(../Images/arrow_right.png);
+}
+
+fieldset.sfsearchBox
+{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    position: relative;
+    margin-top: 15px;
+}
+
+.sfsearchTxt
+{
+    border: 1px solid #ddd;
+    padding: 5px;
+    color: black;
+    font-family: 'Ropa Sans', Arial, sans-serif;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.sfsearchSubmit
+{
+    text-indent: -5000px;
+    font-size: 1px;
+    overflow: hidden;
+    width: 24px;
+    height: 24px;
+    background-image: url(../Images/search.png);
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+    top: 1px;
+    border: 0px;
+}
+
+fieldset.sfLoginWrp
+{
+    border: 0px;
+    padding: 0px;
+}
+
+fieldset.sfLoginWrp .sfFailure
+{
+	
+    color: orange;
+}
+
+ol.sfLoginFieldsWrp
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sfLoginField
+{
+    float: left;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sfLoginField label
+{
+    display: block;
+    width: 150px;
+    float: left;
+}
+
+fieldset.sfLoginWrp .sfSubmitBtn .sfLinkBtn.sfSave,
+#userstrip .sfSubmitBtnWrp a
+{
+    background-image: url(../Images/button_bg.jpg);
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #222;
+    text-shadow: -1px -1px 0 #195781;
+    border: 0px;
+    padding: 6px 20px;
+    line-height: 18px;
+    float: left;
+    text-decoration: none;
+    position: relative;
+    background-color: #008eee;
+    color: white !important;
+    font-weight: normal;
+    font-size: 15px;
+    margin: 5px;
+    text-decoration: none;
+    font-family: 'Ropa Sans'; 
+}
+
+fieldset.sfLoginWrp .sfSubmitBtn .sfLinkBtn.sfSave:hover
+{
+    background-position: 0 -38px;
+
+}
+
+fieldset.sfLoginWrp .sfSubmitBtn .sfLinkBtn.sfSave strong
+{
+    font-weight: normal;
+}
+
+.sfLoginHelp
+{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.sfLoginHelp a
+{
+    color: #008eee;
+    text-decoration: none;
+}
+
+.sfLoginHelp a:hover
+{
+    color: #63d1ff;
+}
+
+.sfLoginField .sfValidator
+{
+    display: block;
+    width: 100%;
+    float: left;
+	
+    color: orange;
+}
+
+.sfLoginField .sfValidator strong
+{
+    font-weight: normal;
+}
+.sfprofileLastName .sfTxtLbl,
+.sfprofileFirstName .sfTxtLbl
+{
+    color: #777;
+}
+.sfprofileFirstName .sfTxtLbl,
+.sfprofileFirstName .sfTxtContent,
+.sfprofileLastName .sfTxtLbl,
+.sfprofileLastName .sfTxtContent
+{
+    display: inline-block;
+}
+
+#featured-product
+{
+    width: 960px;
+    height: 220px;
+    overflow: hidden;
+    background-image: url(../Images/shadow_bg.png);
+    background-repeat: no-repeat;
+    background-position: 0 -100px;
+}
+
+.sfprofileLnkWrp .sfprofileEditLnk,
+.sfprofileLnkWrp .sfprofileChangePasswordLnk
+{
+    color: #008eee;
+    text-decoration: none;
+}
+
+.sfdigitalDownloadsListWrp.sfLargeIcns table th
+{
+    text-align: left;
+    font-weight: normal;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.sfprofileEditFormWrp,
+.sfprofileChangePasswordFormWrp
+{
+    padding: 0;
+    margin: 0;
+    border: 0px;
+}
+
+.sfprofileFieldsList
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.sfprofileFieldsList .sfFieldWrp
+{
+    margin-bottom: 15px;
+}
+.sfprofileFieldsList .sfFieldWrp textarea
+{
+    font-family: Arial;
+    width: 80%;
+    height: 150px;
+}
+.sfprofileEditFormWrp .sfprofileLnkWrp
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+#content a
+{
+    color: #008eee;
+    text-decoration: none;
+}
+
+.sfusersListNameAvatar
+{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.sfusersListNameAvatar .sfusersListItem
+{
+    position: relative;
+    float: left;
+    width: 120px;
+    height: 190px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.sfusersListNameAvatar .sfusersListItem .sfImg
+{
+    width: 100%;
+}
+
+.sfusersListNameAvatar .sfusersListItem .sfImg img
+{
+    width: 100px;
+}
+
+.sfprofileEditFormWrp .sfprofileLnkWrp input
+{
+    background-image: url(../Images/button_bg.jpg);
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #222;
+    text-shadow: -1px -1px 0 #195781;
+    border: 0px;
+    padding: 6px 20px;
+    line-height: 18px;
+    float: left;
+    text-decoration: none;
+    position: relative;
+    background-color: #008eee;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    margin: 5px;
+    text-decoration: none;
+    font-family: 'Ropa Sans'; 
+}
+
+#featured-product:hover #three-d-line2
+{
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    opacity: 0;
+}
+
+#featured-product:hover #three-d-line3
+{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    left: -500px;
+    opacity: 0;
+}
+
+#featured-product:hover .header-image
+{ 
+    left: 0px;
+    top: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
+
+#featured-product:hover #header-title
+{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    left: -500px;
+    opacity: 0;
+}
+
+#featured-product:hover #header-title2
+{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    opacity: 1;
+    left: 255px;
+}
+
+#featured-product:hover #header-title3
+{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transform-style: preserve-3d; 
+    -webkit-transform: perspective(400px) rotateY(0deg);
+    left: 421px;
+    opacity: 1;
+}
+
+#featured-product:hover #header-subtitle
+{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    left: -900px;
+    opacity: 0;
+}
+
+#three-d-line1
+{
+    width: 350px;
+    opacity: 1;
+    height: 21px;
+    background-image: linear-gradient(right, rgba(0, 143, 238, 0) 0%, rgba(0, 143, 238, 1) 40%);
+    background-image: -webkit-linear-gradient(right, rgba(0, 143, 238, 0) 0%, rgba(0, 143, 238, 1) 40%);
+    background-image: -moz-linear-gradient(right, rgba(0, 143, 238, 0) 0%, rgba(0, 143, 238, 1) 40%);
+    box-shadow: 0px 50px 35px rgba(0, 0, 0, 0.3);
+
+    -webkit-transform-style: flat;
+    -webkit-transform-style: preserve-3d; 
+    -webkit-transform: skewX(-26deg);
+    -moz-transform: skewX(-26deg);
+    position: absolute;
+    top: 185px;
+    left: 400px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
+
+#featured-product:hover #three-d-line1
+{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    left: 700px;
+    top: 205px;
+    opacity: 0;
+}
+
+#three-d-line2
+{
+    width: 11px;
+    height: 50px;
+    background-color: #0468ac;
+    -webkit-transform-style: flat;
+    -webkit-transform-style: preserve-3d; 
+    -webkit-transform: skewY(-66deg);
+    -moz-transform: skewY(-66deg);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    position: absolute;
+    top: 146px;
+    left: 394px;
+}
+
+#three-d-line3
+{
+    width: 250px;
+    height: 21px;
+    background-image: -moz-linear-gradient(left, rgba(0, 143, 238, 0) 0%, rgba(0, 143, 238, 1) 40%);
+    background-image: -webkit-linear-gradient(left, rgba(0, 143, 238, 0) 0%, rgba(0, 143, 238, 1) 40%);
+    -webkit-transform-style: flat;
+    -webkit-transform-style: preserve-3d; 
+    -webkit-transform: skewX(-26deg);
+    -moz-transform: skewX(-26deg);
+
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    box-shadow: 30px 70px 35px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 135px;
+    left: 150px;
+	
+}
+
+.header-image
+{
+    position: absolute;
+    left: 410px;
+    top: 0px;
+    -webkit-transform-style: flat;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
+
+#header-title
+{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    left: 40px;
+    top: 70px;
+    color: #0a8ee2;
+    font-size: 34px;
+    letter-spacing: -2px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
+
+#header-title2
+{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    left: 540px;
+    top: 120px;
+    color: #fff;
+    font-size: 34px;
+    letter-spacing: -2px;
+    line-height: 50px;
+    padding-right: 15px;
+    text-align: right;
+    background-color: #0a8ee2;
+    box-shadow: 0 100px 50px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
+
+#header-title3
+{
+    width: 280px;
+    height: 50px;
+    position: absolute;
+    -webkit-transform-style: preserve-3d; 
+    -webkit-transform: perspective(400px) rotateY(90deg);
+    left: 390px;
+    top: 120px;
+    color: #fff;
+    font-size: 34px;
+    letter-spacing: -1px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #005eb6;
+    box-shadow: 0 100px 50px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
+
+#header-title3 span
+{
+    font-size: 15px;
+    letter-spacing: normal;
+}
+
+#header-subtitle
+{
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    left: 40px;
+    top: 100px;
+    color: #000;
+    font-size: 14px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
+
+#arrow
+{
+    width: 100px;
+    height: 100px;
+    background-color: #0a8ee2;
+    position: absolute;
+    left: 630px;
+    background-image: url(../Images/tick.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 50px;
+    top: 0px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
+
+#featured-product:hover #arrow
+{
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    top: 30px;
+    left: 650px;
+    background-image: url(../Images/arrow_right_header.png);
+}
+
+#featured-product #arrow:hover
+{
+    background-color: #2fa4ff;
+    width: 120px;
+    height: 120px;
+    box-shadow: 0px 0px 45px #93d0ff;
+    border-radius: 60px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
+
+#userstrip a.facebook,
+#userstrip a.twitter, 
+#userstrip a.google-plus,
+#userstrip a.youtube
+{
+    display: block;
+    width: 100px;
+    float: left;
+    color: #0A8EE2;
+    text-decoration: none;
+    line-height: 18px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    margin-right: 10px;
+}
+
+#userstrip a.facebook:hover,
+#userstrip a.twitter:hover, 
+#userstrip a.google-plus:hover,
+#userstrip a.youtube:hover
+{
+    color: white;
+    background-position: 0 -32px;
+}
+
+#userstrip a.facebook br, #userstrip a.twitter br, #userstrip a.google-plus br, #userstrip a.youtube br { display: inline; }
+
+#userstrip a.facebook span,
+#userstrip a.twitter span, 
+#userstrip a.google-plus span, 
+#userstrip a.youtube span
+{
+    color: #aaa;
+    font-size: 12px;
+}
+
+#userstrip a.twitter { background-image: url(../Images/twitter_header.png); }
+#userstrip a.youtube { background-image: url(../Images/youtube_header.png); }
+#userstrip a.facebook { background-image: url(../Images/facebook_header.png); }
+#userstrip a.google-plus { background-image: url(../Images/google_header.png); }
+
+.RadSiteMap_smartphones
+{
+    display: block;
+    width: 94%;
+    margin-left: 3%;
+    margin-bottom: 30px;
+    position: relative;
+    float: left;
+    margin-top: 20px;
+    display: none;
+}
+.RadSiteMap_smartphones ul,
+.RadSiteMap_smartphones ul li
+{
+    padding: 0;
+    margin: 0;
+}
+
+.RadSiteMap_smartphones ul li.rsmItem
+{
+    border-bottom: 1px solid #ddd;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.RadSiteMap_smartphones ul li ul li.rsmItem
+{
+    padding: 0;
+    width: auto;
+    border: 0px;
+}
+
+.RadSiteMap_smartphones .rsmLink
+{
+    font-size: 18px;
+    padding: 0px !important;
+    margin: 0px !important;
+    color: black;
+}
+
+.RadSiteMap_smartphones ul li ul li .rsmLink
+{
+    color: #008eee;
+    font-size: 15px;
+}
+
+#sfPageContainer #main-navigation-login .RadDockZone.RadDockZone_Sitefinity div.RadDock.RadDock_Sitefinity.zeLayoutDock:nth-child(3)
+{
+    display: none;
+}
+
+.sfBreadcrumbWrp,
+.sfforumPostBreabcrumbWrp
+{
+    position: relative;
+    float: left;
+    width: 900px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: #666;
+    margin-bottom: 30px;
+    background-color: #f0f0f0;
+}
+.sfforumPostBreabcrumbWrp
+{
+    padding-bottom: 5px; 
+}
+
+.sfBreadcrumbLabel
+{
+    display: block;
+    float: left;
+    position: relative;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.sfBreadcrumbWrp .RadSiteMap_Sitefinity
+{
+    position: relative;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sfBreadcrumbWrp .RadSiteMap_Sitefinity .rsmLink
+{
+    color: #0A8EE2;
+    font-size: 14px;
+	
+    font-family: 'Ropa Sans'; 
+}
+
+.sfBreadcrumbWrp .RadSiteMap_Sitefinity .sfNoBreadcrumbNavigation .rsmLink
+{
+    color: #999;
+}
+
+ul.sftaxonCloud,
+ul.sftaxonHorizontalList
+{
+    padding: 0;
+    float: left;
+    margin: 0;
+    margin-top: 10px;
+    padding-left: 15px;
+    list-style-image: url(../Images/arrow_right.png);
+}
+
+img.flyout
+{
+    position: absolute;
+    left: 40%;
+    bottom: 0;
+    opacity: 0.4;
+    box-shadow: 0 0 20px #fff;
+    z-index: 500;
+}
+
+img.flyout1
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+@media screen and (max-width: 1024px)
+{
+   
+    .sfimageWrp img[alt="header"]
+    {
+        display: none;
+    }
+
+    .sfproductsList li.sfproductListItem
+    {
+        width: 30%;
+        margin-right: 3%;
+    }
+    .sfBreadcrumbWrp
+    {
+        display: none;
+    }
+    .departments .RadTabStrip_Sitefinity
+    {
+		
+        background-position: bottom;
+        margin-left: 0px;
+    }
+    .departments .RadTabStrip_Sitefinity .rtsLink
+    {
+        width: 90px;
+        font-size: 14px;
+        padding-top: 10px;
+        background: none !important;
+    }
+
+    .sfBreadcrumbWrp
+    {
+        width: 105%;
+        padding-left: 5%;
+		
+
+    }
+
+    .RadMenu_quantum .rmItem
+    {
+        margin-right: 0px;
+        font-size: 18px;
+    }
+    #userstrip .sfprofileField.sfprofileAvatar,
+    #userstrip .sfprofileField.sfprofileFirstName,
+    #userstrip .sfprofileField.sfprofileLastName
+    {
+        width: 33%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #userstrip .sfprofileField.sfprofileAvatar .sfImg img
+    {
+        width: 90%;
+    }
+
+    #userstrip-holder #toggle
+    {
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        text-indent: 40px;
+        background-image: url(../Images/arrow_down.png);
+        background-repeat: no-repeat;
+        background-position: 42% center;
+    }
+
+    #userstrip-holder
+    #header-holder,
+    #featured-product,
+    #footer
+    {
+        width: 100%;
+        margin: 0px;
+        left: 0px;
+    }
+	
+    #userstrip a.facebook,
+    #userstrip a.twitter, 
+    #userstrip a.google-plus,
+    #userstrip a.youtube
+    {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .RadTabStrip_footer .rtsLink,
+    .RadTabStrip_footer .rtsOut,
+    .RadTabStrip_footer .rtsIn
+    {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #footer a.sitefinity
+    {
+        display: none;
+    }
+
+    #wrapper #content,
+    #header,
+    #userstrip
+    {
+        width: 96%;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin: 0px;
+        left: 0px;
+    }
+
+    #featured-product
+    {
+        width: 104%;
+        margin-lefT: -2%;
+    }
+    #content
+    {
+        overflow: hidden;
+        margin-top: 30px;
+    }
+
+    .topproducts img
+    {
+        width: 100%;
+    }
+
+    #userstrip
+    {
+        background: none;
+    }
+
+    .topproducts .sflistList li.sflistListItem
+    {
+        width: 46%;
+        padding-left: 2%;
+        padding-right: 2%;
+        height: 220px;
+    }
+
+    .topproducts .sflistList li.sflistListItem .sflistItemContent img
+    {
+        width: 50%;
+        position: relative;
+        float: left;
+    }
+
+    #wrapper .topproducts .sflistList li.sflistListItem .sflistItemContent a.button
+    {
+        top: 120px;
+        left: 50%;
+    }
+    #wrapper .topproducts .sflistList li.sflistListItem .sflistItemContent ul
+    {
+        padding: 0px;
+        margin: 0px;
+        float: left;
+        position: relative;
+        width: 45%;
+        padding-left: 5%;
+    }
+
+    .topproducts .sflistList li.sflistListItem:nth-child(even)
+    {
+        background: none;
+    }
+
+    #userstrip .sf_3cols_3_33
+    {
+        display: none;
+    }
+
+    #featured-product div
+    {
+        display: none;
+    }
+
+    #featured-product img.header-image
+    {
+        left: 0px;
+        top: 30px;
+    }
+    #featured-product a#arrow
+    {
+        left: 210px;
+        top: 60px;
+    }
+
+    #featured-product:hover a#arrow
+    {
+        left: 210px;
+        top: 60px;
+    }
+
+    #featured-product div#header-title
+    {
+        display: block;
+        left: 350px;
+    }
+
+    #featured-product:hover div#header-title
+    {
+        left: 350px !important;
+        opacity: 1;
+    }
+
+    #featured-product div#header-subtitle
+    {
+        display: block;
+        left: 350px;
+        width: auto;
+    }
+
+    #featured-product:hover div#header-subtitle
+    {
+        left: 350px !important;
+        opacity: 1;
+    }
+
+}
+
+@media screen and (max-width: 640px)
+{
+	
+    #sfPageContainer #main-navigation-login .RadDockZone.RadDockZone_Sitefinity div.RadDock.RadDock_Sitefinity.zeLayoutDock:nth-child(3)
+    {
+        display: block;
+    }
+
+    .RadSiteMap_smartphones
+    {
+        display: block;
+    }
+
+    .sforderBriefInfoWrp
+    {
+        position: relative;
+        float: left;
+        width: 100%;
+    }
+
+    .sfordersListDetailView
+    {
+        position: relative;
+        float: left;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 15px;
+        border: 0px;
+    }
+
+    .sfordersListItem .RadGrid table.rgMasterTable
+    {
+        border-top: 0px;
+    }
+
+    .sfordersListItem
+    {
+        border-bottom: 2px solid #666;
+    }
+
+    .sfordersListCount
+    {
+        margin-top: 15px;
+    }
+
+    .sfproductsList li.sfproductListItem
+    {
+        width: 45%;
+        margin-right: 5%;
+    }
+
+    .departments .RadTabStrip_Sitefinity
+    {
+        width: 100%;
+        background-color: #333;
+        background-image: none;
+        padding-top: 10px;
+    }
+
+    .departments .RadTabStrip_Sitefinity .rtsLink
+    {
+        color: #ccc;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .departments .RadTabStrip_Sitefinity a.rtsLink.rtsSelected
+    { 
+        border: 0px;
+        border-radius: 10px;
+        line-height: 25px;
+        background-color: #000;
+        color: #fff;
+    }
+    #content
+    {
+
+        box-shadow: none;
+        padding-top: 20px;
+
+        width: 96%;
+        margin: 0px;
+        margin-left: 2%;
+		
+        background: none;
+    }
+
+    #content h1
+    {
+        padding-bottom: 10px;
+        margin-bottom: 0px;
+    }
+
+    .sfBreadcrumbWrp
+    {
+        display: none;
+    }
+    fieldset.sfsearchBox
+    {
+        float: left;
+        margin-left: 10px;
+    }
+
+    .RadMenu_quantum
+    {
+        display: none;
+    }
+
+    ul#langsWrapper
+    {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+    .topproducts .sflistList li.sflistListItem
+    {
+        width: 100%;
+        margin-right: 4%;
+        height: 220px;
+        background: none;
+    }
+
+    #userstrip-holder #toggle
+    {
+        text-align: left;
+        background-position: 5px center;
+    }
+
+    #featured-product
+    {
+        display: none;
+    }
+
+    #footer
+    {
+        padding-bottom: 20px;
+    }
+
+    #userstrip fieldset.sfLoginWrp
+    {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .RadTabStrip_footer .rtsLink,
+    .RadTabStrip_footer .rtsOut,
+    .RadTabStrip_footer .rtsIn
+    {
+        padding: 1px;
+        margin: 1px;
+    }
+
+    #wrapper #userstrip
+    {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #wrapper #userstrip .sf_3cols_1_33 .sf_colsIn
+    {
+        margin: 0 !important;
+    }
+
+    #userstrip .sf_colsOut
+    {
+        padding-bottom: 20px;
+    }
+
+    .sfprofileListLikeWrp
+    {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #userstrip .sfprofileLnkWrp
+    {
+        width: 66%;
+        border: 0px;
+    }
+
+    #userstrip .sfprofileLnkWrp .sfprofileEditLnk,
+    #userstrip .sfprofileLnkWrp .sfprofileChangePasswordLnk
+    {
+        width: 100%;
+        display: block; 
+    }
+
+    #userstrip .logout-button
+    {
+        margin-left: 5%;
+        margin-top: 10px;
+    }
+
+    #userstrip h3
+    {
+        background-image: url(../Images/shadow_top.png);
+        background-repeat: repeat-x;
+        margin-top: 0px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        font-size: 16px;
+        border: 0px;
+    }
+
+    #logo
+    {
+        zoom: 0.7;
+    }
+
+    .sfprofileField.sfprofileAbout
+    {
+        display: none;
+    }
+
+    .sfprofileField.sfprofileFirstName,
+    .sfprofileField.sfprofileLastName
+    {
+        display: none;
+    }
+
+    .sfproductInfoWrp h1.sfproductTitle
+    {
+        color: black;
+        font-size: 26px;
+        font-weight: normal;
+    }
+
+    sfproductImgsWrp
+    {
+        width: 100%;
+    }
+
+    .sfproductInfoWrp
+    {
+        width: 100%;
+    }
+
+    .sfshoppingCartWrp .sfproductTmbWrp
+    {
+        display: none;
+		
+    }
+
+    .sfshoppingCartWrp .rgMasterTable .sfItmTitleWrp a
+    {
+        font-size: 16px;
+    }
+    .sfeventsList .sfeventListItem
+    {
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 40px;
+    }
+
+    .sfforumThreadPostUser img
+    {
+        width: 90%;
+    }
+
+    .sfforumUserPostsInfo
+    {
+        display: none;
+    }
+    
+    .sfShopByFilterList, .sfShopByFilterGroupListItem
+    {
+        float: left;
+        margin: 10px;
+    }
+    
+    .sfShopByFilterGroupListItem h3
+    {
+        font-size: 16px;
+    }
+    
+    .sfwishListWrp .rgMasterTable .sfTxt
+    {
+        width: 30px; ;
+    }
+	
+    .sfwishListWrp .sfItmOptionsCol 
+    {
+        display: none;
+    }
+	
+    .sfwishListWrp .rgMasterTable .sfproductTmbWrp img
+    {
+        height: 50px;
+
+    }
+}
+
+.sfimagesTmbList.sfTmbDetailsMode
+{
+    float: left;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    width: 100%;
+}
+
+.sfimagesTmbList.sfTmbDetailsMode .sfimagesTmb
+{
+    float: left;
+    margin-right: 5px;
+    position: relative;
+}
+
+.RadScheduler .rsHeader h2
+{
+    clear: none;
+}
+
+.sfShopByFilterList, .sfShopByFilterGroupListItem
+{
+
+    list-style: none;
+}
+
+.sfVerticalList ul
+{
+    margin: 0; padding: 0;
+}
+
+.sf_cols  ul
+{
+    margin: 0; padding: 0;
+}
+
+.sfproductDocumentsAndFilesWrp
+{
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+}
+
+.sfCatalogTotalCount div
+{
+    color: white;
+    background-color: #0a8ee2;
+    padding: 4px 6px;
+    display: block;
+
+    font-size: 15px;
+    float: right;
+    clear: right; 
+}
+
+#content .sfShopByFilterGroupList.sfVerticalList .sfFilterLnk
+{
+    background: url(../Images/filter_checkbox.png) no-repeat;
+    padding-left: 19px;
+}
+	
+#content .sfShopByFilterGroupList.sfVerticalList .sfShopByFilterListItemSelected .sfFilterLnk
+{
+    background-position: 0 -17px;
+	
+	
+}
+
+.sfSortByWrp
+{
+	
+
+}
+
+.sfCatalogTotalCount div[id*='totalProductsControlTop']
+{
+    display: none;
+}
+
+.sfAddToWishlistWrp
+{
+		
+    background-image: url(../Images/emptywishlist.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+    display: block;
+    width: 69px;
+    height: 69px;
+    margin: 0 auto;
+}
+.sfAddToWishlistWrp:hover
+{
+    background-position: 0 -69px;
+}
+
+.sfthreadsFilterList
+{
+    list-style: none;
+  
+    display: block;
+    width: 100%;
+}
+
+.sfthreadsFilterListItm:empty
+{
+    display: none;
+	
+}
+
+.sfthreadsFilterList li
+{
+    float: left;
+    padding: 5px 10px;
+    background-color: #ddd;
+
+    list-style: none;
+}
+
+#wrapper .sshIcon, #wrapper .sshListItem 
+{
+    width: 32px;
+    height: 32px;
+    
+    margin: 0;
+}
+
+.sshIcon
+{
+    background: url(../Images/icons.png);
+
+}
+
+#wrapper .sshLinkItem .sshShareOnTwitter 
+{
+    background: url(../Images/icons.png);
+    background-position: -124px 0px;
+}
+
+#wrapper .sshLinkItem .sshShareOnTwitter:hover
+{
+  
+    background-position: -187px 0px;
+}
+
+#wrapper .sshLinkItem .sshShareOnFacebook
+{
+    background: url(../Images/icons.png);
+    background-position: 0 0;
+}
+
+#wrapper .sshLinkItem .sshShareOnFacebook:hover
+{
+    background: url(../Images/icons.png);
+    background-position: -61px 0;
+}
+
+#wrapper .sshLinkItem .sshLinkedIn 
+{
+    background: url(../Images/icons.png);
+    background-position: -187px -61px;
+}
+
+#wrapper .sshLinkItem .sshLinkedIn:hover
+{
+    
+    background-position: -249px 0px;
+}
+
+#wrapper .sshLinkItem .sshReddit
+{
+    background: url(../Images/icons.png);
+    background-position: -249px -305px;
+}
+
+#wrapper .sshLinkItem .sshReddit:hover
+{
+
+    background-position: -249px -61px;
+}
+
+#wrapper .sshLinkItem .sshMailTo 
+{
+    background: url(../Images/icons.png);
+    background-position: 0 -244px;
+}
+
+#wrapper .sshLinkItem .sshMailTo:hover
+{
+    
+    background-position: -61px -183px;
+}
+
+#wrapper .sshLinkItem .sshBlogger, #wrapper .sshLinkItem .sshBlogger:hover  
+{
+    background: url(../Images/icons.png);
+    background-position: 0px -183px;
+}
+
+#wrapper .sshLinkItem .sshStumbleUpon, #wrapper .sshLinkItem .sshStumbleUpon:hover
+{
+  
+    background-position: -61px -244px;
+}
+#wrapper .sshLinkItem .sshTumblr, #wrapper .sshLinkItem .sshTumblr:hover  
+{
+  
+    background-position: -61px -61px;
+}
+#wrapper .sshLinkItem .sshDelicious, #wrapper .sshLinkItem .sshDelicious:hover 
+{
+  
+    background-position: -124px -183px;
+}
+
+#wrapper .sshLinkItem .sshDigg, #wrapper .sshLinkItem .sshDigg:hover  
+{
+  
+    background-position: 0 -122px;
+}
+
+#wrapper .sshLinkItem .sshMySpace, #wrapper .sshLinkItem .sshMySpace:hover
+{
+  
+    background-position: -187px -243px;
+}
+
+.sfWishlistPublic, .sfWishlistPrivate
+{
+    line-height: 32px;
+    background-color: #fbfae7;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+    padding: 15px;
+    border: 1px solid #d9cbb6;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+	
+    padding: 3px;
+}
+
+.sfWishlistPrivate a
+{
+    background: url(../images/padlocks.png) no-repeat; /* shows image */
+    background-position: 0 -32px;
+    height: 32px; /* be sure to set height & width */
+    width: 32px;
+    display: inline-block;
+    /* Hide the text. */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.sfWishlistPublic a
+{
+    background: url(../images/padlocks.png) no-repeat; /* shows image */
+    height: 32px; /* be sure to set height & width */
+    width: 32px;
+    display: inline-block;
+    /* Hide the text. */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.sfwishListWrp .sfBackBtn
+{
+
+}
+
+.sfwishListWrp .sfForwardBtn
+{
+}
+
+.sidebar-box
+{
+
+    background-color: #f7f7f7;
+    margin-top: 10px;
+
+    border: 1px solid #d9cbb6;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); 
+
+}
+.sidebar-box>div
+{
+
+    margin: 10px; 
+
+}
+
+.sfcommentOfTheAuthor, .sfcommentDetails
+{
+   
+    background-color: #fff;
+    border-radius: 6px;
+    margin-right: 2%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
+    padding-top: 40px;
+    padding-left: 75px;
+    border-top: #25a0da 3px solid;
+    box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.8);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    position: relative;
+
+}
+
+.sfcommentOfTheAuthor
+{
+    background: url(../images/authors-icon.png) no-repeat;
+}
+
+.sfcommentOfTheAuthor:hover, .sfcommentDetails:hover
+{
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.3);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
+
+.sfcommentNumber
+{
+    color: white;
+    background-color: #0a8ee2;
+    padding: 3px 6px;
+    position: relative;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    top: 10px;
+    left: -75px;
+    margin: 0;
+    font-size: 15px;
+}
+
+.sfcommentDetails:hover .sfcommentNumber
+{
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    left: -80px;
+}
+ul.sftaxonCloud
+{
+    padding-left: 10px;
+}
+    
+#content .form div.input.text input, 
+#content .form div.input.password input, 
+div.sfFormBox .sfTxt, textarea.sfTxt, 
+#content .input.textarea textarea, .sfcheckoutFormItmTxt input,
+.sfprofileFieldsList input[type="text"], #content .reContentCell textarea,
+.sfcommentsField .sfTxt,
+.sfcommentsField textarea,
+.sfnewsletterFieldsList .sfTxt,
+.sfregisterFieldsList .sfTxt,
+#content .sfLoginFieldsWrp .sfTxt
+
+{
+    border-top: 1px solid silver;
+    border-left: 1px solid silver;
+    border-right: 1px solid #DEDEDE;
+    border-bottom: 1px solid #DEDEDE;
+    font-family: 'Droid Sans', Arial;
+    background: #FAFAFA;
+    padding: 7px;
+    border-radius: 3px;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.5), inset 2px 2px 2px #EEE;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    width: 80%;
+}
+
+#content .sfLoginWrp .sfSubmitBtn
+{
+ 
+    float: left;
+    margin-top: 10px;
+}
+
+.sfsearchBox .sfsearchTxt
+{
+    background: #fff;
+}
+
+.form div.input.text input:focus, .form div.input.password input:focus, 
+div.sfFormBox .sfTxt:focus, textarea.sfTxt:focus, 
+.input.textarea textarea:focus, .sfcheckoutFormItmTxt input:focus,
+#content input:focus, #conent .reContentCell:focus,
+.sfsearchTxt:focus
+{
+    outline: none;
+    border: 1px solid #0a8ee2;
+ 
+}
+
+.sfcheckoutFormItmTxt input
+{
+    width: 192px;
+	
+}
+
+#content select, #header select
+{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -moz-background-position: -9999px -9999px!important;
+    background-image: url(../Images/arrow_down.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #FAFAFA;
+
+    width: 85%;
+
+    border-top: 1px solid silver;
+    border-left: 1px solid silver;
+    border-right: 1px solid #DEDEDE;
+    border-bottom: 1px solid #DEDEDE;
+
+    padding: 6px 7px;
+    border-radius: 3px;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.5), inset 2px 2px 2px #EEE;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+
+}
+#content .sfcurrenciesDropDownList select
+{
+
+}
+
+@-moz-document url-prefix() {
+#content select, #header select
+{
+    background-position: -9999px -9999px;
+}
+}
+
+
+/*===================================================
+STORE LOCATOR
+===================================================*/
+
+
+.sfstoreitem
+{
+    border-bottom-color: #DDDDDD;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-bottom: 10px;
+    list-style: none;
+    cursor: pointer !important;
+}
+
+.sfstoreitem.active
+{
+    background-color: #D8FBFF;
+}
+
+#storeAddress a:hover { text-decoration: underline !important; }
+
+#storeAddress a { font-size: 13px; }
+
+.sfstoreitem h2 a:hover { text-decoration: none !important; }
+
+.store-locator-wrapper
+{
+    overflow: hidden; 
+    
+}
+
+.stores-list
+{
+    width: 25%;
+    float: left;
+    padding-right: 20px;
+    
+}
+#map_canvas_all_stores
+{ 
+    height: 500px; 
+}
+
+.zip-box
+{
+    width: 220px; 
+}
+
+.map-marker
+{
+    float: right;
+}
+
+.sfcurrenciesDropDownList { overflow: hidden; }
+
+#content select:focus, #header select:focus
+{
+    outline: none;
+    border: 1px solid #0a8ee2;
+ 
+
+}
+
+#content input[type="checkbox"]
+{
+    display: none;
+}
+#content input[type="checkbox"] + label
+{
+    display: inline-block;
+
+    height: 16px;
+    background: url(../Images/form_checkbox.png) no-repeat;
+    padding-left: 21px;
+    margin: 10px 0 10px 0;
+	
+}
+
+#content input[type="checkbox"]:checked + label 
+{
+    
+    background-position: 0 -16px;
+}
+
+#content input[type="radio"]
+{
+    display: none;
+
+}
+#content input[type="radio"] + label, 
+{
+display: inline-block;
+
+height: 17px;
+margin: 10px 0 10px 0;
+background: url(../Images/filter_checkbox.png) no-repeat;
+padding-left: 21px;
+    
+	
+}
+
+#content input[type="radio"]:checked + label 
+{
+    
+    background-position: 0 -16px;
+}
+
+.sfSearchThumb 
+{
+    float: left;
+    height: 147px;
+    width: 151px;
+    background-image: url(../Images/Search-Icons.png);
+    margin-right: 20px;
+}
+
+.sfSearchThumb  img
+{
+    margin-top: 20px;
+    margin-left: 45px;
+    border: #0a8ee2 3px solid;
+    box-shadow: 2px 2px 2px black;
+}
+
+.SearchResultWrp
+{
+    height: 147px;
+    border-bottom: 1px solid #ddd;
+	
+}
+
+.sfSearchThumbNewsItem
+{
+    background-position: -151px -147px;
+} 
+
+.sfSearchThumbPageNode
+{
+    background-position: -151px -147px;
+} 
+
+.sfSearchThumbBlogPost
+{
+    background-position: -302px -147px;
+} 
+.sfSearchThumbProduct
+{
+    background-position: -451px 0;
+} 
+
+.sfSearchThumbDocument
+{
+    background-position: -302px 0;
+}
+
+.sfSearchThumbJobOpening
+{
+    background-position: -451px -147px;
+}
+
+.searchData
+{
+   
+    overflow: hidden;
+    height: 137px;
+    padding: 5px
+}
+
+.sfSearchThumbEvent
+{
+    background-position: 0 -147px;
+}
+
+.PagerWrapper
+{
+    float: left;
+    width: 100%;
+    
+}
+
+.sfCatalogPager > a
+{
+    background: url(../images/next_buttons.png) no-repeat;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    float: left;
+}
+
+.sfCatalogPager > a[id$='cmdPrev']
+{
+    background-position: 0 -30px;
+}
+
+.sfcheckoutFormItmCheckboxList
+{
+    float: left;
+    clear: both;
+    width: 100%;
+}
+
+.sfcheckoutFormWrp  .sfcouponCodeEntryViewWrap
+{
+	
+	
+}
+
+.checkoutTemplateWrp, .shippingOptionsColumnWrp
+{
+    float: left;
+    width: 70%;
+    border-left: #f0f0f0 1px solid;
+}
+
+.sfshippingOptionsWrp
+{
+    margin: 10px;
+}
+
+.checkoutTemplateWrp > fieldset, .checkoutTemplateWrp > h2
+{
+    margin-left: 30px;
+ 
+}
+
+.paymentStepOptions .sfError
+{
+    display: block;
+}
+
+.orderSummaryWrp
+{
+
+    width: 29%;
+    float: left;
+
+}
+
+.orderSummaryWrp >div
+{
+
+    margin: 10px;
+
+}
+
+.sfcheckoutBtnsWrp { float: right; }
+
+.sfcheckoutFormWrp .sfcouponCodeEntryViewWrap { margin-left: 250px; width: 174px}
+
+.sfcheckoutFormWrp .sfcouponCodeEntryViewWrap .sfTxt
+{
+    width: 100px;
+}
+
+.note ul { margin-left: 15px; }
+
+ul.sfcheckoutTotalPriceWrp
+{
+    margin-left: 10px;
+	
+}
+
+.CheckoutPreviewShipping { float: left; width: 49%; border-right: #f0f0f0 1px solid; margin-bottom: 10px; }
+.sfCheckoutPreviewPayment { float: left; width: 50%; margin-bottom: 10px; }
+
+.CheckoutPreviewShippingInner, .sfCheckoutPreviewPaymentInner { margin: 10px; }
+
+.sfStep4Wrp .sfcheckoutBtnsWrp { display: block; width: 100%; }
+
+.sfcheckoutBtnsWrp div { float: right; }
+.sfcheckoutPreviewAddressBlock { float: left; width: 50%; }
+
+.sfcheckoutTotalPriceWrp { list-style-type: none; list-style-image: none; width: 150px; margin-right: 5px; float: left; padding: 10px; }
+.sfcheckoutTotalPriceWrp { padding: 5px; }
+.sf_cols .blue-box
+{
+    background-color: #25a0da;
+    color: #fff;
+    box-shadow: 3px 3px 3px #666;
+    min-height: 100px;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #333;
+
+}
+
+.sf_cols .white-box
+{
+    background-color: #f0f0f0;
+    color: #333;
+    box-shadow: 3px 3px 3px #666;
+    min-height: 100px;
+    padding: 10px;
+
+
+
+}
+
+.sf_cols .grey-box
+
+{
+    background-color: #555;
+    color: #fff;
+    box-shadow: 3px 3px 3px #666;
+    min-height: 100px;
+    padding: 10px; 
+    text-shadow: 1px 1px 1px #333;
+
+    
+}
+
+.sfcheckoutTotal { font-size: 26px; font-weight: bolder; text-align: right; }
+
+#content .RadUpload .ruButton 
+{
+    border: 0px;
+
+    padding: 6px 8px;
+    float: none;
+    position: relative;
+    background-image: none;
+    background-color: #008eee;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Ropa Sans';
+    width: auto;
+    height: auto;
+}
+
+#content  .button a
+{
+
+    color: #fff;
+    
+}
+
+#content .sfdownloadList a
+{
+    display: inline-block;
+    min-height: 50px;
+}

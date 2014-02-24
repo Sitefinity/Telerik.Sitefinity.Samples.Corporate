@@ -1,0 +1,47 @@
+#wrapper a.button {
+	background-image: url(../Images/button_bg.jpg);
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px #999;
+	border: 0px;
+	padding: 6px 20px;
+	line-height: 18px;
+	float: left;
+	text-decoration: none;
+	position: relative;
+	background-color: #008eee;
+	color: #fff;
+	font-weight: normal;
+	font-size: 15px;
+	margin: 5px;
+	text-decoration: none;
+	font-family: 'Ropa Sans';	
+	
+}
+
+#wrapper a.button:hover {
+	background-position: 0 -38px;
+}
+
+.shadow{text-shadow: 2px 2px 4px #000;}
+
+.redtext{color: red;}
+
+.button {
+background-image: url(../Images/button_bg.jpg);
+border-radius: 5px;
+box-shadow: 0px 0px 5px #999;
+border: 0px;
+padding: 6px 20px;
+line-height: 18px;
+float: left;
+text-decoration: none;
+position: relative;
+background-color: #008eee;
+color: #fff;
+font-weight: normal;
+font-size: 15px;
+margin: 5px;
+text-decoration: none;
+font-family: 'Ropa Sans';
+}
+

@@ -1,0 +1,1212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlbumsDescription" lastModified="2011-12-01T08:56:28">
+    <value>Administrar Bibliotecas de Imágenes</value>
+    <comment>Description of the Image Libraries page</comment>
+  </data>
+  <data name="DocumentsPageGroupNodeDescription" lastModified="2011-12-01T08:56:28">
+    <value>Este es el grupo de páginas que contiene todas las páginas para el módulo de Documentos y Archivos.</value>
+    <comment>Documents &amp; Files Page Group Description</comment>
+  </data>
+  <data name="LibrariesResourcesDescription" lastModified="2011-12-01T08:56:28">
+    <value>Contiene recursos localizables para la interfaz de usuario de Bibliotecas.</value>
+    <comment>The description of this class.</comment>
+  </data>
+  <data name="LibrariesResourcesTitlePlural" lastModified="2011-12-01T08:56:28">
+    <value>Bibliotecas</value>
+    <comment>The title plural of this class.</comment>
+  </data>
+  <data name="LibrariesResourcesTitle" lastModified="2011-12-01T08:56:28">
+    <value>Biblioteca</value>
+    <comment>The title of this class.</comment>
+  </data>
+  <data name="Database" lastModified="2011-12-01T08:56:28">
+    <value>Base de datos</value>
+    <comment>word: Database</comment>
+  </data>
+  <data name="Unpublish" lastModified="2011-12-01T08:56:28">
+    <value>QuitarDePublicacion</value>
+    <comment>word: Unpublish</comment>
+  </data>
+  <data name="ProviderName" lastModified="2011-12-01T08:56:28">
+    <value>Nombre del proveedor</value>
+    <comment>phrase: Provider name</comment>
+  </data>
+  <data name="VideosViewDescription" lastModified="2011-12-01T08:56:28">
+    <value>Videos de una biblioteca</value>
+    <comment>The description of the ImagesView control, that appears on the controls toolbox.</comment>
+  </data>
+  <data name="FileSystem" lastModified="2011-12-01T08:56:28">
+    <value>Sistema de Archivos</value>
+    <comment>phrase: File System</comment>
+  </data>
+  <data name="ProviderNameAlreadyUsed" lastModified="2011-12-01T08:56:28">
+    <value>El nombre del proveedor '{0} "ya se utiliza.</value>
+    <comment>phrase: Provider name '{0}' already used.</comment>
+  </data>
+  <data name="NotAuthorizedToViewMediaItem" lastModified="2011-12-01T08:56:28">
+    <value>Usted no está autorizado para ver este elemento de medios</value>
+    <comment>Error message displayed when returning 403 if an image cannot be displayed</comment>
+  </data>
+  <data name="Publish" lastModified="2011-12-01T08:56:28">
+    <value>Publicar</value>
+    <comment>Label of the publish action.</comment>
+  </data>
+  <data name="ProviderType" lastModified="2011-12-01T08:56:28">
+    <value>Tipo de proveedor</value>
+    <comment>phrase: Provider type</comment>
+  </data>
+  <data name="ModuleTitle" lastModified="2011-12-01T08:56:28">
+    <value>Bibliotecas</value>
+    <comment>The title of the Libraries module.</comment>
+  </data>
+  <data name="SelectItems" lastModified="2011-12-01T08:56:28">
+    <value>Seleccione {0}</value>
+    <comment>phrase: Select {0}</comment>
+  </data>
+  <data name="ImagesPageGroupNodeDescription" lastModified="2011-12-01T08:56:28">
+    <value>Este es el grupo de páginas que contiene todas las páginas para el módulo de imágenes.</value>
+    <comment>Images Page Group Description</comment>
+  </data>
+  <data name="ModuleDescription" lastModified="2011-12-01T08:56:28">
+    <value>Proporciona la interfaz de usuario para la gestión de imágenes, documentos y vídeos.</value>
+    <comment>The description of the Libraries module</comment>
+  </data>
+  <data name="MultipleItemsCanBeSelectedAtOnce" lastModified="2011-12-01T08:56:28">
+    <value>Varios {0} se puede seleccionar a la vez.</value>
+    <comment>phrase: Multiple {0} can be selected at once.</comment>
+  </data>
+  <data name="ImagesPageGroupNodeTitle" lastModified="2011-12-01T08:56:28">
+    <value>Imágenes</value>
+    <comment>Title of the images page group.</comment>
+  </data>
+  <data name="VideosPageGroupNodeTitle" lastModified="2011-12-01T08:56:28">
+    <value>Videos</value>
+    <comment>Title of the videos page group.</comment>
+  </data>
+  <data name="DocumentsPageGroupNodeUrl" lastModified="2011-12-01T08:56:28">
+    <value>Documentos</value>
+    <comment>Url of the documents page group.</comment>
+  </data>
+  <data name="DocumentsPageGroupNodeTitle" lastModified="2011-12-01T08:56:28">
+    <value>Documentos y Archivos</value>
+    <comment>Title of the documents page group.</comment>
+  </data>
+  <data name="WhichItemsToUpload" lastModified="2011-12-01T08:56:28">
+    <value>Que {0} se debe cargar?</value>
+    <comment>phrase: Which {0} to upload?</comment>
+  </data>
+  <data name="VideosPageGroupNodeDescription" lastModified="2011-12-01T08:56:28">
+    <value>Este es el grupo de páginas que contiene todas las páginas para el módulo de vídeos.</value>
+    <comment>Videos Page Group Description</comment>
+  </data>
+  <data name="ImagesViewDescription" lastModified="2011-12-01T08:56:28">
+    <value>Imágenes de una biblioteca, mostradas en diversas formas</value>
+    <comment>The description of the ImagesView control, that appears on the controls toolbox.</comment>
+  </data>
+  <data name="VideoFiles" lastModified="2011-12-01T08:56:28">
+    <value>Archivos de vídeo</value>
+    <comment>VideoFiles.</comment>
+  </data>
+  <data name="ImagesUrlName" lastModified="2011-12-01T08:56:28">
+    <value>Imágenes</value>
+    <comment>Images page URL.</comment>
+  </data>
+  <data name="ImagesHtmlTitle" lastModified="2011-12-01T08:56:28">
+    <value>Imágenes</value>
+    <comment>Html Title of the Images page.</comment>
+  </data>
+  <data name="ImageFiles" lastModified="2011-12-01T08:56:28">
+    <value>Archivos de imagen</value>
+    <comment>ImageFiles.</comment>
+  </data>
+  <data name="ImagesTitle" lastModified="2011-12-01T08:56:28">
+    <value>Imágenes</value>
+    <comment>Title of the Images page.</comment>
+  </data>
+  <data name="ImagesViewTitle" lastModified="2011-12-01T08:56:28">
+    <value>Galería de imágenes</value>
+    <comment>The title of the ImagesView control, that appears on the controls toolbox.</comment>
+  </data>
+  <data name="ImagesDescription" lastModified="2011-12-01T08:56:28">
+    <value>Descripción de Imágenes</value>
+    <comment>Description of the Images page</comment>
+  </data>
+  <data name="VideosViewTitle" lastModified="2011-12-01T08:56:28">
+    <value>Galería de vídeos</value>
+    <comment>The title of the VideosView control, that appears on the controls toolbox.</comment>
+  </data>
+  <data name="DocumentsTitle" lastModified="2011-12-01T08:56:28">
+    <value>Documentos y Archivos</value>
+    <comment>Title of the Documents &amp; Files page.</comment>
+  </data>
+  <data name="VideosTitle" lastModified="2011-12-01T08:56:28">
+    <value>Videos</value>
+    <comment>Title of the Videos page.</comment>
+  </data>
+  <data name="DocumentsUrlName" lastModified="2011-12-01T08:56:28">
+    <value>Documentos</value>
+    <comment>Documents page URL.</comment>
+  </data>
+  <data name="LibraryDocumentsDescription" lastModified="2011-12-01T08:56:28">
+    <value>Descripción de Biblioteca de Documentos </value>
+    <comment>Description of the LibraryDocuments page</comment>
+  </data>
+  <data name="DocumentsDescription" lastModified="2011-12-01T08:56:28">
+    <value>Administrar documentos</value>
+    <comment>Description of the Documents page</comment>
+  </data>
+  <data name="LibraryVideosTitle" lastModified="2011-12-01T08:56:28">
+    <value>Biblioteca de vídeos</value>
+    <comment>Title of the Libraries at Videos page.</comment>
+  </data>
+  <data name="VideosDescription" lastModified="2011-12-01T08:56:28">
+    <value>Descripción de Videos </value>
+    <comment>Description of the Videos page</comment>
+  </data>
+  <data name="VideosHtmlTitle" lastModified="2011-12-01T08:56:28">
+    <value>Videos</value>
+    <comment>Html Title of the Videos page.</comment>
+  </data>
+  <data name="VideosUrlName" lastModified="2011-12-01T08:56:28">
+    <value>Videos</value>
+    <comment>Videos page URL.</comment>
+  </data>
+  <data name="LibraryVideosHtmlTitle" lastModified="2011-12-01T08:56:28">
+    <value>Biblioteca de vídeos</value>
+    <comment>Html Title of the LibraryVideos page.</comment>
+  </data>
+  <data name="LibraryDocumentsHtmlTitle" lastModified="2011-12-01T08:56:28">
+    <value>Biblioteca de Documentos</value>
+    <comment>Html Title of the LibraryDocuments page.</comment>
+  </data>
+  <data name="LibrariesUrlName" lastModified="2011-12-01T08:56:28">
+    <value>Bibliotecas</value>
+    <comment>Libraries page URL.</comment>
+  </data>
+  <data name="LibrariesTitle" lastModified="2011-12-01T08:56:28">
+    <value>Bibliotecas</value>
+    <comment>Title of the Libraries page.</comment>
+  </data>
+  <data name="LibraryVideosDescription" lastModified="2011-12-01T08:56:28">
+    <value>Descripción de la biblioteca de vídeos </value>
+    <comment>Description of the LibraryVideos page</comment>
+  </data>
+  <data name="LibrariesHtmlTitle" lastModified="2011-12-01T08:56:28">
+    <value>Bibliotecas</value>
+    <comment>Html Title of the Libraries page.</comment>
+  </data>
+  <data name="LibraryVideosUrlName" lastModified="2011-12-01T08:56:28">
+    <value>Biblioteca de vídeos</value>
+    <comment>Videos page for selected library.</comment>
+  </data>
+  <data name="LibraryDocumentsTitle" lastModified="2011-12-01T08:56:28">
+    <value>Biblioteca de Documentos</value>
+    <comment>Title of the Libraries at Documents page.</comment>
+  </data>
+  <data name="LibrariesDescription" lastModified="2011-12-01T08:56:28">
+    <value>Descripción de Bibliotecas </value>
+    <comment>Description of the Libraries page</comment>
+  </data>
+  <data name="DocumentsMasterTableViewFriendlyName" lastModified="2011-12-01T08:56:28">
+    <value>Documentos - Tabla </value>
+    <comment>phrase: Documents - table</comment>
+  </data>
+  <data name="LibraryDocumentsUrlName" lastModified="2011-12-01T08:56:28">
+    <value>Biblioteca de Documentos</value>
+    <comment>Documents page for selected library.</comment>
+  </data>
+  <data name="DocumentsMasterListViewFriendlyName" lastModified="2011-12-01T08:56:28">
+    <value>Documentos - lista</value>
+    <comment>phrase: Documents - list</comment>
+  </data>
+  <data name="AlbumsTitle" lastModified="2011-12-01T08:56:28">
+    <value>Bibliotecas</value>
+    <comment>Title of the Image Libraries page.</comment>
+  </data>
+  <data name="LibraryImagesUrlName" lastModified="2011-12-01T08:56:28">
+    <value>Biblioteca de Imágenes</value>
+    <comment>LibraryImages page URL.</comment>
+  </data>
+  <data name="LibraryImagesHtmlTitle" lastModified="2011-12-01T08:56:28">
+    <value>Biblioteca de Imágenes</value>
+    <comment>Html Title of the LibraryImages page.</comment>
+  </data>
+  <data name="LibraryImagesDescription" lastModified="2011-12-01T08:56:28">
+    <value>Administrar imágenes</value>
+    <comment>Description of the LibraryImages page</comment>
+  </data>
+  <data name="WhereToStoreUploadedItems" lastModified="2011-12-01T08:56:28">
+    <value>¿Dónde guardar los {0} Cargados?</value>
+    <comment>phrase: Where to store the uploaded {0}?</comment>
+  </data>
+  <data name="AlbumsUrlName" lastModified="2011-12-01T08:56:28">
+    <value>Álbumes</value>
+    <comment>Albums page URL.</comment>
+  </data>
+  <data name="AlbumsHtmlTitle" lastModified="2011-12-01T08:56:28">
+    <value>Bibliotecas</value>
+    <comment>Html Title of the Image Libraries page.</comment>
+  </data>
+  <data name="LibraryImagesTitle" lastModified="2011-12-01T08:56:28">
+    <value>Biblioteca de Imágenes</value>
+    <comment>Title of the LibraryImages page.</comment>
+  </data>
+  <data name="CantUploadFiles" lastModified="2011-12-01T08:56:28">
+    <value>No se puede cargar {0} archivos. Sólo {1} se pueden cargar.</value>
+    <comment>phrase: You can't upload {0} files. Only {1} can be uploaded</comment>
+  </data>
+  <data name="VideosDetailViewFriendlyName" lastModified="2011-12-01T08:56:28">
+    <value>Videos - uno a uno</value>
+    <comment>phrase: Videos - single</comment>
+  </data>
+  <data name="ImagesDetailSimpleViewFriendlyName" lastModified="2011-12-01T08:56:28">
+    <value>Imágenes - una a una</value>
+    <comment>phrase: Images - single</comment>
+  </data>
+  <data name="ImagesMasterThumbnailSimpleViewFriendlyName" lastModified="2011-12-01T08:56:28">
+    <value>Imágenes - Lista sencilla</value>
+    <comment>phrase: Images - simple list</comment>
+  </data>
+  <data name="ImagesMasterThumbnailStripViewFriendlyName" lastModified="2011-12-01T08:56:28">
+    <value>Imágenes - franja</value>
+    <comment>phrase: Images - strip</comment>
+  </data>
+  <data name="ImagesMasterThumbnailLightboxViewFriendlyName" lastModified="2011-12-01T08:56:28">
+    <value>Imágenes - LightBox</value>
+    <comment>phrase: Images - lightbox</comment>
+  </data>
+  <data name="ImagesMasterThumbnailViewFriendlyName" lastModified="2011-12-01T08:56:28">
+    <value>Imágenes - lista</value>
+    <comment>phrase: Images - list</comment>
+  </data>
+  <data name="VideosMasterThumbnailLightboxViewFriendlyName" lastModified="2011-12-01T08:56:28">
+    <value>Videos - Lightbox</value>
+    <comment>phrase: Videos - lightbox</comment>
+  </data>
+  <data name="VideosMasterThumbnailViewFriendlyName" lastModified="2011-12-01T08:56:28">
+    <value>Videos - lista</value>
+    <comment>phrase: Videos - list</comment>
+  </data>
+  <data name="DocumentsListDetailViewFriendlyName" lastModified="2011-12-01T08:56:28">
+    <value>Documentos - lista detallada</value>
+    <comment>phrase: Documents - list details</comment>
+  </data>
+  <data name="DocumentsTableDetailViewFriendlyName" lastModified="2011-12-01T08:56:28">
+    <value>Documentos - detalles de la tabla</value>
+    <comment>phrase: Documents - table details</comment>
+  </data>
+  <data name="Edit" lastModified="2011-12-01T08:56:28">
+    <value>&lt;strong&gt;Editar ...&lt;/strong&gt;</value>
+    <comment>word</comment>
+  </data>
+  <data name="OtherFilterOptions" lastModified="2011-12-01T08:56:28">
+    <value>Otras opciones de filtro</value>
+    <comment>The 'Other filter options' label in the sidebar.</comment>
+  </data>
+  <data name="Uploadvideo" lastModified="2011-12-01T08:56:28">
+    <value>Cargar vídeo</value>
+    <comment>UploadVideo</comment>
+  </data>
+  <data name="ByDate" lastModified="2011-12-01T08:56:28">
+    <value>Por fecha…</value>
+    <comment>The link for filtering by date in the sidebar.</comment>
+  </data>
+  <data name="DocumentsDetailViewFriendlyName" lastModified="2011-12-01T08:56:28">
+    <value>Documentos - Uno a uno</value>
+    <comment>phrase: Documents - single</comment>
+  </data>
+  <data name="Delete" lastModified="2011-12-01T08:56:28">
+    <value>Eliminar</value>
+    <comment>The text of the delete button.</comment>
+  </data>
+  <data name="BulkEdit" lastModified="2011-12-01T08:56:28">
+    <value>&lt;strong&gt;Edición masiva &lt;/strong&gt;títulos, categorías, etiquetas</value>
+    <comment>The text of the bulk edit button in the action menu.</comment>
+  </data>
+  <data name="Upload" lastModified="2011-12-01T08:56:28">
+    <value>Cargar </value>
+    <comment>The text of the upload button in grid toolbar.</comment>
+  </data>
+  <data name="Cancel" lastModified="2011-12-01T08:56:28">
+    <value>Cancelar</value>
+    <comment>The text of the cancel button.</comment>
+  </data>
+  <data name="ByAuthor" lastModified="2011-12-01T08:56:28">
+    <value>por autor ...</value>
+    <comment>The link for filtering by author in the sidebar.</comment>
+  </data>
+  <data name="UploadedOwner" lastModified="2011-12-01T08:56:28">
+    <value>Cargado/Propietario</value>
+    <comment>The header of 'Uploaded / Owner' column in the grid.</comment>
+  </data>
+  <data name="CustomFields" lastModified="2011-12-01T08:56:28">
+    <value>Campos personalizados</value>
+    <comment>The link that navigates to the dialog for managing custom fields in the sidebar.</comment>
+  </data>
+  <data name="Permissions" lastModified="2011-12-01T08:56:28">
+    <value>Permisos</value>
+    <comment>The link that navigates to permissions dialog in the sidebar.</comment>
+  </data>
+  <data name="Categories" lastModified="2011-12-01T08:56:28">
+    <value> &lt;em&gt;Categorías: &lt;/em&gt;</value>
+    <comment>The 'Categories' label in the grid column.</comment>
+  </data>
+  <data name="DocumentsHtmlTitle" lastModified="2011-12-01T08:56:28">
+    <value>Documentos</value>
+    <comment>Html Title of the Documents &amp; Files page.</comment>
+  </data>
+  <data name="FileDimSize" lastModified="2011-12-01T08:56:28">
+    <value>Archivo/Dim. /Tamaño</value>
+    <comment>The header of 'File / Dim. / Size' column in the grid.</comment>
+  </data>
+  <data name="FileSize" lastModified="2011-12-01T08:56:28">
+    <value>Archivo/Tamaño</value>
+    <comment>The header of 'File / Size' column in the grid.</comment>
+  </data>
+  <data name="Actions" lastModified="2011-12-01T08:56:28">
+    <value>Acciones</value>
+    <comment>The link representing the actions menu in the grid.</comment>
+  </data>
+  <data name="MoreActions" lastModified="2011-12-01T08:56:28">
+    <value>Más acciones</value>
+    <comment>The text of the more action menu in grid toolbar.</comment>
+  </data>
+  <data name="Tags" lastModified="2011-12-01T08:56:28">
+    <value>Etiquetas &lt;em&gt;: &lt;/em&gt;</value>
+    <comment>The 'Tags' label in the grid column.</comment>
+  </data>
+  <data name="UploadedOn" lastModified="2011-12-01T08:56:28">
+    <value>&lt;em&gt;Cargado el &lt;/em&gt;</value>
+    <comment>The 'Uploaded on' label in the grid column.</comment>
+  </data>
+  <data name="Download" lastModified="2011-12-01T08:56:28">
+    <value>Descargar</value>
+    <comment>The text of the 'Download' button.</comment>
+  </data>
+  <data name="ViewOriginalSize" lastModified="2011-12-01T08:56:28">
+    <value>Ver tamaño original</value>
+    <comment>The text of the 'View original size' link in the action menu.</comment>
+  </data>
+  <data name="ViewOriginal" lastModified="2011-12-01T08:56:28">
+    <value>Ver original</value>
+    <comment>The text of the 'View original' link in the action menu.</comment>
+  </data>
+  <data name="SetAsPrimaryImage" lastModified="2011-12-01T08:56:28">
+    <value>Configurar imagen principal</value>
+    <comment>phrase: Set as primary image</comment>
+  </data>
+  <data name="EditImage" lastModified="2011-12-01T08:56:28">
+    <value>Editar imagen</value>
+    <comment>Edit image</comment>
+  </data>
+  <data name="SetPermissions" lastModified="2011-12-01T08:56:28">
+    <value>Establecer permisos</value>
+    <comment>The text of the 'Set permissions' link in the action menu.</comment>
+  </data>
+  <data name="EditProperties" lastModified="2011-12-01T08:56:28">
+    <value>Modificar las propiedades</value>
+    <comment>The text of the 'Edit Properties' link in the action menu.</comment>
+  </data>
+  <data name="AdvancedSection" lastModified="2011-12-01T08:56:28">
+    <value>Avanzado &lt;em class='sfNote'&gt;(Caché, Restricciones, URL, Proveedor de almacenamiento)&lt;/em&gt;</value>
+    <comment>The title of the 'Advanced' section in the Backend Detail View form.</comment>
+  </data>
+  <data name="CategoriesAndTags" lastModified="2011-12-01T08:56:28">
+    <value>Categorías y etiquetas</value>
+    <comment>The title of the 'Categories and Tags' section.</comment>
+  </data>
+  <data name="ReviewHistory" lastModified="2011-12-01T08:56:28">
+    <value>Historial de revisiones</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+  </data>
+  <data name="By" lastModified="2011-12-01T08:56:28">
+    <value>Por</value>
+    <comment>The 'by' label in the grid column.</comment>
+  </data>
+  <data name="TitleCannotBeEmpty" lastModified="2011-12-01T08:56:28">
+    <value>El título no puede estar vacío</value>
+    <comment>phrase: Title cannot be empty</comment>
+  </data>
+  <data name="Details" lastModified="2011-12-01T08:56:28">
+    <value>Detalles &lt;em class='sfNote'&gt;(Autor, Descripción)&lt;/em&gt;</value>
+    <comment>The title of the 'Details' section.</comment>
+  </data>
+  <data name="Title" lastModified="2011-12-01T08:56:28">
+    <value>Título</value>
+    <comment>The 'Title' label.</comment>
+  </data>
+  <data name="SaveChanges" lastModified="2011-12-01T08:56:28">
+    <value>Guardar cambios</value>
+    <comment>Saves the edited item changes</comment>
+  </data>
+  <data name="DeleteThisItem" lastModified="2011-12-01T08:56:28">
+    <value>Eliminar</value>
+    <comment>Used in the actions menu in the Backend Detail View form</comment>
+  </data>
+  <data name="ImageAdvancedSection" lastModified="2011-12-01T08:56:28">
+    <value>Avanzado &lt;em class='sfNote'&gt;(URL, Comentarios, Proveedor de almacenamiento)&lt;/em&gt;</value>
+    <comment>The title of the 'Advanced' section in the Backend Detail View form.</comment>
+  </data>
+  <data name="Status" lastModified="2011-12-01T08:56:28">
+    <value>Estado</value>
+    <comment>The 'Status' label.</comment>
+  </data>
+  <data name="PublishOn" lastModified="2011-12-01T08:56:28">
+    <value>Publicado el:</value>
+    <comment>Phrase: Publish on:</comment>
+  </data>
+  <data name="ExpiresOn" lastModified="2011-12-01T08:56:28">
+    <value>Expira el:</value>
+    <comment>Phrase: Expires on:</comment>
+  </data>
+  <data name="Dimensions" lastModified="2011-12-01T08:56:28">
+    <value>Dimensiones:</value>
+    <comment>The 'Dimensions:' label.</comment>
+  </data>
+  <data name="Author" lastModified="2011-12-01T08:56:28">
+    <value>Autor</value>
+    <comment>The 'Author' label.</comment>
+  </data>
+  <data name="VideoSize" lastModified="2011-12-01T08:56:28">
+    <value>Tamaño del video</value>
+    <comment>Phrase: Size of the video</comment>
+  </data>
+  <data name="Size" lastModified="2011-12-01T08:56:28">
+    <value>Tamaño:</value>
+    <comment>The 'Size:' label.</comment>
+  </data>
+  <data name="AsOrderedInLibrary" lastModified="2011-12-01T08:56:28">
+    <value>Según como se ordenan en la biblioteca</value>
+    <comment>Phrase: As they are ordered in library</comment>
+  </data>
+  <data name="OriginalFile" lastModified="2011-12-01T08:56:28">
+    <value>Archivo original:</value>
+    <comment>The 'Original file:' label.</comment>
+  </data>
+  <data name="bytes" lastModified="2011-12-01T08:56:28">
+    <value>bytes</value>
+    <comment>The 'bytes' unit.</comment>
+  </data>
+  <data name="AsOrderedInAlbum" lastModified="2011-12-01T08:56:28">
+    <value>Según como se ordenan en la biblioteca de imágenes</value>
+    <comment>Phrase: As they are ordered in image library</comment>
+  </data>
+  <data name="RandomEachTime" lastModified="2011-12-01T08:56:28">
+    <value>Aleatorio (diferente cada vez)</value>
+    <comment>Phrase: Random (different each time)</comment>
+  </data>
+  <data name="ImagesSize" lastModified="2011-12-01T08:56:28">
+    <value>Tamaño de imágenes</value>
+    <comment>Phrase: Size of images</comment>
+  </data>
+  <data name="GalleryDesignerNoLimitAndPagingDesc" lastModified="2011-12-01T08:56:28">
+    <value>Mostrar todos los elementos publicados a la vez</value>
+    <comment>Phrase: Show all published items at once</comment>
+  </data>
+  <data name="UseLimit" lastModified="2011-12-01T08:56:28">
+    <value>Limite de uso</value>
+    <comment>Phrase: Use limit</comment>
+  </data>
+  <data name="UsePaging" lastModified="2011-12-01T08:56:28">
+    <value>Utilice paginación &lt;span class='sfNote'&gt; (en proceso de implementación) &lt;/span&gt;</value>
+    <comment>Phrase: Use Paging</comment>
+  </data>
+  <data name="GalleryDesignerLimitDesc" lastModified="2011-12-01T08:56:28">
+    <value>Mostrar sólo número limitado de temas:</value>
+    <comment>Phrase: Show only limited number of items:</comment>
+  </data>
+  <data name="GalleryDesignerPagingDesc" lastModified="2011-12-01T08:56:28">
+    <value>Dividir la lista de miniaturas en páginas de</value>
+    <comment>Phrase: Divide the thumbnail list on pages up to</comment>
+  </data>
+  <data name="ThumbnailSize" lastModified="2011-12-01T08:56:28">
+    <value>Tamaño de miniaturas</value>
+    <comment>Phrase: Size of thumbnails</comment>
+  </data>
+  <data name="NoLimitAndPaging" lastModified="2011-12-01T08:56:28">
+    <value>Sin límite y con paginación</value>
+    <comment>Phrase: No limit and paging</comment>
+  </data>
+  <data name="VideoGalleryPropertyEditorTitle" lastModified="2011-12-01T08:56:28">
+    <value>Galería de vídeos</value>
+    <comment>Word: Video Gallery</comment>
+  </data>
+  <data name="BigImageSize" lastModified="2011-12-01T08:56:28">
+    <value>Tamaño de la imagen grande</value>
+    <comment>Phrase: Size of the big image</comment>
+  </data>
+  <data name="ImageGalleryPropertyEditorTitle" lastModified="2011-12-01T08:56:28">
+    <value>Galería de imágenes</value>
+    <comment>Word: Image Gallery</comment>
+  </data>
+  <data name="AnImagePerPage" lastModified="2011-12-01T08:56:28">
+    <value>Una imagen por página</value>
+    <comment>Phrase: An image per page</comment>
+  </data>
+  <data name="ThumbnailsPlusDetailPage" lastModified="2011-12-01T08:56:28">
+    <value>Miniaturas + Página de Detalle</value>
+    <comment>Phrase: Thumbnails + Detail page</comment>
+  </data>
+  <data name="Big800px" lastModified="2011-12-01T08:56:28">
+    <value>Grande: 800 px de ancho</value>
+    <comment>Phrase: Big: 800 px width</comment>
+  </data>
+  <data name="ThumbnailsPlusOverlay" lastModified="2011-12-01T08:56:28">
+    <value>Miniaturas + Overlay (LightBox)</value>
+    <comment>Phrase: Thumbnails + Overlay (lightbox)</comment>
+  </data>
+  <data name="Thumbnail120px" lastModified="2011-12-01T08:56:28">
+    <value>120 px de ancho</value>
+    <comment>Phrase: 120 px width</comment>
+  </data>
+  <data name="SimpleList" lastModified="2011-12-01T08:56:28">
+    <value>Lista simple</value>
+    <comment>Phrase: Simple list</comment>
+  </data>
+  <data name="ThumbnailStripPlusImage" lastModified="2011-12-01T08:56:28">
+    <value>Franja de miniaturas + Imagen en la misma página</value>
+    <comment>Phrase: Thumbnail strip + Image on the same page</comment>
+  </data>
+  <data name="Medium500px" lastModified="2011-12-01T08:56:28">
+    <value>Medio: 500 px de ancho</value>
+    <comment>Phrase: Medium: 500 px width</comment>
+  </data>
+  <data name="Small240px" lastModified="2011-12-01T08:56:28">
+    <value>240 px de ancho</value>
+    <comment>Phrase: 240 px width</comment>
+  </data>
+  <data name="Choose" lastModified="2011-12-01T08:56:28">
+    <value>Elegir</value>
+    <comment>Word: Choose</comment>
+  </data>
+  <data name="EditThumbnailListTemplate" lastModified="2011-12-01T08:56:28">
+    <value>Editar plantilla de lista de miniaturas</value>
+    <comment>Phrase: Edit Thumbnail list template</comment>
+  </data>
+  <data name="TextLinks" lastModified="2011-12-01T08:56:28">
+    <value>Enlaces de texto</value>
+    <comment>Phrase: Text Links</comment>
+  </data>
+  <data name="ShowPrevAndNextLinksAs" lastModified="2011-12-01T08:56:28">
+    <value>Mostrar enlaces a imagen anterior y siguiente como…</value>
+    <comment>Phrase: Show links to the previous and the next image as...</comment>
+  </data>
+  <data name="ThumbnailsOfPrevAndNextImage" lastModified="2011-12-01T08:56:28">
+    <value>Miniaturas de la imagen anterior y siguiente</value>
+    <comment>Phrase: Thumbnails of previous and next image</comment>
+  </data>
+  <data name="ShowPrevAndNextLinks" lastModified="2011-12-01T08:56:28">
+    <value>Mostrar enlaces a imagen anterior y siguiente</value>
+    <comment>Phrase: Show links to the previous and the next image</comment>
+  </data>
+  <data name="FineTuneTheSelectedType" lastModified="2011-12-01T08:56:28">
+    <value>Ajuste detallado del tipo seleccionado</value>
+    <comment>Phrase: Fine tune the selected type</comment>
+  </data>
+  <data name="EditDetailPageTemplate" lastModified="2011-12-01T08:56:28">
+    <value>Editar plantilla de página de Detalle</value>
+    <comment>Phrase: Edit Detail page template</comment>
+  </data>
+  <data name="OriginalSize" lastModified="2011-12-01T08:56:28">
+    <value>Tamaño original</value>
+    <comment>Phrase: Original size</comment>
+  </data>
+  <data name="NoAlbumSelected" lastModified="2011-12-01T08:56:28">
+    <value>Ninguna biblioteca de imágenes seleccionada</value>
+    <comment>Word: No image library selected</comment>
+  </data>
+  <data name="UploadOther" lastModified="2011-12-01T08:56:28">
+    <value>Cargar más {0}</value>
+    <comment>phrase: Upload more {0}</comment>
+  </data>
+  <data name="Move" lastModified="2011-12-01T08:56:28">
+    <value>Mover</value>
+    <comment>The text of the Move button.</comment>
+  </data>
+  <data name="ImageControlPropertyEditorTitle" lastModified="2011-12-01T08:56:28">
+    <value>Insertar una imagen</value>
+    <comment>Phrase: Insert an image</comment>
+  </data>
+  <data name="CreateNewLibrary" lastModified="2011-12-01T08:56:28">
+    <value>Crear un nuevo {0}</value>
+    <comment>label</comment>
+  </data>
+  <data name="EmbedImage" lastModified="2011-12-01T08:56:28">
+    <value>Embeber esta imagen</value>
+    <comment>The text of the command for generating embed image html.</comment>
+  </data>
+  <data name="CreateLibrary" lastModified="2011-12-01T08:56:28">
+    <value>Crear una biblioteca</value>
+    <comment>The text of 'Create a library' button.</comment>
+  </data>
+  <data name="LibrarySelectorTitle" lastModified="2011-12-01T08:56:28">
+    <value>Seleccione {0} donde mover {1} {2}</value>
+    <comment>The title of the library selector.</comment>
+  </data>
+  <data name="LibrarySelectorSearchBoxTitle" lastModified="2011-12-01T08:56:28">
+    <value>Empiece a escribir nombre {0} ...</value>
+    <comment>The title of the search box in library selector.</comment>
+  </data>
+  <data name="ThisOperationCanTakeConsiderableAmountOfTime" lastModified="2011-12-01T08:56:28">
+    <value>La mudanza de imágenes/videos/documentos puede tardar un poco. Usted no podrá continuar con su trabajo hasta que finalice el proceso.</value>
+    <comment>warning message: Moving items may take a while. You will not be able to continue with your work until the process finishes</comment>
+  </data>
+  <data name="CreateANewLibrary" lastModified="2011-12-01T08:56:28">
+    <value>Crear una nueva biblioteca</value>
+    <comment>label</comment>
+  </data>
+  <data name="UrlName" lastModified="2011-12-01T08:56:28">
+    <value>URL</value>
+    <comment>The title of the url field.</comment>
+  </data>
+  <data name="EditLibrary" lastModified="2011-12-01T08:56:28">
+    <value>Editar una biblioteca</value>
+    <comment>The text of 'Edit a library' button.</comment>
+  </data>
+  <data name="CreateThisLibrary" lastModified="2011-12-01T08:56:28">
+    <value>Crear este {0}</value>
+    <comment>The text of 'Create this library', specific to each library type</comment>
+  </data>
+  <data name="Library" lastModified="2011-12-01T08:56:28">
+    <value>Biblioteca</value>
+    <comment>The 'Library' string.</comment>
+  </data>
+  <data name="ManageLibraries" lastModified="2011-12-01T08:56:28">
+    <value>Gestionar bibliotecas</value>
+    <comment>The 'Manage libraries' link in the grid sidebar.</comment>
+  </data>
+  <data name="ClickToAddDescription" lastModified="2011-12-01T08:56:28">
+    <value>Haga clic para añadir una descripción</value>
+    <comment>The expand text for the description field.</comment>
+  </data>
+  <data name="ShowMoreLibraries" lastModified="2011-12-01T08:56:28">
+    <value>Mostrar 10 bibliotecas más</value>
+    <comment>The 'Show 10 more libraries' link.</comment>
+  </data>
+  <data name="NoLibrarySelected" lastModified="2011-12-01T08:56:28">
+    <value>Ninguna biblioteca seleccionada</value>
+    <comment>Word: No library selected</comment>
+  </data>
+  <data name="UrlNameCannotBeEmpty" lastModified="2011-12-01T08:56:28">
+    <value>La URL no puede estar vacía</value>
+    <comment>The message shown when the url is empty.</comment>
+  </data>
+  <data name="StatusControlTitle" lastModified="2011-12-01T08:56:28">
+    <value>Estado de la carga {0}</value>
+    <comment>The title of the status control in upload dialog.</comment>
+  </data>
+  <data name="ViewAllItems" lastModified="2011-12-01T08:56:28">
+    <value>Ver todos los elementos</value>
+    <comment>phrase: View all items</comment>
+  </data>
+  <data name="SelectLibrary" lastModified="2011-12-01T08:56:28">
+    <value>- Seleccione una biblioteca -</value>
+    <comment>phrase: -- Select a library --</comment>
+  </data>
+  <data name="LibraryLabel" lastModified="2011-12-01T08:56:28">
+    <value>&lt;em&gt;Bibliotecas: &lt;/em&gt;</value>
+    <comment>The 'Library:' string.</comment>
+  </data>
+  <data name="ViewAll" lastModified="2011-12-01T08:56:28">
+    <value>Ver todos los {0}</value>
+    <comment>phrase: View all {0}</comment>
+  </data>
+  <data name="ReorderItemsInLibrary" lastModified="2011-12-01T08:56:28">
+    <value>Reordenar {0} en &lt;em&gt;{{0}} &lt;/em&gt;{1}</value>
+    <comment>phrase: Reorder {0} in &lt;em&gt;{{0}}&lt;/em&gt; {1}</comment>
+  </data>
+  <data name="AddDetails" lastModified="2011-12-01T08:56:28">
+    <value>Agregar detalles al {0} cargado</value>
+    <comment>phrase: Add details to the uploaded {0}</comment>
+  </data>
+  <data name="UploadThisItem" lastModified="2011-12-01T08:56:28">
+    <value>Cargar este {0}</value>
+    <comment>phrase: Upload this {0}</comment>
+  </data>
+  <data name="CacheNotReady" lastModified="2011-12-01T08:56:28">
+    <value>Opción de caché</value>
+    <comment>Phrase: Cache option.</comment>
+  </data>
+  <data name="Settings" lastModified="2011-12-01T08:56:28">
+    <value>Opciones</value>
+    <comment>Word: Settings</comment>
+  </data>
+  <data name="BulkEditDialogTitle" lastModified="2011-12-01T08:56:28">
+    <value>Editar en lotes</value>
+    <comment>Phrase: Bulk edit</comment>
+  </data>
+  <data name="DeleteLibrary" lastModified="2011-12-01T08:56:28">
+    <value>&lt;em&gt;Eliminar &lt;/em&gt;este {0}</value>
+    <comment>Phrase: Delete this {0}</comment>
+  </data>
+  <data name="EditLibraryProperties" lastModified="2011-12-01T08:56:28">
+    <value>&lt;em&gt;Editar propiedades &lt;/em&gt;para este {0}</value>
+    <comment>Phrase: Edit Properties of this {0}</comment>
+  </data>
+  <data name="LibraryActions" lastModified="2011-12-01T08:56:28">
+    <value>{0} acciones</value>
+    <comment>Phrase: {0} actions</comment>
+  </data>
+  <data name="SetLibraryPermissions" lastModified="2011-12-01T08:56:28">
+    <value>&lt;em&gt;Establecer permisos &lt;/em&gt;para este {0}</value>
+    <comment>Phrase: Set permissions of this {0}</comment>
+  </data>
+  <data name="DocumentsAndFiles" lastModified="2011-12-01T08:56:28">
+    <value>Documentos y Archivos</value>
+    <comment>Phrase: Documents &amp; Files</comment>
+  </data>
+  <data name="NarrowByTypingTitle" lastModified="2011-12-01T08:56:28">
+    <value>Filtrar escribiendo el título</value>
+    <comment>Phrase: Narrow by typing title</comment>
+  </data>
+  <data name="ReorderItems" lastModified="2011-12-01T08:56:28">
+    <value>&lt;em&gt;Reordenar &lt;/em&gt;</value>
+    <comment>phrase: Reorder {0}</comment>
+  </data>
+  <data name="History" lastModified="2011-12-01T08:56:28">
+    <value>Historial</value>
+    <comment>word: History</comment>
+  </data>
+  <data name="SelectedLibraryWasDeleted" lastModified="2011-12-01T08:56:28">
+    <value>{0} seleccionado se ha eliminado</value>
+    <comment>phrase: Selected {0} was deleted</comment>
+  </data>
+  <data name="NoLibrariesWereCreated" lastModified="2011-12-01T08:56:28">
+    <value>Ningún {0} se creó</value>
+    <comment>phrase: No {0} were created</comment>
+  </data>
+  <data name="DragToChangeOrder" lastModified="2011-12-01T08:56:28">
+    <value>Arrastrar {0} para cambiar el orden</value>
+    <comment>phrase: Drag {0} to change its order</comment>
+  </data>
+  <data name="FromYourComputer" lastModified="2011-12-01T08:56:28">
+    <value>Desde tu ordenador</value>
+    <comment>phrase: From your computer</comment>
+  </data>
+  <data name="AllItems" lastModified="2011-12-01T08:56:28">
+    <value>Todas las {0}</value>
+    <comment>All {0}</comment>
+  </data>
+  <data name="AllItems1" lastModified="2011-12-01T08:56:28">
+    <value>Todos los elementos</value>
+    <comment>All items</comment>
+  </data>
+  <data name="AllVideos" lastModified="2011-12-01T08:56:28">
+    <value>Todos los vídeos</value>
+    <comment>All videos</comment>
+  </data>
+  <data name="AllDocuments" lastModified="2011-12-01T08:56:28">
+    <value>Todos los documentos</value>
+    <comment>All documents</comment>
+  </data>
+  <data name="InsertItem" lastModified="2011-12-01T08:56:28">
+    <value>Inserte el {0}</value>
+    <comment>Insert the {0}</comment>
+  </data>
+  <data name="SelectItem" lastModified="2011-12-01T08:56:28">
+    <value>Seleccione {0}</value>
+    <comment>phrase:  Select {0}</comment>
+  </data>
+  <data name="YouMustSelectLibraryNameInWhichToUploadItemName" lastModified="2011-12-01T08:56:28">
+    <value>Debe seleccionar el {0} en el que el {1} debe ser almacenado.</value>
+    <comment>phrase:  You must select the {0} in which the {1} ought to be uploaded.</comment>
+  </data>
+  <data name="WhichItemToUpload" lastModified="2011-12-01T08:56:28">
+    <value>Que {0} se debe cargar?</value>
+    <comment>label</comment>
+  </data>
+  <data name="WhereToStoreTheUploadedItem" lastModified="2011-12-01T08:56:28">
+    <value>¿Dónde guardar los {0} Cargados?</value>
+    <comment>label</comment>
+  </data>
+  <data name="ClickingTheResizedItemOpensTheOriginal" lastModified="2011-12-01T08:56:28">
+    <value>Haciendo clic en el {0} cambiado de tamaño abre la {1} en su tamaño original</value>
+    <comment>phrase:  Clicking the resized {0} opens the {1} in its original size</comment>
+  </data>
+  <data name="InsertAItem" lastModified="2011-12-01T08:56:28">
+    <value>Inserte {0}</value>
+    <comment>phrase: Insert {0}</comment>
+  </data>
+  <data name="MultipleItemsHaveBeenSuccessfullyUploaded" lastModified="2011-12-01T08:56:28">
+    <value>{0} {1}(s) se ha(n) cargado con éxito</value>
+    <comment>phrase:  {0} {1}s have been successfully uploaded</comment>
+  </data>
+  <data name="MultipleItemsCanBeUploadedAtATime" lastModified="2011-12-01T08:56:28">
+    <value>Varios {0} se pueden cargar a la vez.</value>
+    <comment>phrase:  Multiple {0} can be uploaded at a time</comment>
+  </data>
+  <data name="OnlyOneItemCanBeUploadedAtATime" lastModified="2011-12-01T08:56:28">
+    <value>Sólo un {0} se pueden cargar a la vez.</value>
+    <comment>phrase:  Multiple {0} can be uploaded at a time</comment>
+  </data>
+  <data name="FromAlreadyUploadedItems" lastModified="2011-12-01T08:56:28">
+    <value>Desde elemento ya cargado</value>
+    <comment>phrase: From already uploaded {0}</comment>
+  </data>
+  <data name="OneItemHasBeenSuccessfullyUploaded" lastModified="2011-12-01T08:56:28">
+    <value>{0} {1} se ha cargado con éxito</value>
+    <comment>phrase:  {0} {1} has been successfully uploaded</comment>
+  </data>
+  <data name="WhichItemNameToUpload" lastModified="2011-12-01T08:56:28">
+    <value>Que {0} se debe cargar?</value>
+    <comment>phrase:  Which {0} to upload?</comment>
+  </data>
+  <data name="YouAreNotAllowedToViewThisLibraryItem" lastModified="2011-12-01T08:56:28">
+    <value>No está autorizado a ver este elemento de la biblioteca</value>
+    <comment>Phrase: You are not allowed to view this library item</comment>
+  </data>
+  <data name="UploadDone" lastModified="2011-12-01T08:56:28">
+    <value>Carga finalizada</value>
+    <comment>phrase:  Upload done</comment>
+  </data>
+  <data name="YouHaveUnsavedChangesWantToLeavePage" lastModified="2011-12-01T08:56:28">
+    <value>"¿Está seguro de que desea salir de esta página? Tienes cambios sin guardar. Pulse Aceptar para continuar, o Cancelar para permanecer en la página actual. "</value>
+    <comment>phrase: You have unsaved changes! Do you want to leave this page?</comment>
+  </data>
+  <data name="YouHaveUnuploadedItemsWantToInterruptUploading" lastModified="2011-12-01T08:56:28">
+    <value>Al salir de esta página usted abandonará la carga y algunos elementos pueden aparecer dañados.</value>
+    <comment>phrase: By leaving this page you will abandon the upload and some items may appear corrupted.</comment>
+  </data>
+  <data name="AddMore" lastModified="2011-12-01T08:56:28">
+    <value>Añadir más</value>
+    <comment>phrase: Add more</comment>
+  </data>
+  <data name="SelectType" lastModified="2011-12-01T08:56:28">
+    <value>Seleccione tipo</value>
+    <comment>phrase: Select type</comment>
+  </data>
+  <data name="BackToItems" lastModified="2011-12-01T08:56:28">
+    <value>Volver a Bibliotecas</value>
+    <comment>The back to all libraries button</comment>
+  </data>
+  <data name="Language" lastModified="2011-12-01T08:56:28">
+    <value>Idioma</value>
+    <comment>word: Language</comment>
+  </data>
+  <data name="AddAProvider" lastModified="2011-12-01T08:56:28">
+    <value>Agregar un proveedor</value>
+    <comment>phrase: Add a provider</comment>
+  </data>
+  <data name="Uploading" lastModified="2011-12-01T08:56:28">
+    <value>Cargando</value>
+    <comment>phrase:  Uploading</comment>
+  </data>
+  <data name="LibraryNameExample" lastModified="2011-12-01T08:56:28">
+    <value>Ejemplo: Vacaciones de verano</value>
+    <comment>An example for the field control where a name for the new library has to be given.</comment>
+  </data>
+  <data name="Mb" lastModified="2011-12-01T08:56:28">
+    <value>MB</value>
+    <comment>label: MB</comment>
+  </data>
+  <data name="Kb" lastModified="2011-12-01T08:56:28">
+    <value>KB</value>
+    <comment>label: KB</comment>
+  </data>
+  <data name="WaitingForApproval" lastModified="2011-12-01T08:56:28">
+    <value>En espera de aprobación</value>
+    <comment>The text of the 'Awaiting approval' button in the sidebar.</comment>
+  </data>
+  <data name="StorageProviders" lastModified="2011-12-01T08:56:28">
+    <value>Proveedores de almacenamiento</value>
+    <comment>phrase: Storage providers</comment>
+  </data>
+  <data name="StorageProvidersForLibraries" lastModified="2011-12-01T08:56:28">
+    <value>Proveedores de almacenamiento para Bibliotecas</value>
+    <comment>phrase: Storage providers for Libraries</comment>
+  </data>
+  <data name="AddStorageProvider" lastModified="2011-12-01T08:56:28">
+    <value>Agregar proveedor de almacenamiento</value>
+    <comment>phrase: Add storage provider</comment>
+  </data>
+  <data name="LibraryNameText" lastModified="2011-12-01T08:56:28">
+    <value>{0} nombre</value>
+    <comment>Label for the field control where a name for the new library needs to be given.</comment>
+  </data>
+  <data name="SelectAnotherLibrary" lastModified="2011-12-01T08:56:28">
+    <value>El {0} seleccionado se ha eliminado. Por favor, seleccione otro {1}.</value>
+    <comment>phrase: The selected {0} was deleted. Please select another {1}.</comment>
+  </data>
+  <data name="StorageProvider" lastModified="2011-12-01T08:56:28">
+    <value>Proveedor de almacenamiento</value>
+    <comment>phrase: Storage provider</comment>
+  </data>
+  <data name="BlobStorageDatabaseTypeDescription" lastModified="2011-12-01T08:56:28">
+    <value>Almacena los datos de blob de los elementos de la biblioteca en una base de datos, utilizando OpenAccess ORM.</value>
+    <comment>phrase: Stores the blob data of library items in a database, using OpenAccess ORM.</comment>
+  </data>
+  <data name="BlobStorageDatabaseDefaultProviderDescription" lastModified="2011-12-01T08:56:28">
+    <value>Almacena los datos de blob de los elementos de la biblioteca en la base de datos predeterminada.</value>
+    <comment>phrase: Stores the blob data of library items in the default database.</comment>
+  </data>
+  <data name="BlobStorageFileSystemTypeDescription" lastModified="2011-12-01T08:56:28">
+    <value>Almacena los datos de blob de los elementos de la biblioteca en el sistema de archivos.</value>
+    <comment>phrase: Stores the blob data of library items in the file system.</comment>
+  </data>
+  <data name="SelectDatabaseStoreItemsTo" lastModified="2011-12-01T08:56:28">
+    <value>Seleccionar una base de datos en la que desea almacenar artículos</value>
+    <comment>phrase: Select a database you want to store items to</comment>
+  </data>
+  <data name="BlobStorageDatabaseDefaultProviderTitle" lastModified="2011-12-01T08:56:28">
+    <value>Base de datos</value>
+    <comment>phrase: Database</comment>
+  </data>
+  <data name="BlobStorageProviderLimitationMessage" lastModified="2011-12-01T08:56:28">
+    <value>Los proveedores de almacenamiento externos pueden ser configurados sólo para bibliotecas de contenido: Imágenes, Videos y Documentos y Archivos</value>
+    <comment>phrase: External storage providers can be configured only for content libraries: Images, Videos and Documents &amp;amp; Files</comment>
+  </data>
+  <data name="BlobStorageFileSystemDefaultProviderDescription" lastModified="2011-12-01T08:56:28">
+    <value>Almacena los datos de blob de los elementos de la biblioteca en la carpeta App_Data.</value>
+    <comment>phrase: Stores the blob data of library items in the App_Data folder.</comment>
+  </data>
+  <data name="BlobStorageFileSystemDefaultProviderTitle" lastModified="2011-12-01T08:56:28">
+    <value>Sistema de Archivos</value>
+    <comment>phrase: File System</comment>
+  </data>
+  <data name="BlobStorageProviderIsUsedMessage" lastModified="2011-12-01T08:56:28">
+    <value>El proveedor {0} ya está siendo utilizado en una biblioteca de medios y no se pueden borrar.</value>
+    <comment>Warning for users that  blob storage provider is used so it cannot be deleted/disabled</comment>
+  </data>
+  <data name="StoredIn" lastModified="2011-12-01T08:56:28">
+    <value>Almacenado en</value>
+    <comment>Label preceding the blob storage location of a library</comment>
+  </data>
+  <data name="FolderIsRequired" lastModified="2011-12-01T08:56:28">
+    <value>Carpeta es un campo obligatorio</value>
+    <comment>phrase: Folder is a required field</comment>
+  </data>
+  <data name="MaxLibrarySize" lastModified="2011-12-01T08:56:28">
+    <value>Tamaño máximo de biblioteca</value>
+    <comment>The title of the field for setting max library size.</comment>
+  </data>
+  <data name="CustomSize" lastModified="2011-12-01T08:56:28">
+    <value>De tamaño personalizado ...</value>
+    <comment>The custom size option in the dropdown for selecting size.</comment>
+  </data>
+  <data name="MaxImageSize" lastModified="2011-12-01T08:56:28">
+    <value>Tamaño máximo de imagen</value>
+    <comment>The title of the field for setting max image size.</comment>
+  </data>
+  <data name="MaxAlbumSize" lastModified="2011-12-01T08:56:28">
+    <value>Tamaño máximo de disco</value>
+    <comment>The title of the field for setting max album size.</comment>
+  </data>
+  <data name="MaxDocumentSize" lastModified="2011-12-01T08:56:28">
+    <value>Tamaño máximo de documentos/archivo</value>
+    <comment>The title of the field for setting max document size.</comment>
+  </data>
+  <data name="Folder" lastModified="2011-12-01T08:56:28">
+    <value>Carpeta</value>
+    <comment>phrase: Folder</comment>
+  </data>
+  <data name="MaxVideoSize" lastModified="2011-12-01T08:56:28">
+    <value>Tamaño máximo de vídeo</value>
+    <comment>The title of the field for setting max video size.</comment>
+  </data>
+  <data name="TypeDestinationFolderPath" lastModified="2011-12-01T08:56:28">
+    <value>Escriba la ruta de la carpeta de destino, algo similar a:&lt;ul&gt;&lt;li&gt;\\fileserver\share&lt;/li&gt;&lt;li&gt;D:\filedirectory&lt;/li&gt;&lt;li&gt;~/App_Data/MyStorage&lt;/li&gt;&lt;/ul&gt;</value>
+    <comment>phrase: Type the destination folder path, something as:&lt;ul&gt;&lt;li&gt;\\fileserver\share&lt;/li&gt;&lt;li&gt;D:\filedirectory&lt;/li&gt;&lt;li&gt;~/App_Data/MyStorage&lt;/li&gt;&lt;/ul&gt;</comment>
+  </data>
+  <data name="SettingsFor" lastModified="2011-12-01T08:56:28">
+    <value>Configuración para {0}</value>
+    <comment>phrase: Settings for {0}</comment>
+  </data>
+  <data name="DefaultStorageProvider" lastModified="2011-12-01T08:56:28">
+    <value>{0} (predeterminado)</value>
+    <comment>phrase: {0} (default)</comment>
+  </data>
+  <data name="SettingsAreValid" lastModified="2011-12-01T08:56:28">
+    <value>La configuración es válida.</value>
+    <comment>phrase: Settings are valid.</comment>
+  </data>
+  <data name="ThereIsProblemWithTheSettings" lastModified="2011-12-01T08:56:28">
+    <value>Hay un problema con la configuración: {0}</value>
+    <comment>phrase: There is a problem with the settings: {0}</comment>
+  </data>
+  <data name="EmbeddedLinkOnlyForPublieshedContent" lastModified="2011-12-01T08:56:28">
+    <value>La incrustación sólo funcionará para los artículos publicados</value>
+    <comment>phrase: Embedding will work only for published items</comment>
+  </data>
+  <data name="FilterByStorage" lastModified="2011-12-01T08:56:28">
+    <value>por Almacenamiento...</value>
+    <comment>The 'by Storage...' label in the sidebar.</comment>
+  </data>
+  <data name="FilterByDate" lastModified="2011-12-01T08:56:28">
+    <value>Por fecha…</value>
+    <comment>The 'by Date...' label in the sidebar.</comment>
+  </data>
+  <data name="CloseStorageFilter" lastModified="2011-12-01T08:56:28">
+    <value>Cerrar almacenamientos</value>
+    <comment>The link for closing the storage filter widget in the sidebar.</comment>
+  </data>
+  <data name="LibrariesByStorage" lastModified="2011-12-01T08:56:28">
+    <value>Bibliotecas por almacenamiento</value>
+    <comment>phrase: Libraries by storage</comment>
+  </data>
+  <data name="TestSettings" lastModified="2011-12-01T08:56:28">
+    <value>Probar configuración</value>
+    <comment>phrase: Test settings</comment>
+  </data>
+  <data name="FilterLibraries" lastModified="2011-12-01T08:56:28">
+    <value>Filtrar bibliotecas</value>
+    <comment>phrase: Filter libraries</comment>
+  </data>
+  <data name="MyLibraries" lastModified="2011-12-01T08:56:28">
+    <value>Mis bibliotecas</value>
+    <comment>phrase: My libraries</comment>
+  </data>
+  <data name="LibrariesByDate" lastModified="2011-12-01T08:56:28">
+    <value>Mostrar bibliotecas modificadas en...</value>
+    <comment>phrase: Display libraries modified in...</comment>
+  </data>
+  <data name="MoreLibraries" lastModified="2011-12-01T08:56:28">
+    <value>Más Bibliotecas</value>
+    <comment>phrase: More Libraries</comment>
+  </data>
+  <data name="LessLibraries" lastModified="2011-12-01T08:56:28">
+    <value>Menos Bibliotecas</value>
+    <comment>phrase: Less Libraries</comment>
+  </data>
+  <data name="SitefinityDefaultConnection" lastModified="2011-12-01T08:56:28">
+    <value>(predeterminado)</value>
+    <comment>phrase: '(default)' in edit/add blob storage provider database connection's dropdown</comment>
+  </data>
+  <data name="AllLibraries" lastModified="2011-12-01T08:56:28">
+    <value>Todas las bibliotecas</value>
+    <comment>phrase: All libraries</comment>
+  </data>
+  <data name="MoveToAnotherLibrary" lastModified="2011-12-01T08:56:28">
+    <value>Mover a otra biblioteca</value>
+    <comment>The text of 'Move to another library' menu item.</comment>
+  </data>
+  <data name="UrlNameInvalidSymbols" lastModified="2011-12-01T08:56:28">
+    <value>La dirección URL contiene símbolos no válidos.</value>
+    <comment>The message shown when the url contains invalid symbols.</comment>
+  </data>
+  <data name="PublicationDateCannotBeEmpty" lastModified="2011-12-01T08:56:28">
+    <value>Fecha de publicación no puede estar vacía</value>
+    <comment>Publication Date cannot be empty.</comment>
+  </data>
+  <data name="ProviderNameCannotBeEmpty" lastModified="2011-12-01T08:56:28">
+    <value>El nombre del proveedor no puede estar vacío.</value>
+    <comment>phrase: Provider name cannot be empty.</comment>
+  </data>
+</root>
