@@ -18,7 +18,13 @@ The Corporate Starter Kit is an online store build on the ECommerce module. You 
 * Microsoft SQL Server 2008R2 or later versions
 
 
+
 ### Prerequisites
+
+Clear the NuGet cache files. To do this:
+
+1. In Windows Explorer, open the **%localappdata%\NuGet\Cache** folder.
+2. Select all files and delete them.
 
 You need to attach the database backup files to your SQL Server. To do this:
 
