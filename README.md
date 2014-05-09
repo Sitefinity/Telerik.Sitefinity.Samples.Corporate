@@ -9,7 +9,7 @@ The Corporate Starter Kit is an online store build on the ECommerce module. You 
 
 ### Requirements
 
-* Sitefinity 6.3 license
+* Sitefinity license
 
 * .NET Framework 4
 
@@ -51,7 +51,7 @@ The project refers to the following NuGet packages:
 
 *	Telerik.Sitefinity.Core.nupkg
 
-*	OpenAccess.Core.nupkg
+*	Telerik.DataAccess.Core.nupkg
 
 *	Telerik.Sitefinity.SDK.DotNetOpenAuth.4.3.1.nupkg
 
@@ -60,7 +60,7 @@ The project refers to the following NuGet packages:
 *	Telerik.Sitefinity.All.nupkg
 
 
-You can find the packages in the official [Sitefinity Nuget Server](http://nuget.sitefinity.com).
+You can find the packages in the official [Sitefinity NuGet Server](http://nuget.sitefinity.com).
 
 ### Login
 
