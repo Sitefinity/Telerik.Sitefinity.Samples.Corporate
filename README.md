@@ -47,22 +47,9 @@ You need to attach the database backup files to your SQL Server. To do this:
 2. Modify the **connectionString** value to match your server address.
 3. Build the solution.
 
-The project refers to the following NuGet packages:
+For version-specific details about the required Sitefinity NuGet packages for this sample application, click on [Releases]
+ (https://github.com/Sitefinity-SDK/Telerik.Sitefinity.Samples.Corporate/releases).
 
-**OauthExternalAuthentication** library
-
-*	Telerik.Sitefinity.Core.nupkg
-
-*	Telerik.DataAccess.Core.nupkg
-
-*	Telerik.Sitefinity.SDK.DotNetOpenAuth.4.3.1.nupkg
-
-**SitefinityWebApp** library
-
-*	Telerik.Sitefinity.All.nupkg
-
-
-You can find the packages in the official [Sitefinity NuGet Server](http://nuget.sitefinity.com).
 
 ### Login
 
