@@ -24,17 +24,11 @@ The Corporate Starter Kit is an online store build on the ECommerce module. You 
 
 * Windows Identity Foundation
 
-NOTE: Depending on the Microsoft OS version you are using, the method for downloading and installing or enabling the identity framework differs:
+   NOTE: Depending on the Microsoft OS version you are using, the method for downloading and installing or enabling the identity framework differs:
 
   * Windows 7 - download from [Windows Identity Foundation](http://www.microsoft.com/en-us/download/details.aspx?id=17331)
 
   * Windows 8 - in the Control Panel, turn on the relevant Windows feature Windows Identity Foundation 3.5* Windows Identity Foundation
-
-NOTE: Depending on the Microsoft OS version you are using, the method for downloading and installing or enabling the identity framework differs:
-
-  * Windows 7 - download from [Windows Identity Foundation](http://www.microsoft.com/en-us/download/details.aspx?id=17331)
-
-  * Windows 8 - in the Control Panel, turn on the relevant Windows feature Windows Identity Foundation 3.5 
 
 
 
