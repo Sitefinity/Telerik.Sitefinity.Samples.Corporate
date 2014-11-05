@@ -15,20 +15,13 @@ The Corporate Starter Kit is an online store build on the ECommerce module. You 
 ### Requirements
 
 * Sitefinity license
-
 * .NET Framework 4
-
 * Visual Studio 2012
-
 * Microsoft SQL Server 2008R2 or later versions
-
 * Windows Identity Foundation
-
    NOTE: Depending on the Microsoft OS version you are using, the method for downloading and installing or enabling the identity framework differs:
-
-  * Windows 7 - download from [Windows Identity Foundation](http://www.microsoft.com/en-us/download/details.aspx?id=17331)
-
-  * Windows 8 - in the Control Panel, turn on the relevant Windows feature Windows Identity Foundation 3.5* Windows Identity Foundation
+  * **Windows 7** - download from [Windows Identity Foundation](http://www.microsoft.com/en-us/download/details.aspx?id=17331)
+  * **Windows 8** - in the Control Panel, turn on the relevant Windows feature Windows Identity Foundation 3.5* Windows Identity Foundation
 
 
 
@@ -50,7 +43,10 @@ You need to attach the database backup files to your SQL Server. To do this:
 4. Click _OK_.
 
 
-
+### Nuget package restoration
+The solution in this repository relies on NuGet packages with automatic package restore while the build procedure takes place.   
+For a full list of the referenced packages and their versions see the [packages.config](https://github.com/Sitefinity-SDK/Telerik.Sitefinity.Samples.Corporate/blob/master/SitefinityWebApp/packages.config) file.    
+For a history and additional information related to package versions on different releases of this repository, see the [Releases page](https://github.com/Sitefinity-SDK/Telerik.Sitefinity.Samples.Corporate/releases). 
 
 ### Installation instructions: SDK Samples from GitHub
 
@@ -68,7 +64,6 @@ For version-specific details about the required Sitefinity NuGet packages for th
 To login to Sitefinity backend, use the following credentials: 
 
 **Username:** admin
-
 **Password:** password
 
 ### Additional resources
