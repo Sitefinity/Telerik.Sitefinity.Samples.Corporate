@@ -55,13 +55,12 @@ For a history and additional information related to package versions on differen
 2. Modify the **connectionString** value to match your server address.
 3. Build the solution.
 
-For version-specific details about the required Sitefinity NuGet packages for this sample application, click on [Releases]
- (https://github.com/Sitefinity-SDK/Telerik.Sitefinity.Samples.Corporate/releases).
+For version-specific details about the required Sitefinity NuGet packages for this sample application, click on [Releases](https://github.com/Sitefinity-SDK/Telerik.Sitefinity.Samples.Corporate/releases).
 
 
 ### Login
 
-To login to Sitefinity backend, use the following credentials: 
+To login to Sitefinity backend, use the following credentials:   
 **Username:** admin   
 **Password:** password
 
