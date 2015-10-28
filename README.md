@@ -42,6 +42,7 @@ You need to attach the database backup files to your SQL Server. To do this:
 3. Select the **SitefinityCorporateStarterKit.mdf** file and click _OK_.
 4. Click _OK_.
 
+Before building the project, make sure that the file path of the solution does not exceed 255 characters. In addition, please try to avoid file paths with special characters such as __C:\Program Files (x86)__.
 
 ### Nuget package restoration
 The solution in this repository relies on NuGet packages with automatic package restore while the build procedure takes place.   
