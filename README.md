@@ -42,7 +42,11 @@ You need to attach the database backup files to your SQL Server. To do this:
 3. Select the **SitefinityCorporateStarterKit.mdf** file and click _OK_.
 4. Click _OK_.
 
-Before building the project, make sure that the file path of the solution does not exceed 255 characters. In addition, please try to avoid file paths with special characters such as __C:\Program Files (x86)__.
+__NOTE:__ Before building the project, please make sure that: 
+* The file path of the solution does not exceed 255 characters. 
+* The file path of the solution does not include special characters (e.g. avoid using the __C:\Program Files (x86)__ folder).
+
+This ensures that _NuGet_ packages such as _Telerik.DataAccess.Core_ are restored correctly upon building the sample.
 
 ### Nuget package restoration
 The solution in this repository relies on NuGet packages with automatic package restore while the build procedure takes place.   
