@@ -49,7 +49,7 @@
 </head>
 <body class="main-body">
     <form id="form1" runat="server">     
-<asp:ScriptManager ID="ScriptManager1" runat="server" />	
+<telerik:RadScriptManager ID="ScriptManager1" runat="server" />	
         <div id="wrapper">
 			<div id="userstrip-holder">
                 <div id="userstrip">
