@@ -603,14 +603,26 @@ a#logo:hover
 {
     font-size: 18px;
     margin-top: 15px;
+    background: transparent; 
 }
- 
+#navigationUl .k-icon 
+{
+    display: none;
+}
+#navigationUl .k-state-hover, 
+#navigationUl .k-state-hover:hover 
+{
+    background: transparent;
+}
 #navigationUl a
 {
     color: #000;
     text-decoration: none;
 }
- 
+div.sfNavWrp .sfSel 
+{
+    font-weight: normal;
+}
 #navigationUl a:hover
 {
     color: #444;
@@ -1458,7 +1470,10 @@ h1.sfproductTitle
     float: right;
     margin-top: 4px;
 }
-
+.sfcartSummaryBlockWrp .sfItmTmbCol img
+{
+    max-width: 100%;
+}
 .sfcartSummaryNoItems
 {
     padding-top: 70px;
@@ -2801,7 +2816,16 @@ a.sfQuote
 {
     margin-top: 30px;
 }
-
+.sfEditorWrp .Default.RadEditor,
+.Default.RadEditor .reContentCell  
+{
+    border: 0;
+}
+.sfEditorWrp .reLeftVerticalSide,
+.sfEditorWrp .reRightVerticalSide 
+{
+    padding: 0;
+}
 .sfSubmitBtnWrp input
 {
     border: 0px;
@@ -3598,6 +3622,10 @@ fieldset.sfLoginWrp .sfSubmitBtn .sfLinkBtn.sfSave strong
     line-height: 24px;
 }
 
+div.RadSiteMap_Default .rsmOneLevel .rsmLink:hover 
+{ 
+    background: transparent;
+}
 .sfBreadcrumbWrp .RadSiteMap_Sitefinity
 {
     position: relative;
@@ -4588,6 +4616,9 @@ div.sfFormBox .sfTxt:focus, textarea.sfTxt:focus,
     width: 192px;
 	
 }
+select::-ms-expand {
+    display: none;
+}
 
 #content select, #header select
 {
@@ -4975,3 +5006,4 @@ ul.sfcheckoutTotalPriceWrp
     display: inline-block;
     min-height: 50px;
 }
+
