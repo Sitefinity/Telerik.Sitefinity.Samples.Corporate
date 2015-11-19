@@ -2686,7 +2686,7 @@ h1.sfforumPostTitle
 {
     position: relative;
     float: left;
-    width: 20%;
+    width: 19%;
 }
 
 .sfforumThreadPostContentWrp
@@ -2717,13 +2717,16 @@ h1.sfforumPostTitle
     float: left;
     width: 100%;
     border-bottom: 1px solid #ddd;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     margin-bottom: 20px;
 }
 .sfforumPostIsFeaturedWrp a
 {
     color: #0a8ee2;
     text-decoration: none;
+    position:absolute;
+    top: 0;
+    left: 0;
 }
 
 #contetn a.sfEditBtn,
@@ -2783,13 +2786,14 @@ fieldset.sfforumPostReplyForm
     padding: 0px;
     margin: 0px;
     overflow: visible !important;
+    width: 100%;
 }
 
 .sfforumReplyThreadContent
 {
     position: relative;
     float: left;
-    width: 80%;
+    width: 81%;
 }
 
 h2.sfforumsReplyToTitle
