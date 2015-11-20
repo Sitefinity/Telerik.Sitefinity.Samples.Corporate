@@ -2718,7 +2718,7 @@ h1.sfforumPostTitle
     width: 100%;
     border-bottom: 1px solid #ddd;
     padding-bottom: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .sfforumPostIsFeaturedWrp a
 {
@@ -2760,8 +2760,8 @@ h1.sfforumPostTitle
     color: #0a8ee2;
     text-decoration: none;
     position: absolute;
-    right: 150px;
-    top: 0px;
+    right: 0;
+    top: 38px;
 }
 
 .sfforumThreadPostContent
