@@ -603,14 +603,26 @@ a#logo:hover
 {
     font-size: 18px;
     margin-top: 15px;
+    background: transparent; 
 }
- 
+#navigationUl .k-icon 
+{
+    display: none;
+}
+#navigationUl .k-state-hover, 
+#navigationUl .k-state-hover:hover 
+{
+    background: transparent;
+}
 #navigationUl a
 {
     color: #000;
     text-decoration: none;
 }
- 
+div.sfNavWrp .sfSel 
+{
+    font-weight: normal;
+}
 #navigationUl a:hover
 {
     color: #444;
@@ -1458,7 +1470,10 @@ h1.sfproductTitle
     float: right;
     margin-top: 4px;
 }
-
+.sfcartSummaryBlockWrp .sfItmTmbCol img
+{
+    width: 100%;
+}
 .sfcartSummaryNoItems
 {
     padding-top: 70px;
@@ -2671,7 +2686,7 @@ h1.sfforumPostTitle
 {
     position: relative;
     float: left;
-    width: 20%;
+    width: 19%;
 }
 
 .sfforumThreadPostContentWrp
@@ -2702,13 +2717,16 @@ h1.sfforumPostTitle
     float: left;
     width: 100%;
     border-bottom: 1px solid #ddd;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
 }
 .sfforumPostIsFeaturedWrp a
 {
     color: #0a8ee2;
     text-decoration: none;
+    position:absolute;
+    top: 0;
+    left: 0;
 }
 
 #contetn a.sfEditBtn,
@@ -2742,8 +2760,8 @@ h1.sfforumPostTitle
     color: #0a8ee2;
     text-decoration: none;
     position: absolute;
-    right: 150px;
-    top: 0px;
+    right: 0;
+    top: 38px;
 }
 
 .sfforumThreadPostContent
@@ -2768,13 +2786,14 @@ fieldset.sfforumPostReplyForm
     padding: 0px;
     margin: 0px;
     overflow: visible !important;
+    width: 100%;
 }
 
 .sfforumReplyThreadContent
 {
     position: relative;
     float: left;
-    width: 80%;
+    width: 81%;
 }
 
 h2.sfforumsReplyToTitle
@@ -2801,7 +2820,16 @@ a.sfQuote
 {
     margin-top: 30px;
 }
-
+.sfEditorWrp .Default.RadEditor,
+.Default.RadEditor .reContentCell  
+{
+    border: 0;
+}
+.sfEditorWrp .reLeftVerticalSide,
+.sfEditorWrp .reRightVerticalSide 
+{
+    padding: 0;
+}
 .sfSubmitBtnWrp input
 {
     border: 0px;
@@ -3598,6 +3626,10 @@ fieldset.sfLoginWrp .sfSubmitBtn .sfLinkBtn.sfSave strong
     line-height: 24px;
 }
 
+div.RadSiteMap_Default .rsmOneLevel .rsmLink:hover 
+{ 
+    background: transparent;
+}
 .sfBreadcrumbWrp .RadSiteMap_Sitefinity
 {
     position: relative;
@@ -4588,6 +4620,9 @@ div.sfFormBox .sfTxt:focus, textarea.sfTxt:focus,
     width: 192px;
 	
 }
+select::-ms-expand {
+    display: none;
+}
 
 #content select, #header select
 {
@@ -4975,3 +5010,4 @@ ul.sfcheckoutTotalPriceWrp
     display: inline-block;
     min-height: 50px;
 }
+
