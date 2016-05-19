@@ -1,9 +1,9 @@
-Telerik.Sitefinity.Samples.Corporate
+Progress.Sitefinity.Samples.Corporate
 ====================================
 
 [![Build Status](http://sdk-jenkins-ci.cloudapp.net/buildStatus/icon?job=Telerik.Sitefinity.Samples.Corporate.CI)](http://sdk-jenkins-ci.cloudapp.net/job/Telerik.Sitefinity.Samples.Corporate.CI/)
 
-The Corporate Starter Kit project is primarily aimed at developers, as it showcases how a website can be scripted and created programmatically completely from scratch. Thus, the code examples in the kit are ideal for people who need to complete various tasks related to programmatic content and pages creation – for example, content migration scenarios,  testing, or simply taking advantages of the benefits provided by the powerful Sitefinity API.
+The Corporate Starter Kit project is primarily aimed at developers, as it showcases how a website can be scripted and created programmatically completely from scratch. Thus, the code examples in the kit are ideal for people who need to complete various tasks related to programmatic content and pages creation – for example, content migration scenarios,  testing, or simply taking advantages of the benefits provided by the powerful Sitefinity CMS API.
 
 NOTE: The Corporate Starter Kit differs from the Quantum sample project, which demonstartes the out of the box capabilities of Sitefinity CMS. To explore the Quantum sample project, see [Quantum](https://github.com/Sitefinity-SDK/Telerik.Sitefinity.Samples.Quantum).
 
@@ -14,7 +14,7 @@ The Corporate Starter Kit is an online store build on the ECommerce module. You 
 
 ### Requirements
 
-* Sitefinity license
+* Sitefinity CMS license
 * .NET Framework 4
 * Visual Studio 2012
 * Microsoft SQL Server 2008R2 or later versions
@@ -60,12 +60,12 @@ For a history and additional information related to package versions on differen
 2. Modify the **connectionString** value to match your server address.
 3. Build the solution.
 
-For version-specific details about the required Sitefinity NuGet packages for this sample application, click on [Releases](https://github.com/Sitefinity-SDK/Telerik.Sitefinity.Samples.Corporate/releases).
+For version-specific details about the required Sitefinity CMS NuGet packages for this sample application, click on [Releases](https://github.com/Sitefinity-SDK/Telerik.Sitefinity.Samples.Corporate/releases).
 
 
 ### Login
 
-To login to Sitefinity backend, use the following credentials:   
+To login into the Sitefinity CMS backend, use the following credentials:   
 **Username:** admin   
 **Password:** password
 
