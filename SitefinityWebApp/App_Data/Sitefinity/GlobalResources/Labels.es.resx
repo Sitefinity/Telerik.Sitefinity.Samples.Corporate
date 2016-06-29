@@ -3346,8 +3346,8 @@ Presione OK para continuar, o Cancelar para permanecer en la página actual.</va
     <comment>Button label: Delete only translation</comment>
   </data>
   <data name="Sitefinity40" lastModified="2011-12-01T08:56:28">
-    <value>Sitefinity 6.3</value>
-    <comment>Label: Sitefinity 6.3</comment>
+    <value>Sitefinity 9.1</value>
+    <comment>Label: Sitefinity 9.1</comment>
   </data>
   <data name="ForAllTranslations" lastModified="2011-12-01T08:56:28">
     <value>para todas las traducciones</value>
@@ -3382,8 +3382,8 @@ Presione OK para continuar, o Cancelar para permanecer en la página actual.</va
     <comment>Dashboard Label: Edit content directly browsing the site</comment>
   </data>
   <data name="WelcomeToSitefinity40" lastModified="2011-12-01T08:56:28">
-    <value>Bienvenidos a Sitefinity 6.3</value>
-    <comment>Dashboard Label: Welcome to Sitefinity 6.3</comment>
+    <value>Bienvenidos a Sitefinity 9.1</value>
+    <comment>Dashboard Label: Welcome to Sitefinity 9.1</comment>
   </data>
   <data name="FooterDocumentation" lastModified="2011-12-01T08:56:28">
     <value>Documentación</value>
