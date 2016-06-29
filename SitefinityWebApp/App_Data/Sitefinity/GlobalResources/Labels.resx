@@ -3413,8 +3413,8 @@ Press OK to continue, or Cancel to stay on the current page.</value>
     <comment>phrase: Settings</comment>
   </data>
   <data name="Sitefinity40" xml:space="preserve">
-    <value>Sitefinity 6.3</value>
-    <comment>Label: Sitefinity 6.3</comment>
+    <value>Sitefinity 9.1</value>
+    <comment>Label: Sitefinity 9.1</comment>
   </data>
   <data name="TelerikIncAllRightsReserved" xml:space="preserve">
     <value>Telerik Inc. All rights reserved</value>
@@ -3433,8 +3433,8 @@ Press OK to continue, or Cancel to stay on the current page.</value>
     <comment>Dashboard Label: Watch Video</comment>
   </data>
   <data name="WelcomeToSitefinity40" xml:space="preserve">
-    <value>Welcome to Sitefinity 6.3</value>
-    <comment>Dashboard Label: Welcome to Sitefinity 6.3</comment>
+    <value>Welcome to Sitefinity 9.1</value>
+    <comment>Dashboard Label: Welcome to Sitefinity 9.1</comment>
   </data>
   <data name="DashboardGeneralParagraph" xml:space="preserve">
     <value>The new release delivers a web content management system that empowers you to create websites, corporate intranets, community portals and blogs</value>
