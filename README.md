@@ -3,8 +3,6 @@ Progress.Sitefinity.Samples.Corporate
 
 ### This repository is not automatically upgraded to latest Sitefintiy version. The repository is monitored for pull requests and fixes. The latest official version of Sitefinity that supports this sample is 9.1. Be aware that using a higher version could cause unexpected behavior. If you successfully upgrade the example to a greater version, please share your work with the community by submitting your changes via pull request.
 
-[![Build Status](http://sdk-jenkins-ci.cloudapp.net/buildStatus/icon?job=Telerik.Sitefinity.Samples.Corporate.CI)](http://sdk-jenkins-ci.cloudapp.net/job/Telerik.Sitefinity.Samples.Corporate.CI/)
-
 The Corporate Starter Kit project is primarily aimed at developers, as it showcases how a website can be scripted and created programmatically completely from scratch. Thus, the code examples in the kit are ideal for people who need to complete various tasks related to programmatic content and pages creation – for example, content migration scenarios,  testing, or simply taking advantages of the benefits provided by the powerful Sitefinity CMS API.
 
 NOTE: The Corporate Starter Kit differs from the Quantum sample project, which demonstartes the out of the box capabilities of Sitefinity CMS. To explore the Quantum sample project, see [Quantum](https://github.com/Sitefinity-SDK/Telerik.Sitefinity.Samples.Quantum).
